@@ -1,0 +1,72 @@
+.bg-gradient-primary{
+    background-color: #df4e5b;
+    background-image: linear-gradient(180deg,#df4e4e 10%,#be9c22 100%);
+    background-size: cover;
+}
+
+/*--------- sidebar work-------- */
+
+/* width */
+.chart-work-do::-webkit-scrollbar {
+    width: 3px;
+  }
+  
+  /* Track */
+  .chart-work-do::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  .chart-work-do::-webkit-scrollbar-thumb {
+    background: #797979;
+  }
+  
+  /* Handle on hover */
+  .chart-work-do::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+  /* --------- */
+  .truck-border{
+    width: 55px;
+    height: 55px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #a5a5a5;
+    background-color: #0000001a;
+  }
+
+  .mylist-container .list-group-item-action:hover .list-title{
+     color: #109769;
+  }
+  .mylist-container .list-para{
+    font-size: 14px;
+  }
+  .visually-hidden, .visually-hidden-focusable:not(:focus):not(:focus-within) {
+    position: absolute!important;
+    width: 1px!important;
+    height: 1px!important;
+    padding: 0!important;
+    margin: -1px!important;
+    overflow: hidden!important;
+    clip: rect(0,0,0,0)!important;
+    white-space: nowrap!important;
+    border: 0!important;
+}
+
+.mycircle-thumb{
+    top: 0;
+    left: 0;
+    padding: 6px;
+}
+.cardContainer .list-group-item{
+    padding: 15px 12px;
+}
+.mycard-body{
+    padding: 0px;
+}
+.my-lefttextxs , .my-lefttextval{
+    padding-left: 6px;
+}
