@@ -26,6 +26,10 @@
     background: #555;
   }
 
+  .mybodyscrollbarcontian .chart-pie {
+    height: calc(40rem - 43px)!important;
+   }
+
   /* --------- */
   .truck-border{
     width: 55px;

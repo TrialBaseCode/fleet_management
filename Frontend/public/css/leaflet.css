@@ -1,0 +1,23 @@
+/*--- Direcct map ----*/
+
+.leaflet-container {
+    width: 100wh; 
+    height: 100vh;
+}  
+.leaflet-top .leaflet-control {
+    margin-top: 100px;
+}
+.leaflet-touch .leaflet-control-attribution {
+    box-shadow: none;
+    display: none;
+}
+
+.myhiddenmapbody{
+    overflow: hidden;
+    padding: 0;
+    height: 100vh;
+}
+.route-container{
+    position: absolute;
+    z-index: 999;
+}
