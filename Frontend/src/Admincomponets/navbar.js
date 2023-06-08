@@ -2,7 +2,7 @@ function Navbar(props) {
 let changeStyle1 = props.navStyle;
     return ( 
     <>
-       <div id="content">
+       <div id="content" className="navFixedWork">
 
             {/*  <!-- Topbar --> */}
             <nav className="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">

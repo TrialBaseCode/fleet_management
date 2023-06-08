@@ -8,7 +8,7 @@ function TestUi() {
         const [style, setStyle] = useState("navbar-nav bg-gradient-primary sidebar sidebar-dark accordion");
     
         const changeStyle = () => {
-            if (style == "navbar-nav bg-gradient-primary sidebar sidebar-dark accordion")
+            if (style === "navbar-nav bg-gradient-primary sidebar sidebar-dark accordion")
             {
                 setStyle("navbar-nav bg-gradient-primary sidebar sidebar-dark accordion toggled");
             }
@@ -17,7 +17,7 @@ function TestUi() {
             }
         };
         const changeStyle1 = () => {
-            if (style == "navbar-nav bg-gradient-primary sidebar sidebar-dark accordion")
+            if (style === "navbar-nav bg-gradient-primary sidebar sidebar-dark accordion")
             {
                 setStyle("navbar-nav bg-gradient-primary sidebar sidebar-dark accordion toggled1");
             }
@@ -35,7 +35,7 @@ function TestUi() {
                 <div id="content">
 
                     {/*  <!-- Admin Navbar components --> */}
-                         <Navbar navStyle={changeStyle1}/>
+                         <Navbar navStyle={changeStyle1}  navStyleTwo={changeStyle}/>
                     {/*  <!-- End of Admin Navbar components --> */}
 
                     {/* <!-- Begin Page Content --> */}

@@ -13,7 +13,7 @@ function Vicoview() {
 
   const changeStyle = () => {
     if (
-      style == "navbar-nav bg-gradient-primary sidebar sidebar-dark accordion"
+      style === "navbar-nav bg-gradient-primary sidebar sidebar-dark accordion"
     ) {
       setStyle(
         "navbar-nav bg-gradient-primary sidebar sidebar-dark accordion toggled"
@@ -24,7 +24,7 @@ function Vicoview() {
   };
   const changeStyle1 = () => {
     if (
-      style == "navbar-nav bg-gradient-primary sidebar sidebar-dark accordion"
+      style === "navbar-nav bg-gradient-primary sidebar sidebar-dark accordion"
     ) {
       setStyle(
         "navbar-nav bg-gradient-primary sidebar sidebar-dark accordion toggled1"
@@ -41,7 +41,7 @@ function Vicoview() {
         {/*  <!-- Main Content --> */}
         <div id="content">
           {/*  <!-- Admin Navbar components --> */}
-          <Navbar navStyle={changeStyle1} />
+          <Navbar navStyle={changeStyle1} navStyleTwo={changeStyle}/>
           {/*  <!-- End of Admin Navbar components --> */}
 
           {/* <!-- Begin Page Content --> */}
@@ -436,7 +436,7 @@ function Vicoview() {
                   <div className="route-container">
                       {/*  <!-- Content Row --> */}
                       <div className="row">
-                        {/*  <!-- Earnings (Monthly) Card Example --> */}
+                        {/*  <!-- Vicycle error Card Example --> */}
                         <div className="col-xl-3 col-md-6">
                           <div className="card border-left-primary shadow h-100">
                             <div className="card-body mycard-body">
@@ -457,7 +457,7 @@ function Vicoview() {
                           </div>
                         </div>
 
-                        {/*  <!-- Earnings (Monthly) Card Example --> */}
+                        {/*  <!-- Vicycle warning Card Example --> */}
                         <div className="col-xl-3 col-md-6">
                           <div className="card border-left-success shadow h-100">
                             <div className="card-body mycard-body">
@@ -478,7 +478,7 @@ function Vicoview() {
                           </div>
                         </div>
 
-                        {/*  <!-- Earnings (Monthly) Card Example --> */}
+                         {/*  <!-- Vicycle route Card Example --> */}
                         <div className="col-xl-3 col-md-6">
                           <div className="card border-left-info shadow h-100">
                             <div className="card-body mycard-body">
@@ -503,7 +503,7 @@ function Vicoview() {
                           </div>
                         </div>
 
-                        {/*  <!-- Pending Requests Card Example --> */}
+                        {/*  <!-- Being Late Card Example --> */}
                         <div className="col-xl-3 col-md-6">
                           <div className="card border-left-warning shadow h-100">
                             <div className="card-body mycard-body">

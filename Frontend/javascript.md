@@ -62,3 +62,90 @@ Rules
     
     var myNam% = "thapa technical";
     console.log(myNam%); --. error
+
+
+# DATA TYPES IN JAVASCRIPT
+
+- undefined: typeof instance == "undefined"
+- Boolean: typeof instance == "boolean"
+- Number: typeof instance == "number"
+- String: typeof instance == "string"
+- BigInt: typeof instance == "bigint"
+- Symbol: typeof instance == "symbol"
+
+        var myName = "vinod thapa";
+        console.log(myName);  --> value
+
+
+- typeof operater
+
+        console.log(typeof(myName));
+
+
+- Note
+
+        10 + "20" --> 1020
+        9 - "5"  -- 4 // also bug
+        "Java" + "Script" --> JavaScript
+        "" + "" --> ""
+        "" + 0 --> 0
+        "vinod" - "thapa" -->  NaN
+        true + true --> 2
+        true + false -->1
+        false + true --> 1
+        false - true --> -1 
+
+        //In Java script "1" represented true and  "0" represented false.
+
+# Null vs undefined
+
+        var iAmUseless = null;
+        console.log(iAmUseless);  --> Null
+        console.log(typeof(iAmUseless));
+        
+        //2nd javascript
+
+        var iAmStandBy;
+         console.log(iAmStandBy);  --> undefined
+ 
+ - what is NaN ?
+
+// Man is a property of the global object. In others words, it is a variable in global scope. <br> The initial value of NAN is Not-A-Number
+
+        
+        var myPhoneNumber = 9876543210;
+
+        var myName = "thapa technical";
+
+        console.log(myPhoneNumber);
+
+        console.log(myName);
+
+        console.log(isNaN(myPhoneNumber)); --> false
+
+        console.log(isNaN(myName)); --> true
+
+        if(isNan(myName)){
+                console.log("Plz enter valid ph");
+        }
+
+
+- Note
+     
+        NaN === NaN; 
+        // These statement is false because NaN is nither datatype nor value.
+
+        Number.NaN === NaN;
+        isNaN(NaN);
+        isNaN(Nuber.NaN);
+        Nuber.isNaN(NaN);
+
+# EXPRESSION AND OPERATORS
+
+- Assignment operator
+- Arithmetic operator
+- Comparison operator
+- Logical operators
+- String operators
+- Conditional (ternary) Operator
+

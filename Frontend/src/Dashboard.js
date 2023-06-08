@@ -3,8 +3,10 @@ import  './Dashboard.css';
 
 // --- Start contents
 import Vicoview from './Admincomponets/Vicoview';
+import RealTimedata from './Admincomponets/realTimedata';
 import TestUi from './Admincomponets/Test';
 import ApiTest from './Admincomponets/axiosTest';
+
 // --- End Contents
 
 
@@ -31,6 +33,7 @@ function Dashboard() {
                     <BrowserRouter>
                         <Routes>
                             <Route path='/' element={ <Vicoview />}/>
+                            <Route path='/realTimeData' element={ <RealTimedata />}/>
                             <Route path='/test' element={ <TestUi />}/>
                             <Route path='/apitest' element={ <ApiTest />}/>
                         </Routes>

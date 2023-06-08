@@ -1,0 +1,21 @@
+/*------------------ admin header css----------------- */
+
+
+
+/*------------------ admin sidebar css----------------- */
+.SidebarWork{
+    width: 17rem;
+}
+.SidebarWork .sidebar{
+    position: fixed;
+}
+.sidebar .nav-item .nav-link {
+    padding: 0.5rem;
+}
+
+/* --------Content css------------------ */
+.small-card{
+    height: 194px;
+}
+
+
