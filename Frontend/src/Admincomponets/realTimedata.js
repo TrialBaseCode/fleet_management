@@ -254,11 +254,20 @@ function TestUi() {
                                         <h6 className="m-0 font-weight-bold text-primary">Traffic Jam</h6>
                                     </div>
                                     {/*  <!-- Card Body --> */}
-                                    <div className="card-body">
+                                    <div className="card-body pt-2">
                                         <div className=" pb-2">
-                                           <div className="trafficJamcontainer">
+                                           <div className="trafficJamcontainer unitetraffic">
                                              <div className="trafficJamcontain">
-                                                <h5>Vehicles: <span>16</span></h5>
+                                                <h5 className="fontSizetelwork">Vehicles: <span>15</span></h5>
+                                                <div className="vicinfo">
+                                                   <h6 className="fontSizework bg-warning text-white p-1 rounded font-weight-bold">Vehicles No: <span>CR 1565</span></h6>
+                                                   <h6 className="fontSizework bg-warning text-white p-1 rounded font-weight-bold">Vehicles No: <span>CR 1565</span></h6>
+                                                   <h6 className="fontSizework bg-warning text-white p-1 rounded font-weight-bold">Vehicles No: <span>CR 1565</span></h6>
+                                                   <h6 className="fontSizework bg-warning text-white p-1 rounded font-weight-bold">Vehicles No: <span>CR 1565</span></h6>
+                                                   <h6 className="fontSizework bg-warning text-white p-1 rounded font-weight-bold">Vehicles No: <span>CR 1565</span></h6>
+                                                   <h6 className="fontSizework bg-warning text-white p-1 rounded font-weight-bold">Vehicles No: <span>CR 1565</span></h6>
+                                                   <h6 className="fontSizework bg-warning text-white p-1 rounded font-weight-bold">Vehicles No: <span>CR 1565</span></h6>
+                                                 </div>
                                               </div>
                                            </div>
                                         </div>
@@ -271,15 +280,21 @@ function TestUi() {
                                         <h6 className="m-0 font-weight-bold text-primary">Accidents</h6>
                                     </div>
                                     {/*  <!-- Card Body --> */}
-                                    <div className="card-body">
+                                    <div className="card-body pt-2">
                                         <div className=" pb-2">
-                                           <div className="trafficJamcontainer">
+                                           <div className="trafficJamcontainer unitetraffic">
                                              <div className="trafficJamcontain">
-                                                <h5>Vehicles: <span>5</span></h5>
+                                                <h5 className="fontSizetelwork">Vehicles: <span>5</span></h5>
                                                 <div className="vicinfo">
-                                                    <h6><span>CR 1565</span></h6>
-                                                    <h6><span>CR 1565</span></h6>
-                                                    <h6><span>CR 1565</span></h6>
+                                                <h6 className="fontSizework bg-danger rounded text-white p-1 font-weight-bold">Vehicles No: <span>CR 1565</span></h6>
+                                                <h6 className="fontSizework bg-danger rounded text-white p-1 font-weight-bold">Vehicles No: <span>CR 1565</span></h6>
+                                                <h6 className="fontSizework bg-danger rounded text-white p-1 font-weight-bold">Vehicles No: <span>CR 1565</span></h6>
+                                                <h6 className="fontSizework bg-danger rounded text-white p-1 font-weight-bold">Vehicles No: <span>CR 1565</span></h6>
+                                                <h6 className="fontSizework bg-danger rounded text-white p-1 font-weight-bold">Vehicles No: <span>CR 1565</span></h6>
+                                                <h6 className="fontSizework bg-danger rounded text-white p-1 font-weight-bold">Vehicles No: <span>CR 1565</span></h6>
+                                                <h6 className="fontSizework bg-danger rounded text-white p-1 font-weight-bold">Vehicles No: <span>CR 1565</span></h6>
+                                                <h6 className="fontSizework bg-danger rounded text-white p-1 font-weight-bold">Vehicles No: <span>CR 1565</span></h6>
+                                                <h6 className="fontSizework bg-danger rounded text-white p-1 font-weight-bold">Vehicles No: <span>CR 1565</span></h6>
                                                 </div>
                                               </div>
                                            </div>

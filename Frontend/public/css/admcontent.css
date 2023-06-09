@@ -16,13 +16,35 @@
 /* --------Content css------------------ */
 .small-card{
     height: 178px;
+    overflow-y: scroll;
 }
+/* width */
+.small-card::-webkit-scrollbar {
+    width:3px;
+  }
+  
+  /* Track */
+  .small-card::-webkit-scrollbar-track {
+    background: #494848;
+    
+  }
+  
+  /* Handle */
+  .small-card::-webkit-scrollbar-thumb {
+    background: #2653d4;
+    border-radius: 50px;
+  }
+  
+  /* Handle on hover */
+  .small-card::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
 .meterchecktil{
     font-size: 13px;
     font-weight: 700;
 }
-.trafficJamcontain h5{
-    font-size: 14px;
+.trafficJamcontain .fontSizetelwork{
+    font-size: 16px;
     font-weight: 700;
 }
 .newSignright{
@@ -31,4 +53,8 @@
 
 .viclyeallsee .fa-2x {
     font-size: 1.5em;
+}
+
+.unitetraffic .fontSizework{
+    font-size: 12px;
 }
