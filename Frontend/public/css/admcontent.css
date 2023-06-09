@@ -1,3 +1,8 @@
+/* ---Global-- */
+.content-wrapper-set{
+    padding-top: 90px;
+}
+
 /*------------------ admin header css----------------- */
 
 
@@ -11,6 +16,12 @@
 }
 .sidebar .nav-item .nav-link {
     padding: 0.5rem;
+}
+.navFixedWork{
+    position: fixed;
+    width: -webkit-fill-available;
+    top: 0;
+    z-index: 999999;
 }
 
 /* --------Content css------------------ */

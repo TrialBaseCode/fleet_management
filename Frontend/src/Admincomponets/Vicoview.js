@@ -36,8 +36,9 @@ function Vicoview() {
 
   return (
     <>
+      
       {/*  <!-- Content Wrapper --> */}
-      <div id="content-wrapper" className="d-flex flex-column">
+      <div id="content-wrapper" className="d-flex flex-column content-wrapper-set">
         {/*  <!-- Main Content --> */}
         <div id="content">
           {/*  <!-- Admin Navbar components --> */}

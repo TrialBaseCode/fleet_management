@@ -42,8 +42,9 @@ function TestUi() {
        
     return ( 
         <>
+            
                {/*  <!-- Content Wrapper --> */}
-               <div id="content-wrapper" className="d-flex flex-column">
+                <div id="content-wrapper" className="d-flex flex-column content-wrapper-set">
 
                 {/*  <!-- Main Content --> */}
                 <div id="content">
@@ -405,6 +406,7 @@ function TestUi() {
 
                 </div>
                 {/*  <!-- End of Content Wrapper --> */}
+          
         </>
     );
 }
