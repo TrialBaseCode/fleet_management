@@ -198,8 +198,8 @@ function TestUi() {
                                                      {
                                                         data.map((entry , index) => (
                                                             <div className="chatvalue pl-5" key={index}>
-                                                                   <span style={{color:entry.colors, fontSize:18}}>{entry.name}</span> 
-                                                                   <span style={{fontSize:18}}>: {entry.value}</span>
+                                                                   <span style={{color:entry.colors, fontSize:15 , fontWeight:700}}>{entry.name}</span> 
+                                                                   <span style={{fontSize:15, fontWeight:700}}>: {entry.value}</span>
                                                             </div>
                                                         ))
                                                      }
@@ -211,30 +211,35 @@ function TestUi() {
                             </div>
                             {/*   <!-- Area Chart Vehicles Condition --> */}
                             <div className="col-xl-4 col-lg-4 h-100">
-                                <div className="card shadow mb-4">
-                                    {/*  <!-- Card Header - Dropdown --> */}
-                                    <div
-                                        className="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                                        <h6 className="m-0 font-weight-bold text-primary">Vehicles Condition</h6>
-                                        <div className="dropdown no-arrow">
-                                            <a className="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
-                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                <i className="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
-                                            </a>
-                                            <div className="dropdown-menu dropdown-menu-right shadow animated--fade-in"
-                                                aria-labelledby="dropdownMenuLink">
-                                                <div className="dropdown-header">Dropdown Header:</div>
-                                                <a className="dropdown-item" href="#">Action</a>
-                                                <a className="dropdown-item" href="#">Another action</a>
-                                                <div className="dropdown-divider"></div>
-                                                <a className="dropdown-item" href="#">Something else here</a>
-                                            </div>
+                                    {/* <!-- Project Card Example --> */}
+                                    <div className="card shadow mb-2">
+                                        <div className="card-header py-3">
+                                            <h6 className="m-0 font-weight-bold text-primary">Projects</h6>
                                         </div>
-                                    </div>
-                                    {/*  <!-- Card Body --> */}
                                     <div className="card-body">
-                                        <div className="chart-area">
-                                            <canvas id="myAreaChart"></canvas>
+                                        <div className="metercheck mb-4">
+                                            <h4 className="small font-weight-bold">Good<span
+                                                className="float-right">40%</span></h4>
+                                            <div className="progress">
+                                                <div className="progress-bar bg-danger a2" role="progressbar" ></div>
+                                            </div>
+                                            <h5  className="mt-2">Vehicles: <span>45</span></h5>
+                                        </div>
+                                        <div className="metercheck mb-4">
+                                            <h4 className="small font-weight-bold">Satisfactory<span
+                                                className="float-right">30%</span></h4>
+                                            <div className="progress">
+                                                <div className="progress-bar bg-danger a2" role="progressbar" ></div>
+                                            </div>
+                                            <h5  className="mt-2">Vehicles: <span>20</span></h5>
+                                        </div>
+                                        <div className="metercheck mb-4">
+                                            <h4 className="small font-weight-bold">Critical<span
+                                                className="float-right">10%</span></h4>
+                                            <div className="progress">
+                                                <div className="progress-bar bg-danger a2" role="progressbar" ></div>
+                                            </div>
+                                            <h5  className="mt-2">Vehicles: <span>5</span></h5>
                                         </div>
                                     </div>
                                 </div>
