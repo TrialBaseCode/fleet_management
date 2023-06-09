@@ -215,7 +215,7 @@ function TestUi() {
                                     {/* <!-- Project Card Example --> */}
                                     <div className="card shadow mb-2">
                                         <div className="card-header py-3">
-                                            <h6 className="m-0 font-weight-bold text-primary">Projects</h6>
+                                            <h6 className="m-0 font-weight-bold text-primary">Vehicles Condition</h6>
                                         </div>
                                     <div className="card-body">
                                         <div className="metercheck mb-4">
