@@ -218,28 +218,28 @@ function TestUi() {
                                         </div>
                                     <div className="card-body">
                                         <div className="metercheck mb-4">
-                                            <h4 className="small font-weight-bold">Good<span
+                                            <h4 className="small font-weight-bold  text-success ">Good<span
                                                 className="float-right">40%</span></h4>
                                             <div className="progress">
-                                                <div className="progress-bar bg-danger a2" role="progressbar" ></div>
+                                                <div style={{width:40 + "%"}} className="progress-bar bg-success a2" role="progressbar" ></div>
                                             </div>
-                                            <h5  className="mt-2">Vehicles: <span>45</span></h5>
+                                            <h5  className="mt-3 meterchecktil">Vehicles: <span>45</span></h5>
                                         </div>
                                         <div className="metercheck mb-4">
-                                            <h4 className="small font-weight-bold">Satisfactory<span
+                                            <h4 className="small font-weight-bold  text-warning ">Satisfactory<span
                                                 className="float-right">30%</span></h4>
                                             <div className="progress">
-                                                <div className="progress-bar bg-danger a2" role="progressbar" ></div>
+                                                <div style={{width:30 + "%"}} className="progress-bar bg-warning a2" role="progressbar" ></div>
                                             </div>
-                                            <h5  className="mt-2">Vehicles: <span>20</span></h5>
+                                            <h5  className="mt-3  meterchecktil">Vehicles: <span>20</span></h5>
                                         </div>
                                         <div className="metercheck mb-4">
-                                            <h4 className="small font-weight-bold">Critical<span
+                                            <h4 className="small font-weight-bold  text-danger">Critical<span
                                                 className="float-right">10%</span></h4>
                                             <div className="progress">
-                                                <div className="progress-bar bg-danger a2" role="progressbar" ></div>
+                                                <div  style={{width:10 + "%"}} className="progress-bar bg-danger a2" role="progressbar" ></div>
                                             </div>
-                                            <h5  className="mt-2">Vehicles: <span>5</span></h5>
+                                            <h5  className="mt-3  meterchecktil">Vehicles: <span>5</span></h5>
                                         </div>
                                     </div>
                                 </div>
