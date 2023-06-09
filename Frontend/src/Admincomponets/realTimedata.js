@@ -278,6 +278,10 @@ function TestUi() {
                                     <div
                                         className="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                                         <h6 className="m-0 font-weight-bold text-primary">Accidents</h6>
+                                        <div className="needAtention">
+                                             <p className="text-danger font-weight-bold"><span className="bg-danger"></span>Evacuation Requred</p> 
+                                             <p className="text-secondary font-weight-bold"><span className="bg-secondary"></span>Evacuated</p>      
+                                        </div>
                                     </div>
                                     {/*  <!-- Card Body --> */}
                                     <div className="card-body pt-2">
@@ -288,9 +292,9 @@ function TestUi() {
                                                 <div className="vicinfo">
                                                 <h6 className="fontSizework bg-danger rounded text-white p-1 font-weight-bold">Vehicles No: <span>CR 1565</span></h6>
                                                 <h6 className="fontSizework bg-danger rounded text-white p-1 font-weight-bold">Vehicles No: <span>CR 1565</span></h6>
+                                                <h6 className="fontSizework bg-secondary rounded text-white p-1 font-weight-bold">Vehicles No: <span>CR 1565</span></h6>
                                                 <h6 className="fontSizework bg-danger rounded text-white p-1 font-weight-bold">Vehicles No: <span>CR 1565</span></h6>
-                                                <h6 className="fontSizework bg-danger rounded text-white p-1 font-weight-bold">Vehicles No: <span>CR 1565</span></h6>
-                                                <h6 className="fontSizework bg-danger rounded text-white p-1 font-weight-bold">Vehicles No: <span>CR 1565</span></h6>
+                                                <h6 className="fontSizework bg-secondary rounded text-white p-1 font-weight-bold">Vehicles No: <span>CR 1565</span></h6>
                                                 <h6 className="fontSizework bg-danger rounded text-white p-1 font-weight-bold">Vehicles No: <span>CR 1565</span></h6>
                                                 <h6 className="fontSizework bg-danger rounded text-white p-1 font-weight-bold">Vehicles No: <span>CR 1565</span></h6>
                                                 <h6 className="fontSizework bg-danger rounded text-white p-1 font-weight-bold">Vehicles No: <span>CR 1565</span></h6>
