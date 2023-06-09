@@ -255,10 +255,13 @@ function TestUi() {
                                     </div>
                                     {/*  <!-- Card Body --> */}
                                     <div className="card-body">
-                                        <div className="chart-pie pt-4 pb-2">
-                                            <canvas id="myPieChart"></canvas>
+                                        <div className=" pb-2">
+                                           <div className="trafficJamcontainer">
+                                             <div className="trafficJamcontain">
+                                                <h5>Vehicles: <span>16</span></h5>
+                                              </div>
+                                           </div>
                                         </div>
-                                       
                                     </div>
                                 </div>
                                 <div className="card shadow small-card mb-4">
@@ -269,10 +272,18 @@ function TestUi() {
                                     </div>
                                     {/*  <!-- Card Body --> */}
                                     <div className="card-body">
-                                        <div className="chart-pie pt-4 pb-2">
-                                            <canvas id="myPieChart"></canvas>
+                                        <div className=" pb-2">
+                                           <div className="trafficJamcontainer">
+                                             <div className="trafficJamcontain">
+                                                <h5>Vehicles: <span>5</span></h5>
+                                                <div className="vicinfo">
+                                                    <h6><span>CR 1565</span></h6>
+                                                    <h6><span>CR 1565</span></h6>
+                                                    <h6><span>CR 1565</span></h6>
+                                                </div>
+                                              </div>
+                                           </div>
                                         </div>
-                                       
                                     </div>
                                 </div>
                             </div>

@@ -55,7 +55,7 @@ function Vicoview() {
 
             <div className="row">
               {/*  <!-- Pie Chart --> */}
-              <div className="col-xl-4 col-lg-6">
+              <div className="col-xl-5 col-lg-6">
                 <div className="card shadow mb-4 h-100">
                   {/*  <!-- Card Header - Dropdown --> */}
                   <div className="card-header py-3 d-flex flex-row align-items-center justify-content-between">
@@ -107,7 +107,7 @@ function Vicoview() {
                             href="#"
                             className="list-group-item list-group-item-action list-group-item-light"
                           >
-                            <div className="d-flex justify-content-between align-items-center">
+                            <div className="d-flex ">
                               <div className="icon truck-border rounded-circle  position-relative">
                                 <i className="fas fa-truck"></i>
                                 <span className="position-absolute mycircle-thumb bg-danger border border-light rounded-circle">
@@ -116,7 +116,7 @@ function Vicoview() {
                                   </span>
                                 </span>
                               </div>
-                              <div className="txt-container">
+                              <div className="txt-container pl-2">
                                 <h4 className="font-weight-bold m-0 list-title">
                                   CR 1565
                                 </h4>
@@ -124,7 +124,7 @@ function Vicoview() {
                                   17 May,20/1h 15min
                                 </p>
                               </div>
-                              <div className="txt-container">
+                              <div className="txt-container newSignright">
                                 <div className="sign">
                                   <i className="fas fa-exclamation-triangle float-end"></i>
                                 </div>
@@ -139,7 +139,7 @@ function Vicoview() {
                             href="#"
                             className="list-group-item list-group-item-action list-group-item-light"
                           >
-                            <div className="d-flex justify-content-between align-items-center">
+                            <div className="d-flex ">
                               <div className="icon truck-border rounded-circle  position-relative">
                                 <i className="fas fa-truck"></i>
                                 <span className="position-absolute mycircle-thumb bg-danger border border-light rounded-circle">
@@ -148,7 +148,7 @@ function Vicoview() {
                                   </span>
                                 </span>
                               </div>
-                              <div className="txt-container">
+                              <div className="txt-container pl-2">
                                 <h4 className="font-weight-bold m-0 list-title">
                                   CR 1565
                                 </h4>
@@ -156,7 +156,7 @@ function Vicoview() {
                                   17 May,20/1h 15min
                                 </p>
                               </div>
-                              <div className="txt-container">
+                              <div className="txt-container newSignright">
                                 <div className="sign">
                                   <i className="fas fa-exclamation-triangle float-end"></i>
                                 </div>
@@ -171,7 +171,7 @@ function Vicoview() {
                             href="#"
                             className="list-group-item list-group-item-action list-group-item-light"
                           >
-                            <div className="d-flex justify-content-between align-items-center">
+                            <div className="d-flex ">
                               <div className="icon truck-border rounded-circle  position-relative">
                                 <i className="fas fa-truck"></i>
                                 <span className="position-absolute mycircle-thumb bg-danger border border-light rounded-circle">
@@ -180,7 +180,7 @@ function Vicoview() {
                                   </span>
                                 </span>
                               </div>
-                              <div className="txt-container">
+                              <div className="txt-container pl-2">
                                 <h4 className="font-weight-bold m-0 list-title">
                                   CR 1565
                                 </h4>
@@ -188,7 +188,7 @@ function Vicoview() {
                                   17 May,20/1h 15min
                                 </p>
                               </div>
-                              <div className="txt-container">
+                              <div className="txt-container newSignright">
                                 <div className="sign">
                                   <i className="fas fa-exclamation-triangle float-end"></i>
                                 </div>
@@ -203,7 +203,7 @@ function Vicoview() {
                             href="#"
                             className="list-group-item list-group-item-action list-group-item-light"
                           >
-                            <div className="d-flex justify-content-between align-items-center">
+                            <div className="d-flex ">
                               <div className="icon truck-border rounded-circle  position-relative">
                                 <i className="fas fa-truck"></i>
                                 <span className="position-absolute mycircle-thumb bg-danger border border-light rounded-circle">
@@ -212,7 +212,7 @@ function Vicoview() {
                                   </span>
                                 </span>
                               </div>
-                              <div className="txt-container">
+                              <div className="txt-container pl-2">
                                 <h4 className="font-weight-bold m-0 list-title">
                                   CR 1565
                                 </h4>
@@ -220,7 +220,7 @@ function Vicoview() {
                                   17 May,20/1h 15min
                                 </p>
                               </div>
-                              <div className="txt-container">
+                              <div className="txt-container newSignright">
                                 <div className="sign">
                                   <i className="fas fa-exclamation-triangle float-end"></i>
                                 </div>
@@ -235,7 +235,7 @@ function Vicoview() {
                             href="#"
                             className="list-group-item list-group-item-action list-group-item-light"
                           >
-                            <div className="d-flex justify-content-between align-items-center">
+                            <div className="d-flex ">
                               <div className="icon truck-border rounded-circle  position-relative">
                                 <i className="fas fa-truck"></i>
                                 <span className="position-absolute mycircle-thumb bg-danger border border-light rounded-circle">
@@ -244,7 +244,7 @@ function Vicoview() {
                                   </span>
                                 </span>
                               </div>
-                              <div className="txt-container">
+                              <div className="txt-container pl-2">
                                 <h4 className="font-weight-bold m-0 list-title">
                                   CR 1565
                                 </h4>
@@ -252,7 +252,7 @@ function Vicoview() {
                                   17 May,20/1h 15min
                                 </p>
                               </div>
-                              <div className="txt-container">
+                              <div className="txt-container newSignright">
                                 <div className="sign">
                                   <i className="fas fa-exclamation-triangle float-end"></i>
                                 </div>
@@ -267,7 +267,7 @@ function Vicoview() {
                             href="#"
                             className="list-group-item list-group-item-action list-group-item-light"
                           >
-                            <div className="d-flex justify-content-between align-items-center">
+                            <div className="d-flex ">
                               <div className="icon truck-border rounded-circle  position-relative">
                                 <i className="fas fa-truck"></i>
                                 <span className="position-absolute mycircle-thumb bg-danger border border-light rounded-circle">
@@ -276,7 +276,7 @@ function Vicoview() {
                                   </span>
                                 </span>
                               </div>
-                              <div className="txt-container">
+                              <div className="txt-container pl-2">
                                 <h4 className="font-weight-bold m-0 list-title">
                                   CR 1565
                                 </h4>
@@ -284,7 +284,7 @@ function Vicoview() {
                                   17 May,20/1h 15min
                                 </p>
                               </div>
-                              <div className="txt-container">
+                              <div className="txt-container newSignright">
                                 <div className="sign">
                                   <i className="fas fa-exclamation-triangle float-end"></i>
                                 </div>
@@ -299,7 +299,7 @@ function Vicoview() {
                             href="#"
                             className="list-group-item list-group-item-action list-group-item-light"
                           >
-                            <div className="d-flex justify-content-between align-items-center">
+                            <div className="d-flex ">
                               <div className="icon truck-border rounded-circle  position-relative">
                                 <i className="fas fa-truck"></i>
                                 <span className="position-absolute mycircle-thumb bg-danger border border-light rounded-circle">
@@ -308,7 +308,7 @@ function Vicoview() {
                                   </span>
                                 </span>
                               </div>
-                              <div className="txt-container">
+                              <div className="txt-container pl-2">
                                 <h4 className="font-weight-bold m-0 list-title">
                                   CR 1565
                                 </h4>
@@ -316,7 +316,7 @@ function Vicoview() {
                                   17 May,20/1h 15min
                                 </p>
                               </div>
-                              <div className="txt-container">
+                              <div className="txt-container newSignright">
                                 <div className="sign">
                                   <i className="fas fa-exclamation-triangle float-end"></i>
                                 </div>
@@ -331,7 +331,7 @@ function Vicoview() {
                             href="#"
                             className="list-group-item list-group-item-action list-group-item-light"
                           >
-                            <div className="d-flex justify-content-between align-items-center">
+                            <div className="d-flex ">
                               <div className="icon truck-border rounded-circle  position-relative">
                                 <i className="fas fa-truck"></i>
                                 <span className="position-absolute mycircle-thumb bg-danger border border-light rounded-circle">
@@ -340,7 +340,7 @@ function Vicoview() {
                                   </span>
                                 </span>
                               </div>
-                              <div className="txt-container">
+                              <div className="txt-container pl-2">
                                 <h4 className="font-weight-bold m-0 list-title">
                                   CR 1565
                                 </h4>
@@ -348,7 +348,7 @@ function Vicoview() {
                                   17 May,20/1h 15min
                                 </p>
                               </div>
-                              <div className="txt-container">
+                              <div className="txt-container newSignright">
                                 <div className="sign">
                                   <i className="fas fa-exclamation-triangle float-end"></i>
                                 </div>
@@ -363,7 +363,7 @@ function Vicoview() {
                             href="#"
                             className="list-group-item list-group-item-action list-group-item-light"
                           >
-                            <div className="d-flex justify-content-between align-items-center">
+                            <div className="d-flex ">
                               <div className="icon truck-border rounded-circle  position-relative">
                                 <i className="fas fa-truck"></i>
                                 <span className="position-absolute mycircle-thumb bg-danger border border-light rounded-circle">
@@ -372,7 +372,7 @@ function Vicoview() {
                                   </span>
                                 </span>
                               </div>
-                              <div className="txt-container">
+                              <div className="txt-container pl-2">
                                 <h4 className="font-weight-bold m-0 list-title">
                                   CR 1565
                                 </h4>
@@ -380,7 +380,7 @@ function Vicoview() {
                                   17 May,20/1h 15min
                                 </p>
                               </div>
-                              <div className="txt-container">
+                              <div className="txt-container newSignright">
                                 <div className="sign">
                                   <i className="fas fa-exclamation-triangle float-end"></i>
                                 </div>
@@ -395,7 +395,7 @@ function Vicoview() {
                             href="#"
                             className="list-group-item list-group-item-action list-group-item-light"
                           >
-                            <div className="d-flex justify-content-between align-items-center">
+                            <div className="d-flex ">
                               <div className="icon truck-border rounded-circle  position-relative">
                                 <i className="fas fa-truck"></i>
                                 <span className="position-absolute mycircle-thumb bg-danger border border-light rounded-circle">
@@ -404,7 +404,7 @@ function Vicoview() {
                                   </span>
                                 </span>
                               </div>
-                              <div className="txt-container">
+                              <div className="txt-container pl-2">
                                 <h4 className="font-weight-bold m-0 list-title">
                                   CR 1565
                                 </h4>
@@ -412,7 +412,135 @@ function Vicoview() {
                                   17 May,20/1h 15min
                                 </p>
                               </div>
-                              <div className="txt-container">
+                              <div className="txt-container newSignright">
+                                <div className="sign">
+                                  <i className="fas fa-exclamation-triangle float-end"></i>
+                                </div>
+                                <div className="badge btn  bg-secondary">
+                                  <span className="text-white">Trip</span>
+                                  <i className="fas fa-location-arrow p-1 text-white"></i>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                          <a
+                            href="#"
+                            className="list-group-item list-group-item-action list-group-item-light"
+                          >
+                            <div className="d-flex ">
+                              <div className="icon truck-border rounded-circle  position-relative">
+                                <i className="fas fa-truck"></i>
+                                <span className="position-absolute mycircle-thumb bg-danger border border-light rounded-circle">
+                                  <span className="visually-hidden">
+                                    New alerts
+                                  </span>
+                                </span>
+                              </div>
+                              <div className="txt-container pl-2">
+                                <h4 className="font-weight-bold m-0 list-title">
+                                  CR 1565
+                                </h4>
+                                <p className="m-0 list-para">
+                                  17 May,20/1h 15min
+                                </p>
+                              </div>
+                              <div className="txt-container newSignright">
+                                <div className="sign">
+                                  <i className="fas fa-exclamation-triangle float-end"></i>
+                                </div>
+                                <div className="badge btn  bg-secondary">
+                                  <span className="text-white">Trip</span>
+                                  <i className="fas fa-location-arrow p-1 text-white"></i>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                          <a
+                            href="#"
+                            className="list-group-item list-group-item-action list-group-item-light"
+                          >
+                            <div className="d-flex ">
+                              <div className="icon truck-border rounded-circle  position-relative">
+                                <i className="fas fa-truck"></i>
+                                <span className="position-absolute mycircle-thumb bg-danger border border-light rounded-circle">
+                                  <span className="visually-hidden">
+                                    New alerts
+                                  </span>
+                                </span>
+                              </div>
+                              <div className="txt-container pl-2">
+                                <h4 className="font-weight-bold m-0 list-title">
+                                  CR 1565
+                                </h4>
+                                <p className="m-0 list-para">
+                                  17 May,20/1h 15min
+                                </p>
+                              </div>
+                              <div className="txt-container newSignright">
+                                <div className="sign">
+                                  <i className="fas fa-exclamation-triangle float-end"></i>
+                                </div>
+                                <div className="badge btn  bg-secondary">
+                                  <span className="text-white">Trip</span>
+                                  <i className="fas fa-location-arrow p-1 text-white"></i>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                          <a
+                            href="#"
+                            className="list-group-item list-group-item-action list-group-item-light"
+                          >
+                            <div className="d-flex ">
+                              <div className="icon truck-border rounded-circle  position-relative">
+                                <i className="fas fa-truck"></i>
+                                <span className="position-absolute mycircle-thumb bg-danger border border-light rounded-circle">
+                                  <span className="visually-hidden">
+                                    New alerts
+                                  </span>
+                                </span>
+                              </div>
+                              <div className="txt-container pl-2">
+                                <h4 className="font-weight-bold m-0 list-title">
+                                  CR 1565
+                                </h4>
+                                <p className="m-0 list-para">
+                                  17 May,20/1h 15min
+                                </p>
+                              </div>
+                              <div className="txt-container newSignright">
+                                <div className="sign">
+                                  <i className="fas fa-exclamation-triangle float-end"></i>
+                                </div>
+                                <div className="badge btn  bg-secondary">
+                                  <span className="text-white">Trip</span>
+                                  <i className="fas fa-location-arrow p-1 text-white"></i>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                          <a
+                            href="#"
+                            className="list-group-item list-group-item-action list-group-item-light"
+                          >
+                            <div className="d-flex ">
+                              <div className="icon truck-border rounded-circle  position-relative">
+                                <i className="fas fa-truck"></i>
+                                <span className="position-absolute mycircle-thumb bg-danger border border-light rounded-circle">
+                                  <span className="visually-hidden">
+                                    New alerts
+                                  </span>
+                                </span>
+                              </div>
+                              <div className="txt-container pl-2">
+                                <h4 className="font-weight-bold m-0 list-title">
+                                  CR 1565
+                                </h4>
+                                <p className="m-0 list-para">
+                                  17 May,20/1h 15min
+                                </p>
+                              </div>
+                              <div className="txt-container newSignright">
                                 <div className="sign">
                                   <i className="fas fa-exclamation-triangle float-end"></i>
                                 </div>
@@ -430,15 +558,15 @@ function Vicoview() {
                 </div>
               </div>
               {/*   <!-- Area Chart --> */}
-              <div className="col-xl-8 col-lg-6">
+              <div className="col-xl-7 col-lg-6">
                 <div className="card shadow mb-4">
                   {/* <! All Streets pass data > */}
                   <div className="route-container">
                       {/*  <!-- Content Row --> */}
                       <div className="row">
                         {/*  <!-- Vicycle error Card Example --> */}
-                        <div className="col-xl-3 col-md-6">
-                          <div className="card border-left-primary shadow h-100">
+                        <div className="col-xl-3 col-md-6 viclyeallsee">
+                          <div className="card border-left-primary shadow">
                             <div className="card-body mycard-body">
                               <div className="row  align-items-center">
                                 <div className="col ">
@@ -449,7 +577,7 @@ function Vicoview() {
                                     2
                                   </div>
                                 </div>
-                                <div className="col-auto p-4">
+                                <div className="col-auto pb-3 pt-3 mr-2">
                                   <i className="fas fa-times  fa-2x text-danger"></i>
                                 </div>
                               </div>
@@ -458,19 +586,23 @@ function Vicoview() {
                         </div>
 
                         {/*  <!-- Vicycle warning Card Example --> */}
-                        <div className="col-xl-3 col-md-6">
-                          <div className="card border-left-success shadow h-100">
+                        <div className="col-xl-3 col-md-6 viclyeallsee">
+                          <div className="card border-left-info shadow">
                             <div className="card-body mycard-body">
                               <div className="row  align-items-center">
                                 <div className="col">
-                                  <div className="my-lefttextxs text-xs font-weight-bold text-warning text-uppercase mb-1">
-                                    Vehicles warnings
+                                  <div className="my-lefttextxs text-xs font-weight-bold text-info text-uppercase mb-1">
+                                  Vehicles warnings
                                   </div>
-                                  <div className="my-lefttextval h5 mb-0 font-weight-bold text-gray-800">
-                                    10
+                                  <div className="row align-items-center">
+                                    <div className="col-auto">
+                                      <div className="my-lefttextval h5 mb-0 mr-3 font-weight-bold text-gray-800">
+                                        20
+                                      </div>
+                                    </div>
                                   </div>
                                 </div>
-                                <div className="col-auto  p-4">
+                                <div className="col-auto pb-3 pt-3 mr-2">
                                   <i className="fas fa-exclamation-triangle  fa-2x text-warning"></i>
                                 </div>
                               </div>
@@ -479,8 +611,8 @@ function Vicoview() {
                         </div>
 
                          {/*  <!-- Vicycle route Card Example --> */}
-                        <div className="col-xl-3 col-md-6">
-                          <div className="card border-left-info shadow h-100">
+                        <div className="col-xl-3 col-md-6 viclyeallsee">
+                          <div className="card border-left-info shadow">
                             <div className="card-body mycard-body">
                               <div className="row  align-items-center">
                                 <div className="col">
@@ -495,7 +627,7 @@ function Vicoview() {
                                     </div>
                                   </div>
                                 </div>
-                                <div className="col-auto  p-4">
+                                <div className="col-auto pb-3 pt-3 mr-2">
                                   <i className="fas fa-exclamation-triangle  fa-2x text-warning"></i>
                                 </div>
                               </div>
@@ -504,8 +636,8 @@ function Vicoview() {
                         </div>
 
                         {/*  <!-- Being Late Card Example --> */}
-                        <div className="col-xl-3 col-md-6">
-                          <div className="card border-left-warning shadow h-100">
+                        <div className="col-xl-3 col-md-6 viclyeallsee">
+                          <div className="card border-left-warning shadow">
                             <div className="card-body mycard-body">
                               <div className="row  align-items-center">
                                 <div className="col ">
@@ -516,7 +648,7 @@ function Vicoview() {
                                     18
                                   </div>
                                 </div>
-                                <div className="col-auto  p-4">
+                                <div className="col-auto pb-3 pt-3 mr-2">
                                   <i className="fas fa-exclamation-triangle  fa-2x text-warning"></i>
                                 </div>
                               </div>
