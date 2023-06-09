@@ -1,7 +1,6 @@
 import { useState } from 'react';
-
-
 import '../Dashboard.css';
+import { Link } from 'react-router-dom';
 
 function Sidebar() {
     const [style, setStyle] = useState("navbar-nav bg-gradient-primary sidebar sidebar-dark accordion");
@@ -29,10 +28,10 @@ function Sidebar() {
           <>
                 <div className='SidebarWork'>
                     <ul className={style} id="accordionSidebar">
-                        <a className="collapse-item" href="/test">Test</a>
-                        <a className="collapse-item" href="/apitest">ApiTest</a>
+                        <Link className="collapse-item" to="/test">Test</Link>
+                        <Link className="collapse-item" to="/apitest">ApiTest</Link>
                         {/*  <!-- Sidebar - Brand --> */}
-                        <a className="sidebar-brand d-flex align-items-center justify-content-center" href="#">
+                        <Link className="sidebar-brand d-flex align-items-center justify-content-center" to="#">
                             <div className="sidebar-brand-icon rotate-n-15">
                             <i className="fas fa-truck"></i>
                             </div>
@@ -40,7 +39,7 @@ function Sidebar() {
                             <div className="text-center d-none d-md-inline">
                             <button className="rounded-circle border-0" id="sidebarToggle" onClick={changeStyle || changeStyle1}></button>
                         </div>
-                        </a>
+                        </Link>
                         
                         {/* <!---Test Case ---> */}
                 
@@ -56,9 +55,9 @@ function Sidebar() {
                             </div>
                             <div id="collapsedash" className="collapse show" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                                 <div className="bg-white py-2 collapse-inner rounded">
-                                    <a className="collapse-item" href="/">Vehicles Overview</a>
-                                    <a className="collapse-item" href="/realTimeData">Real Time Data</a>
-                                    <a className="collapse-item" href="cards.html">Events</a>
+                                    <Link className="collapse-item" to="/">Vehicles Overview</Link>
+                                    <Link className="collapse-item" to="/realTimeData">Real Time Data</Link>
+                                    <Link className="collapse-item" to="cards.html">Events</Link>
                                 </div>
                             </div>
                         </li>

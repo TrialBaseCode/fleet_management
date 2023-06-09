@@ -24,13 +24,12 @@ function Dashboard() {
                 {/*  <!-- Page Wrapper --> */}
                 <div id="wrapper">
 
-                    {/*  <!-- Sidebar --> */}
-                      <AdminSideBar />
-                    {/*  <!-- End of Sidebar --> */}
-
                     {/*  <!--Content wapper Component --> */}
                      {/* Router route the page */}
                     <BrowserRouter>
+                        {/*  <!-- Sidebar --> */}
+                        <AdminSideBar />
+                        {/*  <!-- End of Sidebar --> */}
                         <Routes>
                             <Route path='/' element={ <Vicoview />}/>
                             <Route path='/realTimeData' element={ <RealTimedata />}/>
