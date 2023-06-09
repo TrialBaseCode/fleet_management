@@ -31,7 +31,7 @@ function Sidebar() {
                         <Link className="collapse-item" to="/test">Test</Link>
                         <Link className="collapse-item" to="/apitest">ApiTest</Link>
                         {/*  <!-- Sidebar - Brand --> */}
-                        <Link className="sidebar-brand d-flex align-items-center justify-content-center" to="#">
+                        <Link className="sidebar-brand d-flex align-items-center justify-content-center" to="/">
                             <div className="sidebar-brand-icon rotate-n-15">
                             <i className="fas fa-truck"></i>
                             </div>
