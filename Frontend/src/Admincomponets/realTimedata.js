@@ -510,6 +510,29 @@ function TestUi() {
                                                                 </div>
                                                                 <hr className="trip-driver"></hr>
                                                             </div>
+                                                            <div className="manatance_contain">
+                                                            <div className="trip_work d-flex justify-content-sm-between align-items-md-center">
+                                                                <span className="livetiptxt"><i class="fas fa-exclamation-circle pr-1"></i>In Accident</span>
+                                                                <div className="d-flex align-items-md-center">
+                                                                    <span className="pr-1 livetipnum">46</span>
+                                                                    <div className="dropdown no-arrow">
+                                                                        <a className="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                            <i className="fas fa-chevron-right fa-sm fa-fw text-gray-400"></i>
+                                                                        </a>
+                                                                        <div className="dropdown-menu dropdown-menu-right shadow animated--fade-in"
+                                                                            aria-labelledby="dropdownMenuLink">
+                                                                            <div className="dropdown-header">Dropdown Header:</div>
+                                                                            <a className="dropdown-item" href="#">Action</a>
+                                                                            <a className="dropdown-item" href="#">Another action</a>
+                                                                            <div className="dropdown-divider"></div>
+                                                                            <a className="dropdown-item" href="#">Something else here</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                </div>
+                                                                <hr className="trip-driver"></hr>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                </div>
