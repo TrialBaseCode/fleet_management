@@ -4,15 +4,20 @@ import  './Dashboard.css';
 // --- Start contents
 import Vicoview from './Admincomponets/Vicoview';
 import RealTimedata from './Admincomponets/realTimedata';
-import TestUi from './Admincomponets/Test';
-import ApiTest from './Admincomponets/axiosTest';
-
+import Events from './Admincomponets/events';
 // --- End Contents
 
+// Test case Start 
+import TestUi from './Admincomponets/Test';
+import ApiTest from './Admincomponets/axiosTest';
+// test case end
 
 import AdminSideBar from './Admincomponets/Sidebar';
 import LogoutModal from './Admincomponets/LogoutModal';
 import { BrowserRouter , Route , Routes } from 'react-router-dom';
+
+
+
 
 function Dashboard() {
 
@@ -31,10 +36,13 @@ function Dashboard() {
                         <AdminSideBar />
                         {/*  <!-- End of Sidebar --> */}
                         <Routes>
+                            {/* --start of Dashboard-- */}
                             <Route path='/' element={ <Vicoview />}/>
                             <Route path='/realTimeData' element={ <RealTimedata />}/>
-                            <Route path='/test' element={ <TestUi />}/>
+                            <Route path='/events' element={ <Events />}/>
+                            {/* --ent of Dashboard-- */}
                             <Route path='/apitest' element={ <ApiTest />}/>
+                            <Route path='/test' element={ <TestUi />}/>
                         </Routes>
                     </BrowserRouter>
                       {/* <DashContent /> */}

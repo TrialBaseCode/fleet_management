@@ -57,7 +57,7 @@ function Sidebar() {
                                 <div className="bg-white py-2 collapse-inner rounded">
                                     <Link className="collapse-item" to="/">Vehicles Overview</Link>
                                     <Link className="collapse-item" to="/realTimeData">Real Time Data</Link>
-                                    <Link className="collapse-item" to="cards.html">Events</Link>
+                                    <Link className="collapse-item" to="/events">Events</Link>
                                 </div>
                             </div>
                         </li>
