@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import '../Dashboard.css';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
+
 
 function Sidebar() {
     const [style, setStyle] = useState("navbar-nav bg-gradient-primary sidebar sidebar-dark accordion");
@@ -27,11 +28,11 @@ function Sidebar() {
     return ( 
           <>
                 <div className='SidebarWork'>
-                    <ul className={style} id="accordionSidebar">
+                    <nav className={style} id="accordionSidebar">
                         <Link className="collapse-item" to="/test">Test</Link>
                         <Link className="collapse-item" to="/apitest">ApiTest</Link>
                         {/*  <!-- Sidebar - Brand --> */}
-                        <Link className="sidebar-brand d-flex align-items-center justify-content-center" to="/">
+                        <NavLink className="sidebar-brand d-flex align-items-center justify-content-center" to="/">
                             <div className="sidebar-brand-icon rotate-n-15">
                             <i className="fas fa-truck"></i>
                             </div>
@@ -39,7 +40,7 @@ function Sidebar() {
                             <div className="text-center d-none d-md-inline">
                             <button className="rounded-circle border-0" id="sidebarToggle" onClick={changeStyle || changeStyle1}></button>
                         </div>
-                        </Link>
+                        </NavLink>
                         
                         {/* <!---Test Case ---> */}
                 
@@ -47,7 +48,7 @@ function Sidebar() {
                         <hr className="sidebar-divider my-0" />
                         
                         {/*  <!-- Nav Item - Dashboard --> */}
-                        <li className="nav-item active">
+                        <li className="nav-item ">
                             <div className="nav-link"  data-toggle="collapse" data-target="#collapsedash"
                                 aria-expanded="true" aria-controls="collapsedash">
                                 <i className="fas fa-fw fa-tachometer-alt"></i>
@@ -55,9 +56,9 @@ function Sidebar() {
                             </div>
                             <div id="collapsedash" className="collapse show" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                                 <div className="bg-white py-2 collapse-inner rounded">
-                                    <Link className="collapse-item" to="/">Vehicles Overview</Link>
-                                    <Link className="collapse-item" to="/realTimeData">Real Time Data</Link>
-                                    <Link className="collapse-item" to="/events">Events</Link>
+                                    <NavLink className="collapse-item" activeClassName="sidebaractive" to="/">Vehicles Overview</NavLink>
+                                    <NavLink className="collapse-item" to="/realTimeData">Real Time Data</NavLink>
+                                    <NavLink className="collapse-item" to="/events">Events</NavLink>
                                 </div>
                             </div>
                         </li>
@@ -68,16 +69,16 @@ function Sidebar() {
 
                         {/*  <!-- Nav Item - Pages Collapse Menu --> */}
                         <li className="nav-item">
-                            <div className="nav-link collapsed"  data-toggle="collapse" data-target="#collapseTwo"
+                            <div className="nav-link collapsed "  data-toggle="collapse" data-target="#collapseTwo"
                                 aria-expanded="true" aria-controls="collapseTwo">
                                 <i className="fas fa-car"></i>
                                 <span>Vehicles</span>
                             </div>
                             <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                                 <div className="bg-white py-2 collapse-inner rounded">
-                                    <a className="collapse-item" href="buttons.html">Fleet</a>
-                                    <a className="collapse-item" href="cards.html">Vehicles Assignment</a>
-                                    <a className="collapse-item" href="cards.html">Vehicle Details</a>
+                                    <NavLink className="collapse-item" to="buttons.html">Fleet</NavLink>
+                                    <NavLink className="collapse-item" to="cards.html">Vehicles Assignment</NavLink>
+                                    <NavLink className="collapse-item" to="car.html">Vehicle Details</NavLink>
                                 </div>
                             </div>
                         </li>
@@ -94,9 +95,9 @@ function Sidebar() {
                             <div id="collapseUtilities" className="collapse" aria-labelledby="headingUtilities"
                                 data-parent="#accordionSidebar">
                                 <div className="bg-white py-2 collapse-inner rounded">
-                                    <a className="collapse-item" href="utilities-color.html">Overview</a>
-                                    <a className="collapse-item" href="utilities-border.html">Upcoming Trip</a>
-                                    <a className="collapse-item" href="utilities-animation.html">Schedule Trip</a>
+                                    <NavLink className="collapse-item" to="utilities-color.html">Overview</NavLink>
+                                    <NavLink className="collapse-item" to="utilits-border.html">Upcoming Trip</NavLink>
+                                    <NavLink className="collapse-item" to="utis-animation.html">Schednave Trip</NavLink>
                                 </div>
                             </div>
                         </li>
@@ -114,7 +115,7 @@ function Sidebar() {
                             <div id="collapseMainten" className="collapse" aria-labelledby="headingMainten"
                                 data-parent="#accordionSidebar">
                                 <div className="bg-white py-2 collapse-inner rounded">
-                                    <a className="collapse-item" href="utilities-color.html">Maintenance Planner</a>
+                                    <NavLink className="collapse-item" to="utilities-color.html">Maintenance Planner</NavLink>
                                 </div>
                             </div>
                         </li>
@@ -122,9 +123,9 @@ function Sidebar() {
 
                         {/* <!-- Nav Item - history --> */}
                         <li className="nav-item">
-                            <a className="nav-link" href="charts.html">
+                            <NavLink className="nav-link" to="charts.html">
                                 <i className="fas fa-history"></i>
-                                <span>Hisory</span></a>
+                                <span>Hisory</span></NavLink>
                         </li>
                         {/*  <!-- Divider --> */}
                         <hr className="sidebar-divider" />
@@ -187,7 +188,7 @@ function Sidebar() {
                         {/*  <!-- Sidebar Message --> */}
 
 
-                    </ul>
+                    </nav>
                 </div>
           </>
    
