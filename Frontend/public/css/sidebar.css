@@ -74,10 +74,3 @@
 .my-lefttextxs , .my-lefttextval{
     padding-left: 6px;
 }
-li.link-wrapper > a.sidebaractive {
-  display: block;
-  width: 100%;
-  height:100%;
-  color: white;
-  background-color: blue;
-}
