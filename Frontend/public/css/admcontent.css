@@ -82,3 +82,23 @@
     width: 5px;
     height: 5px;
 }
+
+.livetiptxt{
+    font-size: 14px;
+    font-weight: 700;
+}
+.livetipnum {
+    font-size: 14px;
+    font-weight: 700;
+}
+.trip-driver{
+    margin: 6px 0;
+}
+.tripsTil{
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: #6ed1eb;
+}
+.tripListcontqin{
+    margin-top:20px;
+}

@@ -320,25 +320,130 @@ function TestUi() {
                                         <div
                                             className="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                                             <h6 className="m-0 font-weight-bold text-primary">Trips</h6>
-                                            <div className="dropdown no-arrow">
-                                                <a className="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
-                                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                    <i className="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
-                                                </a>
-                                                <div className="dropdown-menu dropdown-menu-right shadow animated--fade-in"
-                                                    aria-labelledby="dropdownMenuLink">
-                                                    <div className="dropdown-header">Dropdown Header:</div>
-                                                    <a className="dropdown-item" href="#">Action</a>
-                                                    <a className="dropdown-item" href="#">Another action</a>
-                                                    <div className="dropdown-divider"></div>
-                                                    <a className="dropdown-item" href="#">Something else here</a>
-                                                </div>
-                                            </div>
                                         </div>
                                         {/*  <!-- Card Body --> */}
                                         <div className="card-body">
                                             <div className="chart-area">
-                                                <canvas id="myAreaChart"></canvas>
+                                               <div className="tripContainer">
+                                                    <h6 className="tripsTil">24 hours Trips Data</h6>
+                                                    <div className="tripListcontqin">
+                                                        <div className="trip_contain">
+                                                            <div className="trip_work d-flex justify-content-sm-between align-items-md-center">
+                                                            <span className="livetiptxt"><i class="fas fa-wifi pr-1"></i>Live Trips</span>
+                                                            <div className="d-flex align-items-md-center">
+                                                                <span className="pr-1 livetipnum">156</span>
+                                                                <div className="dropdown no-arrow">
+                                                                    <a className="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                        <i className="fas fa-chevron-right fa-sm fa-fw text-gray-400"></i>
+                                                                    </a>
+                                                                    <div className="dropdown-menu dropdown-menu-right shadow animated--fade-in"
+                                                                        aria-labelledby="dropdownMenuLink">
+                                                                        <div className="dropdown-header">Dropdown Header:</div>
+                                                                        <a className="dropdown-item" href="#">Action</a>
+                                                                        <a className="dropdown-item" href="#">Another action</a>
+                                                                        <div className="dropdown-divider"></div>
+                                                                        <a className="dropdown-item" href="#">Something else here</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            </div>
+                                                            <hr className="trip-driver"></hr>
+                                                        </div>
+                                                        <div className="trip_contain">
+                                                            <div className="trip_work d-flex justify-content-sm-between align-items-md-center">
+                                                            <span className="livetiptxt"><i class="fas fa-wifi pr-1"></i>Scheduled</span>
+                                                            <div className="d-flex align-items-md-center">
+                                                                <span className="pr-1 livetipnum">16</span>
+                                                                <div className="dropdown no-arrow">
+                                                                    <a className="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                        <i className="fas fa-chevron-right fa-sm fa-fw text-gray-400"></i>
+                                                                    </a>
+                                                                    <div className="dropdown-menu dropdown-menu-right shadow animated--fade-in"
+                                                                        aria-labelledby="dropdownMenuLink">
+                                                                        <div className="dropdown-header">Dropdown Header:</div>
+                                                                        <a className="dropdown-item" href="#">Action</a>
+                                                                        <a className="dropdown-item" href="#">Another action</a>
+                                                                        <div className="dropdown-divider"></div>
+                                                                        <a className="dropdown-item" href="#">Something else here</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            </div>
+                                                            <hr className="trip-driver"></hr>
+                                                        </div>
+                                                        <div className="trip_contain">
+                                                            <div className="trip_work d-flex justify-content-sm-between align-items-md-center">
+                                                            <span className="livetiptxt"><i class="fas fa-wifi pr-1"></i>Completed</span>
+                                                            <div className="d-flex align-items-md-center">
+                                                                <span className="pr-1 livetipnum">36</span>
+                                                                <div className="dropdown no-arrow">
+                                                                    <a className="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                        <i className="fas fa-chevron-right fa-sm fa-fw text-gray-400"></i>
+                                                                    </a>
+                                                                    <div className="dropdown-menu dropdown-menu-right shadow animated--fade-in"
+                                                                        aria-labelledby="dropdownMenuLink">
+                                                                        <div className="dropdown-header">Dropdown Header:</div>
+                                                                        <a className="dropdown-item" href="#">Action</a>
+                                                                        <a className="dropdown-item" href="#">Another action</a>
+                                                                        <div className="dropdown-divider"></div>
+                                                                        <a className="dropdown-item" href="#">Something else here</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            </div>
+                                                            <hr className="trip-driver"></hr>
+                                                        </div>
+                                                        <div className="trip_contain">
+                                                            <div className="trip_work d-flex justify-content-sm-between align-items-md-center">
+                                                            <span className="livetiptxt"><i class="fas fa-wifi pr-1"></i>Being Late</span>
+                                                            <div className="d-flex align-items-md-center">
+                                                                <span className="pr-1 livetipnum">89</span>
+                                                                <div className="dropdown no-arrow">
+                                                                    <a className="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                        <i className="fas fa-chevron-right fa-sm fa-fw text-gray-400"></i>
+                                                                    </a>
+                                                                    <div className="dropdown-menu dropdown-menu-right shadow animated--fade-in"
+                                                                        aria-labelledby="dropdownMenuLink">
+                                                                        <div className="dropdown-header">Dropdown Header:</div>
+                                                                        <a className="dropdown-item" href="#">Action</a>
+                                                                        <a className="dropdown-item" href="#">Another action</a>
+                                                                        <div className="dropdown-divider"></div>
+                                                                        <a className="dropdown-item" href="#">Something else here</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            </div>
+                                                            <hr className="trip-driver"></hr>
+                                                        </div>
+                                                        <div className="trip_contain">
+                                                            <div className="trip_work d-flex justify-content-sm-between align-items-md-center">
+                                                            <span className="livetiptxt"><i class="fas fa-wifi pr-1"></i>Failed</span>
+                                                            <div className="d-flex align-items-md-center">
+                                                                <span className="pr-1 livetipnum">20</span>
+                                                                <div className="dropdown no-arrow">
+                                                                    <a className="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                        <i className="fas fa-chevron-right fa-sm fa-fw text-gray-400"></i>
+                                                                    </a>
+                                                                    <div className="dropdown-menu dropdown-menu-right shadow animated--fade-in"
+                                                                        aria-labelledby="dropdownMenuLink">
+                                                                        <div className="dropdown-header">Dropdown Header:</div>
+                                                                        <a className="dropdown-item" href="#">Action</a>
+                                                                        <a className="dropdown-item" href="#">Another action</a>
+                                                                        <div className="dropdown-divider"></div>
+                                                                        <a className="dropdown-item" href="#">Something else here</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            </div>
+                                                            <hr className="trip-driver"></hr>
+                                                        </div>
+                                                    </div>
+                                               </div>
                                             </div>
                                         </div>
                                     </div>
@@ -350,25 +455,64 @@ function TestUi() {
                                         <div
                                             className="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                                             <h6 className="m-0 font-weight-bold text-primary">Out Of Service</h6>
-                                            <div className="dropdown no-arrow">
-                                                <a className="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
-                                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                    <i className="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
-                                                </a>
-                                                <div className="dropdown-menu dropdown-menu-right shadow animated--fade-in"
-                                                    aria-labelledby="dropdownMenuLink">
-                                                    <div className="dropdown-header">Dropdown Header:</div>
-                                                    <a className="dropdown-item" href="#">Action</a>
-                                                    <a className="dropdown-item" href="#">Another action</a>
-                                                    <div className="dropdown-divider"></div>
-                                                    <a className="dropdown-item" href="#">Something else here</a>
-                                                </div>
-                                            </div>
                                         </div>
                                         {/*  <!-- Card Body --> */}
                                         <div className="card-body">
                                             <div className="chart-area">
-                                                <canvas id="myAreaChart"></canvas>
+                                            <div className="tripContainer">
+                                                    <h5 className="tripsTil">Out of order vehicles</h5>
+                                                    <div className="vicleTil">
+                                                      <h6>Total Vehicles : <span>36</span></h6>
+                                                        <div className="mantain_container">
+                                                            <div className="manatance_contain">
+                                                            <div className="trip_work d-flex justify-content-sm-between align-items-md-center">
+                                                                <span className="livetiptxt"><i class="fas fa-cog pr-1"></i>Maintenance</span>
+                                                                <div className="d-flex align-items-md-center">
+                                                                    <span className="pr-1 livetipnum">16</span>
+                                                                    <div className="dropdown no-arrow">
+                                                                        <a className="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                            <i className="fas fa-chevron-right fa-sm fa-fw text-gray-400"></i>
+                                                                        </a>
+                                                                        <div className="dropdown-menu dropdown-menu-right shadow animated--fade-in"
+                                                                            aria-labelledby="dropdownMenuLink">
+                                                                            <div className="dropdown-header">Dropdown Header:</div>
+                                                                            <a className="dropdown-item" href="#">Action</a>
+                                                                            <a className="dropdown-item" href="#">Another action</a>
+                                                                            <div className="dropdown-divider"></div>
+                                                                            <a className="dropdown-item" href="#">Something else here</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                </div>
+                                                                <hr className="trip-driver"></hr>
+                                                            </div>
+                                                            <div className="manatance_contain">
+                                                            <div className="trip_work d-flex justify-content-sm-between align-items-md-center">
+                                                                <span className="livetiptxt"><i class="fas fa-unlink pr-1"></i>Broken</span>
+                                                                <div className="d-flex align-items-md-center">
+                                                                    <span className="pr-1 livetipnum">46</span>
+                                                                    <div className="dropdown no-arrow">
+                                                                        <a className="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                            <i className="fas fa-chevron-right fa-sm fa-fw text-gray-400"></i>
+                                                                        </a>
+                                                                        <div className="dropdown-menu dropdown-menu-right shadow animated--fade-in"
+                                                                            aria-labelledby="dropdownMenuLink">
+                                                                            <div className="dropdown-header">Dropdown Header:</div>
+                                                                            <a className="dropdown-item" href="#">Action</a>
+                                                                            <a className="dropdown-item" href="#">Another action</a>
+                                                                            <div className="dropdown-divider"></div>
+                                                                            <a className="dropdown-item" href="#">Something else here</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                </div>
+                                                                <hr className="trip-driver"></hr>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                               </div>
                                             </div>
                                         </div>
                                     </div>
