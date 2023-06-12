@@ -102,3 +102,10 @@
 .tripListcontqin{
     margin-top:20px;
 }
+.myeventlist{
+    gap:15px;
+}
+.myeventlist a{
+    font-size: 17px;
+    font-weight: 800;
+}
