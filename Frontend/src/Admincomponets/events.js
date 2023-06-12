@@ -28,6 +28,8 @@ const Events = () => {
         }
     };
 
+
+
     return ( 
         <>
             {/*  <!-- Content Wrapper --> */}
@@ -54,9 +56,9 @@ const Events = () => {
                         {/* <!------Content work---------->*/}
                          <div className="events_nav_list">
                             {/* --Nav bar list- */}
-                            <nav className="list-group list-group-horizontal myeventlist">
-                                <NavLink className="list-group-item" to="/events/allevents" activeClassName="sidebaractive">ALL EVENTS</NavLink >
-                                <NavLink  className="list-group-item" to="/events/feaevents" >FEATURE EVENTS</NavLink >
+                            <nav className="navbar myeventlist">
+                                <NavLink className="nav-bar-link isactive" to="/events/allevents">ALL EVENTS</NavLink >
+                                <NavLink className="nav-bar-link" to="/events/feaevents">FEATURE EVENTS</NavLink >
                             </nav>
                         </div> 
                           {/* ---Line Divider-- */}

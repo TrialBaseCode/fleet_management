@@ -104,8 +104,10 @@
 }
 .myeventlist{
     gap:15px;
+    justify-content: normal;
 }
-.myeventlist a{
-    font-size: 17px;
-    font-weight: 800;
+
+.myeventlist .isactive{
+    font-weight: bold;
+    text-decoration: none;
 }
