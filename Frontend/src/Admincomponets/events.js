@@ -55,18 +55,16 @@ const Events = () => {
                             <a href="#" className="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
                                 className="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
                         </div>
-                        {/* ---Line Divider-- */}
-                        <hr className="divider"></hr>
+                      
                         {/* <!------Content work---------->*/}
                          <div className="events_nav_list">
-                            <nav class="list-group list-group-horizontal  mytabtlist" >
-                                <Link class="list-group-item  active text-decoration-none"  data-toggle="list"  to="/events/allevents"  >ALL EVENTS</Link>
-                                <Link class="list-group-item text-decoration-none" data-toggle="list"   to="/events/feaevents">FEATURE EVENTS</Link>
+                            <nav class="list-group list-group-horizontal mytabtlist" >
+                                <Link class="list-group-item active text-decoration-none"  data-toggle="list"  to="/events/allevents" ><span>ALL EVENTS</span></Link>
+                                <Link class="list-group-item text-decoration-none" data-toggle="list"   to="/events/feaevents"><span>FEATURE EVENTS</span></Link>
                             </nav>
                       
                         </div> 
-                          {/* ---Line Divider-- */}
-                        <hr className="divider"></hr>
+                 
 
                          <div className="allcontainer">
                             <Outlet />
