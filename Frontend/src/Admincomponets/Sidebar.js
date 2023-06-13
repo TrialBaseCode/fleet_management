@@ -27,8 +27,8 @@ function Sidebar() {
 
     return ( 
           <>
-                <div className='SidebarWork'>
-                    <nav className={style} id="accordionSidebar">
+                <div className={style}>
+                    <nav className="sidebarwork" id="accordionSidebar">
                         <Link className="collapse-item" to="/test">Test</Link>
                         <Link className="collapse-item" to="/apitest">ApiTest</Link>
                         {/*  <!-- Sidebar - Brand --> */}
