@@ -13,7 +13,7 @@ const Allevents = () => {
                             <div className="col-xl-12 col-lg-12">
                                 <div className="event-cart-container">
                                     {/* ---Start events card header--- */}
-                                    <div className="card newEventListcard shadow mb-4">
+                                    <div className="card newEventListcard border-0 shadow mb-4">
                                         {/*  <!-- Card Header - Dropdown --> */}
                                         <div className="card-header py-3 d-flex flex-row align-items-center bg-primary">
                                             <div className="select-all">
