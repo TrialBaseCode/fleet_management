@@ -56,7 +56,7 @@ function Sidebar() {
                             </div>
                             <div id="collapsedash" className="collapse show" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                                 <div className="bg-white py-2 collapse-inner rounded">
-                                    <NavLink className="collapse-item" activeClassName="sidebaractive" to="/">Vehicles Overview</NavLink>
+                                    <NavLink className="collapse-item"  to="/">Vehicles Overview</NavLink>
                                     <NavLink className="collapse-item" to="/realTimeData">Real Time Data</NavLink>
                                     <NavLink className="collapse-item" to="/events">Events</NavLink>
                                 </div>

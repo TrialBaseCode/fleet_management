@@ -44,11 +44,9 @@ function Dashboard() {
                             <Route path='/' element={ <Vicoview />}/>
                             <Route path='/realTimeData' element={ <RealTimedata />}/>
                             <Route path='/events' element={ <Events />}>
-                            Switch
-                               <Route index  element={<Allevents />}  />
+                               <Route index   element={<Allevents />}  />
                                <Route path='/events/allevents' element={<Allevents />} />
-                               <Route path='/events/feaevents' element={<Feaevents />} />
-                                
+                               <Route path='/events/feaevents' element={<Feaevents />} /> 
                             </Route>
                             {/* --ent of Dashboard-- */}
                             <Route path='/apitest' element={ <ApiTest />}/>

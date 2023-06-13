@@ -1,12 +1,16 @@
 import { useState } from "react";
 import Navbar from "./navbar";
 import Footer from './footer';
-import { NavLink , Outlet} from "react-router-dom";
+import { Link , Outlet} from "react-router-dom";
 
 
 const Events = () => {
 
- 
+    const [activeLink, setActiveLink] = useState('');
+    const handleNavLinkClick = (link) => {
+        setActiveLink(link);
+      };
+      
     const [style, setStyle] = useState("navbar-nav bg-gradient-primary sidebar sidebar-dark accordion");
     
     const changeStyle = () => {
@@ -55,11 +59,11 @@ const Events = () => {
                         <hr className="divider"></hr>
                         {/* <!------Content work---------->*/}
                          <div className="events_nav_list">
-                            {/* --Nav bar list- */}
-                            <nav className="navbar myeventlist">
-                                <NavLink className="nav-bar-link isactive" to="/events/allevents">ALL EVENTS</NavLink >
-                                <NavLink className="nav-bar-link" to="/events/feaevents">FEATURE EVENTS</NavLink >
+                            <nav class="list-group list-group-horizontal  mytabtlist" >
+                                <Link class="list-group-item  active text-decoration-none"  data-toggle="list"  to="/events/allevents"  >ALL EVENTS</Link>
+                                <Link class="list-group-item text-decoration-none" data-toggle="list"   to="/events/feaevents">FEATURE EVENTS</Link>
                             </nav>
+                      
                         </div> 
                           {/* ---Line Divider-- */}
                         <hr className="divider"></hr>
