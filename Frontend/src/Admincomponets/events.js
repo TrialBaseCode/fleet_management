@@ -6,11 +6,6 @@ import { Link , Outlet} from "react-router-dom";
 
 const Events = () => {
 
-    const [activeLink, setActiveLink] = useState('');
-    const handleNavLinkClick = (link) => {
-        setActiveLink(link);
-      };
-      
     const [style, setStyle] = useState("navbar-nav bg-gradient-primary sidebar sidebar-dark accordion");
     
     const changeStyle = () => {
