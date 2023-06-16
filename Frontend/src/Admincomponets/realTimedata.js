@@ -329,7 +329,7 @@ function TestUi() {
                                                     <div className="tripListcontqin">
                                                         <div className="trip_contain">
                                                             <div className="trip_work d-flex justify-content-sm-between align-items-md-center">
-                                                            <span className="livetiptxt"><i class="fas fa-wifi pr-1"></i>Live Trips</span>
+                                                            <span className="livetiptxt"><i className="fas fa-wifi pr-1"></i>Live Trips</span>
                                                             <div className="d-flex align-items-md-center">
                                                                 <span className="pr-1 livetipnum">156</span>
                                                                 <div className="dropdown no-arrow">
@@ -352,7 +352,7 @@ function TestUi() {
                                                         </div>
                                                         <div className="trip_contain">
                                                             <div className="trip_work d-flex justify-content-sm-between align-items-md-center">
-                                                            <span className="livetiptxt"><i class="fas fa-wifi pr-1"></i>Scheduled</span>
+                                                            <span className="livetiptxt"><i className="fas fa-wifi pr-1"></i>Scheduled</span>
                                                             <div className="d-flex align-items-md-center">
                                                                 <span className="pr-1 livetipnum">16</span>
                                                                 <div className="dropdown no-arrow">
@@ -375,7 +375,7 @@ function TestUi() {
                                                         </div>
                                                         <div className="trip_contain">
                                                             <div className="trip_work d-flex justify-content-sm-between align-items-md-center">
-                                                            <span className="livetiptxt"><i class="fas fa-wifi pr-1"></i>Completed</span>
+                                                            <span className="livetiptxt"><i className="fas fa-wifi pr-1"></i>Completed</span>
                                                             <div className="d-flex align-items-md-center">
                                                                 <span className="pr-1 livetipnum">36</span>
                                                                 <div className="dropdown no-arrow">
@@ -398,7 +398,7 @@ function TestUi() {
                                                         </div>
                                                         <div className="trip_contain">
                                                             <div className="trip_work d-flex justify-content-sm-between align-items-md-center">
-                                                            <span className="livetiptxt"><i class="fas fa-wifi pr-1"></i>Being Late</span>
+                                                            <span className="livetiptxt"><i className="fas fa-wifi pr-1"></i>Being Late</span>
                                                             <div className="d-flex align-items-md-center">
                                                                 <span className="pr-1 livetipnum">89</span>
                                                                 <div className="dropdown no-arrow">
@@ -421,7 +421,7 @@ function TestUi() {
                                                         </div>
                                                         <div className="trip_contain">
                                                             <div className="trip_work d-flex justify-content-sm-between align-items-md-center">
-                                                            <span className="livetiptxt"><i class="fas fa-wifi pr-1"></i>Failed</span>
+                                                            <span className="livetiptxt"><i className="fas fa-wifi pr-1"></i>Failed</span>
                                                             <div className="d-flex align-items-md-center">
                                                                 <span className="pr-1 livetipnum">20</span>
                                                                 <div className="dropdown no-arrow">
@@ -468,7 +468,7 @@ function TestUi() {
                                                         <div className="mantain_container">
                                                             <div className="manatance_contain">
                                                             <div className="trip_work d-flex justify-content-sm-between align-items-md-center">
-                                                                <span className="livetiptxt"><i class="fas fa-cog pr-1"></i>Maintenance</span>
+                                                                <span className="livetiptxt"><i className="fas fa-cog pr-1"></i>Maintenance</span>
                                                                 <div className="d-flex align-items-md-center">
                                                                     <span className="pr-1 livetipnum">16</span>
                                                                     <div className="dropdown no-arrow">
@@ -491,7 +491,7 @@ function TestUi() {
                                                             </div>
                                                             <div className="manatance_contain">
                                                             <div className="trip_work d-flex justify-content-sm-between align-items-md-center">
-                                                                <span className="livetiptxt"><i class="fas fa-unlink pr-1"></i>Broken</span>
+                                                                <span className="livetiptxt"><i className="fas fa-unlink pr-1"></i>Broken</span>
                                                                 <div className="d-flex align-items-md-center">
                                                                     <span className="pr-1 livetipnum">46</span>
                                                                     <div className="dropdown no-arrow">
@@ -514,7 +514,7 @@ function TestUi() {
                                                             </div>
                                                             <div className="manatance_contain">
                                                             <div className="trip_work d-flex justify-content-sm-between align-items-md-center">
-                                                                <span className="livetiptxt"><i class="fas fa-exclamation-circle pr-1"></i>In Accident</span>
+                                                                <span className="livetiptxt"><i className="fas fa-exclamation-circle pr-1"></i>In Accident</span>
                                                                 <div className="d-flex align-items-md-center">
                                                                     <span className="pr-1 livetipnum">46</span>
                                                                     <div className="dropdown no-arrow">
@@ -563,7 +563,7 @@ function TestUi() {
                                                                         <div className="VSit-contain">
                                                                             <div className="fuel-logo">
                                                                                 <div className="f-icon">
-                                                                                <i class="fas fa-gas-pump"></i>
+                                                                                <i className="fas fa-gas-pump"></i>
                                                                                 </div>
                                                                             </div>
                                                                             <div className="VSit-details">
@@ -583,7 +583,7 @@ function TestUi() {
                                                                         <div className="VSit-contain">
                                                                             <div className="fuel-logo">
                                                                                 <div className="f-icon">
-                                                                                    <i class="fas fa-wind"></i>
+                                                                                    <i className="fas fa-wind"></i>
                                                                                 </div>
                                                                             </div>
                                                                             <div className="VSit-details">
@@ -607,7 +607,7 @@ function TestUi() {
                                                                         <div className="VSit-contain">
                                                                             <div className="fuel-logo">
                                                                                 <div className="f-icon">
-                                                                                    <i class="fas fa-tachometer-alt"></i>
+                                                                                    <i className="fas fa-tachometer-alt"></i>
                                                                                 </div>
                                                                             </div>
                                                                             <div className="VSit-details">
@@ -627,7 +627,7 @@ function TestUi() {
                                                                         <div className="VSit-contain">
                                                                             <div className="fuel-logo">
                                                                                 <div className="f-icon">
-                                                                                <i class="fas fa-thermometer-three-quarters"></i>
+                                                                                <i className="fas fa-thermometer-three-quarters"></i>
                                                                                 </div>
                                                                             </div>
                                                                             <div className="VSit-details">

@@ -92,9 +92,9 @@ const FleetDel = () => {
               <div className="filter-work-box">
                 <div className="filter d-flex justify-content-between">
                   <div className="filter-drop  d-flex">
-                    <div class="dropdown">
+                    <div className="dropdown">
                       <button
-                        class="btn btn-outline-secondary dropdown-toggle"
+                        className="btn btn-outline-secondary dropdown-toggle"
                         type="button"
                         id="dropdownMenuButton"
                         data-toggle="dropdown"
@@ -104,23 +104,23 @@ const FleetDel = () => {
                         <span className="pr-5">All Events</span>
                       </button>
                       <div
-                        class="dropdown-menu"
+                        className="dropdown-menu"
                         aria-labelledby="dropdownMenuButton"
                       >
-                        <a class="dropdown-item" href="#">
+                        <a className="dropdown-item" href="#">
                           Action
                         </a>
-                        <a class="dropdown-item" href="#">
+                        <a className="dropdown-item" href="#">
                           Another action
                         </a>
-                        <a class="dropdown-item" href="#">
+                        <a className="dropdown-item" href="#">
                           Something else here
                         </a>
                       </div>
                     </div>
-                    <div class="dropdown">
+                    <div className="dropdown">
                       <button
-                        class="btn btn-outline-secondary dropdown-toggle"
+                        className="btn btn-outline-secondary dropdown-toggle"
                         type="button"
                         id="dropdownMenuButton"
                         data-toggle="dropdown"
@@ -130,22 +130,22 @@ const FleetDel = () => {
                         <span className="pr-5">All Vehicles</span>
                       </button>
                       <div
-                        class="dropdown-menu"
+                        className="dropdown-menu"
                         aria-labelledby="dropdownMenuButton"
                       >
-                        <a class="dropdown-item" href="#">
+                        <a className="dropdown-item" href="#">
                           Action
                         </a>
-                        <a class="dropdown-item" href="#">
+                        <a className="dropdown-item" href="#">
                           Another action
                         </a>
-                        <a class="dropdown-item" href="#">
+                        <a className="dropdown-item" href="#">
                           Something else here
                         </a>
                       </div>
                     </div>
                   </div>
-                  <button type="button" class="btn btn-outline-danger">
+                  <button type="button" className="btn btn-outline-danger">
                     Clear
                   </button>
                 </div>

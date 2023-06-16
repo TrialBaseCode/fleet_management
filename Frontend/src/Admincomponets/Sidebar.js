@@ -54,7 +54,7 @@ function Sidebar() {
                                 <i className="fas fa-fw fa-tachometer-alt"></i>
                                 <span>Dashboard</span>
                             </div>
-                            <div id="collapsedash" className="collapse show" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                            <div id="collapsedash" className="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                                 <div className="bg-white py-2 collapse-inner rounded">
                                     <NavLink className="collapse-item"  to="/">Vehicles Overview</NavLink>
                                     <NavLink className="collapse-item" to="/realTimeData">Real Time Data</NavLink>
