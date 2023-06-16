@@ -76,9 +76,9 @@ function Sidebar() {
                             </div>
                             <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                                 <div className="bg-white py-2 collapse-inner rounded">
-                                    <NavLink className="collapse-item" to="buttons.html">Fleet</NavLink>
-                                    <NavLink className="collapse-item" to="cards.html">Vehicles Assignment</NavLink>
-                                    <NavLink className="collapse-item" to="car.html">Vehicle Details</NavLink>
+                                    <NavLink className="collapse-item" to="/vifleet">Fleet</NavLink>
+                                    <NavLink className="collapse-item" to="/vehiclesassign">Vehicles Assignment</NavLink>
+                                    <NavLink className="collapse-item" to="/Vehiclesdetails">Vehicle Details</NavLink>
                                 </div>
                             </div>
                         </li>

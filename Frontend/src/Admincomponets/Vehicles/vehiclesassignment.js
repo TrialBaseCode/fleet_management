@@ -1,0 +1,160 @@
+import Navbar from "../navbar";
+import Footer from "../footer";
+import { useState } from "react";
+import { Link , Outlet} from "react-router-dom";
+
+const Vehiclesassign = () => {
+  const [style, setStyle] = useState(
+    "navbar-nav bg-gradient-primary sidebar sidebar-dark accordion"
+  );
+
+  const changeStyle = () => {
+    if (
+      style === "navbar-nav bg-gradient-primary sidebar sidebar-dark accordion"
+    ) {
+      setStyle(
+        "navbar-nav bg-gradient-primary sidebar sidebar-dark accordion toggled"
+      );
+    } else {
+      setStyle("navbar-nav bg-gradient-primary sidebar sidebar-dark accordion");
+    }
+  };
+  const changeStyle1 = () => {
+    if (
+      style === "navbar-nav bg-gradient-primary sidebar sidebar-dark accordion"
+    ) {
+      setStyle(
+        "navbar-nav bg-gradient-primary sidebar sidebar-dark accordion toggled1"
+      );
+    } else {
+      setStyle("navbar-nav bg-gradient-primary sidebar sidebar-dark accordion");
+    }
+  };
+
+  return (
+    <>
+      {/*  <!-- Content Wrapper --> */}
+      <div
+        id="content-wrapper"
+        className="d-flex flex-column content-wrapper-set"
+      >
+        {/*  <!-- Main Content --> */}
+        <div id="content">
+          {/*  <!-- Admin Navbar components --> */}
+          <Navbar navStyle={changeStyle1} navStyleTwo={changeStyle} />
+          {/*  <!-- End of Admin Navbar components --> */}
+
+          {/* <!-- Begin Page Content --> */}
+          <div className="container-fluid">
+            {/*  <!-- Page Heading --> */}
+            <div className="d-sm-flex align-items-center justify-content-between ">
+              <h1 className="h3 mb-0 text-gray-800">Vehicles Details</h1>
+              <a
+                href="#"
+                className="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"
+              >
+                <i className="fas fa-download fa-sm text-white-50"></i> Generate
+                Report
+              </a>
+            </div>
+
+            {/* <!------Content work---------->*/}
+            <div className="events_nav_list">
+              <nav className="list-group list-group-horizontal mytabtlist">
+                <Link
+                  className="list-group-item active text-decoration-none"
+                  data-toggle="list"
+                  to="/vehiclesassign/assign"
+                >
+                  <span>Assign</span>
+                </Link>
+                <Link
+                  className="list-group-item text-decoration-none"
+                  data-toggle="list"
+                  to="/vehiclesassign/noassign"
+                >
+                  <span>Not Assign</span>
+                </Link>
+              </nav>
+            </div>
+            <div className="alleventcontainer pl-3 pr-3">
+              <div className="filter-work-box">
+                <div className="filter d-flex justify-content-between">
+                  <div className="filter-drop  d-flex">
+                    <div class="dropdown">
+                      <button
+                        class="btn btn-outline-secondary dropdown-toggle"
+                        type="button"
+                        id="dropdownMenuButton"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        <span className="pr-5">All Events</span>
+                      </button>
+                      <div
+                        class="dropdown-menu"
+                        aria-labelledby="dropdownMenuButton"
+                      >
+                        <a class="dropdown-item" href="#">
+                          Action
+                        </a>
+                        <a class="dropdown-item" href="#">
+                          Another action
+                        </a>
+                        <a class="dropdown-item" href="#">
+                          Something else here
+                        </a>
+                      </div>
+                    </div>
+                    <div class="dropdown">
+                      <button
+                        class="btn btn-outline-secondary dropdown-toggle"
+                        type="button"
+                        id="dropdownMenuButton"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        <span className="pr-5">All Vehicles</span>
+                      </button>
+                      <div
+                        class="dropdown-menu"
+                        aria-labelledby="dropdownMenuButton"
+                      >
+                        <a class="dropdown-item" href="#">
+                          Action
+                        </a>
+                        <a class="dropdown-item" href="#">
+                          Another action
+                        </a>
+                        <a class="dropdown-item" href="#">
+                          Something else here
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <button type="button" class="btn btn-outline-danger">
+                    Clear
+                  </button>
+                </div>
+              </div>
+              <div className="listContainbox">
+                <Outlet />
+              </div>
+            </div>
+          </div>
+          {/*   <!-- /.container-fluid --> */}
+        </div>
+        {/*   <!-- End of Main Content -->
+
+<!-- Footer --> */}
+        <Footer />
+        {/* <!-- End of Footer --> */}
+      </div>
+      {/*  <!-- End of Content Wrapper --> */}
+    </>
+  );
+};
+
+export default Vehiclesassign;
