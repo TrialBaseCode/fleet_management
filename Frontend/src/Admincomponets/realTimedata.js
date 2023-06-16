@@ -185,8 +185,8 @@ function TestUi() {
                                         <div className="chart-area">
                                             <div className="chatContainer">
                                                 <div className="chatPieContain d-flex justify-content-center align-items-center">
-                                                    <PieChart width={200} height={200}>
-                                                        <Pie data={data} cx="50%" cy="50%" outerRadius={80}>
+                                                    <PieChart width={200} height={200} >
+                                                        <Pie data={data} dataKey="value"  cx="50%" cy="50%" outerRadius={80}>
                                                             {
                                                             data.map((entry, index) => (
                                                                 <Cell key={`cell-${index}`} fill={entry.colors}/>
