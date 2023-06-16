@@ -7,9 +7,9 @@ import RealTimedata from './Admincomponets/realTimedata';
 import Events from './Admincomponets/events';
 import Allevents from './Admincomponets/events/Allevents';
 import Feaevents from './Admincomponets/events/Feaevents';
-import AllVehicle from './Admincomponets/voverview/Allvyc';
-import Driving from './Admincomponets/voverview/driving';
-import Parked from './Admincomponets/voverview/parked';
+import AllVehicle from './Admincomponets/vicoview/Allvyc';
+import Driving from './Admincomponets/vicoview/driving';
+import Parked from './Admincomponets/vicoview/parked';
 // --- End Contents
 
 // Test case Start 
@@ -47,9 +47,9 @@ function Dashboard() {
                             {/* --start of Dashboard-- */}
                             <Route path='/' element={ <Vicoview />}>
                                <Route index   element={<AllVehicle />}  />
-                               <Route path='/voverview/AllVehicle' element={<AllVehicle />} />
-                               <Route path='/voverview/Driving' element={<Driving />} /> 
-                               <Route path='/voverview/Parked' element={<Parked />} /> 
+                               <Route path='/vicoverview/AllVehicle' element={<AllVehicle />} />
+                               <Route path='/vicoverview/Driving' element={<Driving />} /> 
+                               <Route path='/vicoverview/Parked' element={<Parked />} /> 
                             </Route>
                             <Route path='/realTimeData' element={ <RealTimedata />}/>
                             <Route path='/events' element={ <Events />}>

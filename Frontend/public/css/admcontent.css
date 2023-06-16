@@ -96,12 +96,18 @@
 .tripsTil{
     margin-bottom: 10px;
     font-weight: 700;
-    color: #6ed1eb;
+    color: #414d6a;
+    font-size: 18px;
 }
 .tripListcontqin{
     margin-top:20px;
 }
-
+.vicleTil{
+    margin-top:20px;
+}
+.vicleTil .vicleTotal{
+    margin-bottom: 16px;
+}
 
 /* ---Events list--- */
 .mytabtlist {
@@ -201,4 +207,41 @@ margin-bottom: 10px;
   }
 .newEventListcard .card-header{
     padding-right: 30px;
+}
+
+/* --realtimework----- */
+.VSit-contain{
+    display: flex;
+    align-items: center;
+}
+.VSit-contain .fuel-logo i{
+    font-size: 42px;
+    color:#4e73df ;
+}
+.VSit-contain .fuel-logo .f-icon{
+    background-color: #4e73df5c;
+    width: 63px;
+    height: 63px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.VSit-container {
+    padding: 16px;
+}
+.VSit-details{
+    padding-left: 16px;
+}
+.VSit-details h4{
+    font-weight: 800;
+    margin: 0;
+    color: #4e73df;
+}
+.VSit-header p {
+    font-size: 18px;
+    padding: 15px 0;
+    color: #414d6a;
+    margin: 0;
+    font-weight: 500;
 }

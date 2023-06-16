@@ -96,9 +96,9 @@ function Vicoview() {
                   <div className="card-body mybodyscrollbarcontian ">
                     <div className="filter mb-2">
                       <nav className="list-group list-group-horizontal-md justify-content-center">
-                        <Link className="list-group-item text-decoration-none active"  to='/voverview/AllVehicle'  data-toggle="list" ><span>ALL</span></Link>
-                        <Link className="list-group-item text-decoration-none" to='/voverview/Driving' data-toggle="list"><span>DRIVING</span></Link>
-                        <Link className="list-group-item text-decoration-none"  to='/voverview/Parked' data-toggle="list"><span>PARKED</span></Link>
+                        <Link className="list-group-item text-decoration-none active"  to='/vicoverview/AllVehicle'  data-toggle="list" ><span>ALL</span></Link>
+                        <Link className="list-group-item text-decoration-none" to='/vicoverview/Driving' data-toggle="list"><span>DRIVING</span></Link>
+                        <Link className="list-group-item text-decoration-none"  to='/vicoverview/Parked' data-toggle="list"><span>PARKED</span></Link>
                       </nav>
                     </div>
                     <div className="chart-pie chart-work-do pt-1 pb-2 overflow-auto ">

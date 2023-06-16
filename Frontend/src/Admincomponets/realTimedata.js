@@ -462,7 +462,9 @@ function TestUi() {
                                             <div className="tripContainer">
                                                     <h5 className="tripsTil">Out of order vehicles</h5>
                                                     <div className="vicleTil">
-                                                      <h6>Total Vehicles : <span>36</span></h6>
+                                                        <div className="vicleTotal">
+                                                          <h6>Total Vehicles : <span>36</span></h6>
+                                                        </div>
                                                         <div className="mantain_container">
                                                             <div className="manatance_contain">
                                                             <div className="trip_work d-flex justify-content-sm-between align-items-md-center">
@@ -552,7 +554,96 @@ function TestUi() {
                                         {/*  <!-- Card Body --> */}
                                         <div className="card-body">
                                             <div className="chart-area">
-                                                <canvas id="myAreaChart"></canvas>
+                                                <div className="row">
+                                                    <div className="col-md-12">
+                                                        <div className="row">
+                                                            <div className="col-sm-6">
+                                                                <div className="card">
+                                                                    <div className="VSit-container">
+                                                                        <div className="VSit-contain">
+                                                                            <div className="fuel-logo">
+                                                                                <div className="f-icon">
+                                                                                <i class="fas fa-gas-pump"></i>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div className="VSit-details">
+                                                                                <h4>6</h4>
+                                                                                <h6>Vehicles</h6>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div className="VSit-header">
+                                                                            <p>Fuel Consumption</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div className="col-sm-6">
+                                                                <div className="card">
+                                                                    <div className="VSit-container">
+                                                                        <div className="VSit-contain">
+                                                                            <div className="fuel-logo">
+                                                                                <div className="f-icon">
+                                                                                    <i class="fas fa-wind"></i>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div className="VSit-details">
+                                                                                <h4>12</h4>
+                                                                                <h6>Vehicles</h6>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div className="VSit-header">
+                                                                            <p>CO2 Emission</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div className="col-md-12 mt-3">
+                                                       <div className="row">
+                                                            <div className="col-sm-6">
+                                                               <div className="card">
+                                                                    <div className="VSit-container">
+                                                                        <div className="VSit-contain">
+                                                                            <div className="fuel-logo">
+                                                                                <div className="f-icon">
+                                                                                    <i class="fas fa-tachometer-alt"></i>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div className="VSit-details">
+                                                                                <h4>8</h4>
+                                                                                <h6>Speed</h6>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div className="VSit-header">
+                                                                            <p>Speed</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div className="col-sm-6">
+                                                                <div className="card">
+                                                                    <div className="VSit-container">
+                                                                        <div className="VSit-contain">
+                                                                            <div className="fuel-logo">
+                                                                                <div className="f-icon">
+                                                                                <i class="fas fa-thermometer-three-quarters"></i>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div className="VSit-details">
+                                                                                <h4>25</h4>
+                                                                                <h6>Vehicles</h6>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div className="VSit-header">
+                                                                            <p>Oil Temperature</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
