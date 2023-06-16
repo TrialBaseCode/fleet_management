@@ -7,6 +7,9 @@ import RealTimedata from './Admincomponets/realTimedata';
 import Events from './Admincomponets/events';
 import Allevents from './Admincomponets/events/Allevents';
 import Feaevents from './Admincomponets/events/Feaevents';
+import AllVehicle from './Admincomponets/voverview/Allvyc';
+import Driving from './Admincomponets/voverview/driving';
+import Parked from './Admincomponets/voverview/parked';
 // --- End Contents
 
 // Test case Start 
@@ -20,6 +23,7 @@ import { BrowserRouter , Route , Routes} from 'react-router-dom';
 
 // Not found
 import NotFound from './Admincomponets/NotFound';
+
 
 
 
@@ -41,7 +45,12 @@ function Dashboard() {
                         {/*  <!-- End of Sidebar --> */}
                         <Routes>
                             {/* --start of Dashboard-- */}
-                            <Route path='/' element={ <Vicoview />}/>
+                            <Route path='/' element={ <Vicoview />}>
+                               <Route index   element={<AllVehicle />}  />
+                               <Route path='/voverview/AllVehicle' element={<AllVehicle />} />
+                               <Route path='/voverview/Driving' element={<Driving />} /> 
+                               <Route path='/voverview/Parked' element={<Parked />} /> 
+                            </Route>
                             <Route path='/realTimeData' element={ <RealTimedata />}/>
                             <Route path='/events' element={ <Events />}>
                                <Route index   element={<Allevents />}  />
