@@ -74,3 +74,6 @@
 .my-lefttextxs , .my-lefttextval{
     padding-left: 6px;
 }
+.sidebarwork a{
+  text-decoration: none;
+}

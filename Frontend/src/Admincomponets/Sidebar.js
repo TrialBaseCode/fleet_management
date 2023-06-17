@@ -29,10 +29,10 @@ function Sidebar() {
           <>
                 <div className={style}>
                     <nav className="sidebarwork" id="accordionSidebar">
-                        <Link className="collapse-item" to="/test">Test</Link>
-                        <Link className="collapse-item" to="/apitest">ApiTest</Link>
+                        <Link className="nav-item" to="/test">Test</Link >
+                        <Link  className="nav-item" to="/apitest">ApiTest</Link >
                         {/*  <!-- Sidebar - Brand --> */}
-                        <NavLink className="sidebar-brand d-flex align-items-center justify-content-center" to="/">
+                        <Link  className=" nav-item sidebar-brand d-flex align-items-center justify-content-center" to="/">
                             <div className="sidebar-brand-icon rotate-n-15">
                             <i className="fas fa-truck"></i>
                             </div>
@@ -40,35 +40,36 @@ function Sidebar() {
                             <div className="text-center d-none d-md-inline">
                             <button className="rounded-circle border-0" id="sidebarToggle" onClick={changeStyle || changeStyle1}></button>
                         </div>
-                        </NavLink>
+                        </Link>
                         
                         {/* <!---Test Case ---> */}
                 
-                        {/*   <!-- Divider --> */}
-                        <hr className="sidebar-divider my-0" />
+                       
+                        {/*  <!-- Divider --> */}
+                        <hr className="sidebar-divider" />
                         
                         {/*  <!-- Nav Item - Dashboard --> */}
-                        <li className="nav-item ">
+                        <Link className="nav-item active">
                             <div className="nav-link"  data-toggle="collapse" data-target="#collapsedash"
                                 aria-expanded="true" aria-controls="collapsedash">
                                 <i className="fas fa-fw fa-tachometer-alt"></i>
                                 <span>Dashboard</span>
                             </div>
-                            <div id="collapsedash" className="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                            <div id="collapsedash" className="collapse show" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                                 <div className="bg-white py-2 collapse-inner rounded">
                                     <NavLink className="collapse-item"  to="/">Vehicles Overview</NavLink>
                                     <NavLink className="collapse-item" to="/realTimeData">Real Time Data</NavLink>
                                     <NavLink className="collapse-item" to="/events">Events</NavLink>
                                 </div>
                             </div>
-                        </li>
+                        </Link>
 
                         {/*  <!-- Divider --> */}
                         <hr className="sidebar-divider" />
 
 
                         {/*  <!-- Nav Item - Pages Collapse Menu --> */}
-                        <li className="nav-item">
+                        <Link className="nav-item">
                             <div className="nav-link collapsed "  data-toggle="collapse" data-target="#collapseTwo"
                                 aria-expanded="true" aria-controls="collapseTwo">
                                 <i className="fas fa-car"></i>
@@ -81,12 +82,12 @@ function Sidebar() {
                                     <NavLink className="collapse-item" to="/Vehiclesdetails">Vehicle Details</NavLink>
                                 </div>
                             </div>
-                        </li>
+                        </Link>
 
 
 
                         {/* <!-- Nav Item - Utilities Collapse Menu --> */}
-                        <li className="nav-item">
+                        <Link className="nav-item">
                             <div className="nav-link collapsed"  data-toggle="collapse" data-target="#collapseUtilities"
                                 aria-expanded="true" aria-controls="collapseUtilities">
                             <i className="fas fa-suitcase-rolling"></i>
@@ -100,13 +101,13 @@ function Sidebar() {
                                     <NavLink className="collapse-item" to="utis-animation.html">Schednave Trip</NavLink>
                                 </div>
                             </div>
-                        </li>
+                        </Link>
 
                         {/*  <!-- Divider --> */}
                         <hr className="sidebar-divider" />
 
-                            {/* <!-- Nav Item - Utilities Collapse Menu --> */}
-                            <li className="nav-item">
+                        {/* <!-- Nav Item - Utilities Collapse Menu --> */}
+                        <Link className="nav-item">
                             <div className="nav-link collapsed"  data-toggle="collapse" data-target="#collapseMainten"
                                 aria-expanded="true" aria-controls="collapseMainten">
                             <i className="fas fa-tools"></i>
@@ -118,24 +119,24 @@ function Sidebar() {
                                     <NavLink className="collapse-item" to="utilities-color.html">Maintenance Planner</NavLink>
                                 </div>
                             </div>
-                        </li>
+                        </Link>
 
 
                         {/* <!-- Nav Item - history --> */}
-                        <li className="nav-item">
+                        <Link className="nav-item">
                             <NavLink className="nav-link" to="charts.html">
                                 <i className="fas fa-history"></i>
                                 <span>Hisory</span></NavLink>
-                        </li>
+                        </Link>
                         {/*  <!-- Divider --> */}
                         <hr className="sidebar-divider" />
 
                         {/* <!-- Nav Item - history --> */}
-                        <li className="nav-item">
+                        <Link className="nav-item">
                             <a className="nav-link" href="charts.html">
                                 <i className="fas fa-fw fa-chart-area"></i>
                                 <span>Analytics</span></a>
-                        </li>
+                        </Link>
 
                                     
                         {/*  <!-- Divider --> */}
@@ -143,7 +144,7 @@ function Sidebar() {
 
 
                         {/*  <!-- Nav Item - Pages Collapse Menu --> */}
-                        <li className="nav-item">
+                        <Link className="nav-item">
                             <a className="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
                                 aria-expanded="true" aria-controls="collapsePages">
                                 <i className="fas fa-fw fa-folder"></i>
@@ -161,21 +162,21 @@ function Sidebar() {
                                     <a className="collapse-item" href="blank.html">Blank Page</a>
                                 </div>
                             </div>
-                        </li>
+                        </Link>
 
                         {/* <!-- Nav Item - Charts --> */}
-                        <li className="nav-item">
+                        <Link className="nav-item">
                             <a className="nav-link" href="charts.html">
                                 <i className="fas fa-fw fa-chart-area"></i>
                                 <span>Charts</span></a>
-                        </li>
+                        </Link>
 
                         {/*  <!-- Nav Item - Tables --> */}
-                        <li className="nav-item">
+                        <Link className="nav-item">
                             <a className="nav-link" href="tables.html">
                                 <i className="fas fa-fw fa-table"></i>
                                 <span>Tables</span></a>
-                        </li>
+                        </Link>
 
                         {/* <!-- Divider --> */}
                         <hr className="sidebar-divider d-none d-md-block" />
