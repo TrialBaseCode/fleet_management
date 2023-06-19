@@ -77,3 +77,6 @@
 .sidebarwork a{
   text-decoration: none;
 }
+.fleetAdminDetail li{
+  list-style-type: none;
+}
