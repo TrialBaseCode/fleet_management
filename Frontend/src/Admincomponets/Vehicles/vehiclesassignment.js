@@ -66,14 +66,14 @@ const Vehiclesassign = () => {
                   data-toggle="list"
                   to="/vehiclesassign/assign"
                 >
-                  <span>Assign</span>
+                  <span>ASSIGN</span>
                 </Link>
                 <Link
                   className="list-group-item text-decoration-none"
                   data-toggle="list"
                   to="/vehiclesassign/noassign"
                 >
-                  <span>Not Assign</span>
+                  <span>NOT ASSIGN</span>
                 </Link>
               </nav>
             </div>
@@ -135,7 +135,7 @@ const Vehiclesassign = () => {
                     </div>
                   </div>
                   <button type="button" className="btn btn-outline-danger">
-                    Clear
+                    REMOVE ASSIGNMENT
                   </button>
                 </div>
               </div>

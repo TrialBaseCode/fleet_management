@@ -1,9 +1,11 @@
 import { useState } from 'react';
 import '../Dashboard.css';
-import { Link, NavLink } from 'react-router-dom';
+import { Link, NavLink} from 'react-router-dom';
 
 
 function Sidebar() {
+
+
     const [style, setStyle] = useState("navbar-nav bg-gradient-primary sidebar sidebar-dark accordion");
 
     const changeStyle = () => {
@@ -49,7 +51,7 @@ function Sidebar() {
                         <ul className='fleetAdminDetail p-0' id='fleetAdminal'>
                         
                                 {/*  <!-- Nav Item - Dashboard --> */}
-                                <li className="nav-item active">
+                                <li className="nav-item active" >
                                     <a className="nav-link"  data-toggle="collapse" data-target="#collapsedash"
                                         aria-expanded="true" aria-controls="collapsedash">
                                         <i className="fas fa-fw fa-tachometer-alt"></i>

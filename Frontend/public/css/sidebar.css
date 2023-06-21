@@ -80,3 +80,23 @@
 .fleetAdminDetail li{
   list-style-type: none;
 }
+
+
+/*---------------- Inner content work--------------- */
+
+.drop-container{
+  width: 0 !important;
+  min-height: 0;
+}
+.drop-container .nav-item .nav-link[data-toggle=collapse]::after{
+  float:none;
+}
+.drop-container  .nav-item .nav-link{
+  width: fit-content;
+  margin-top: 12px;
+}
+
+.drive-container{
+  max-width: 59%;
+  margin: 0 0 0 auto;
+}
