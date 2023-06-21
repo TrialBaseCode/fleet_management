@@ -23,6 +23,8 @@ import Vehiclesassign from './Admincomponets/Vehicles/vehiclesassignment';
 import Vehiclesdetails from './Admincomponets/Vehicles/vehicledetails';
 import Assign from './Admincomponets/Vehicles/vehiclesassign/assign';
 import Noassign from './Admincomponets/Vehicles/vehiclesassign/noassign';
+import VechileInfo from './Admincomponets/Vehicles/vechicledetails/vechileinfo';
+import VechileList from './Admincomponets/Vehicles/vechicledetails/vechilelist';
 
 //--end vichcles details
 
@@ -39,6 +41,9 @@ import { BrowserRouter , Route , Routes} from 'react-router-dom';
 
 // Not found
 import NotFound from './Admincomponets/NotFound';
+
+
+
 
 
 
@@ -85,11 +90,15 @@ function Dashboard() {
                                <Route path='/vifleet/outservice' element={<OutofService />} />
                             </Route>
                             <Route path='/vehiclesassign' element={<Vehiclesassign />} >
-                            <Route index   element={<Assign />}  />
+                               <Route index   element={<Assign />}  />
                                <Route path='/vehiclesassign/assign' element={<Assign />} />
                                <Route path='/vehiclesassign/noassign' element={<Noassign />} />
                             </Route>
-                            <Route path='/Vehiclesdetails' element={<Vehiclesdetails />} />
+                            <Route path='/Vehiclesdetails' element={<Vehiclesdetails />}  >
+                               <Route index   element={< VechileList/>}  />
+                               <Route path='/Vehiclesdetails/VechileList' element={< VechileList/>} />
+                               <Route path='/Vehiclesdetails/VechileInfo' element={< VechileInfo />} />
+                            </Route>
                             
                             {/* --end of fleet vehicles details-- */}
                             <Route path='/apitest' element={ <ApiTest />}/>

@@ -1,6 +1,7 @@
 import Navbar from "../navbar";
 import Footer from "../footer";
 import { useState } from "react";
+import { Outlet } from "react-router-dom";
 
 const Vehiclesdetails = () => {
   const [style, setStyle] = useState(
@@ -42,8 +43,14 @@ const Vehiclesdetails = () => {
           {/*  <!-- Admin Navbar components --> */}
           <Navbar navStyle={changeStyle1} navStyleTwo={changeStyle} />
           {/*  <!-- End of Admin Navbar components --> */}
+
+           {/* <!-- vechile list start  --> */}
+            <Outlet />
+          
+           {/* <!-- vechile list end  --> */}
+
         </div>
-        
+         
 
         {/*<!-- Footer --> */}
         <Footer />
