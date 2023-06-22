@@ -37,7 +37,7 @@ const vechileList = () => {
                                             {/*  <!-- Card Header - Dropdown --> */}
                                             <div className="card-header card-responsive py-3  flex-row align-items-center bg-primary">
                                                 <div className="select-all">
-                                                    <div className="form-check">
+                                                    <div className="form-check pb-1">
                                                         <input className="form-check-input" type="checkbox" value=""/>
                                                     </div>
                                                 </div>
@@ -62,7 +62,7 @@ const vechileList = () => {
                                                     <h6 className="m-0  text-primary listbdy">Maintenance passed</h6>
                                                     <h6 className="m-0  text-primary listbdy">5/13/2023 2:54PM</h6>
                                                     <div className="m-0  text-primary listbdy">
-                                                    <button className="d-block float-right btn btn-sm btn-primary shadow-sm"><Link className="text-decoration-none text-white" to="/Vehiclesdetails/VechileInfo">See Info</Link></button>
+                                                    <Link className="text-decoration-none text-white" to="/Vehiclesdetails/VechileInfo"><button className="d-block float-right btn btn-sm btn-primary shadow-sm">See Info</button></Link>
                                                     </div>
                                                 </div>
                                             </div>

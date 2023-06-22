@@ -45,7 +45,7 @@ const FleetDel = () => {
           <div className="container-fluid">
             {/*  <!-- Page Heading --> */}
             <div className="d-sm-flex align-items-center justify-content-between ">
-              <h1 className="h3 mb-0 text-gray-800">Vehicles Details</h1>
+              <h1 className="h3 mb-0 text-basic">Vehicles Details</h1>
               <a
                 href="#"
                 className="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"
@@ -159,7 +159,7 @@ const FleetDel = () => {
         </div>
         {/*   <!-- End of Main Content -->
 
-<!-- Footer --> */}
+         <!-- Footer --> */}
         <Footer />
         {/* <!-- End of Footer --> */}
       </div>

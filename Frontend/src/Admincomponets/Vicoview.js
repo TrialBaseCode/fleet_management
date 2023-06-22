@@ -49,7 +49,7 @@ function Vicoview() {
           <div className="container-fluid">
             {/*  <!-- Page Heading --> */}
             <div className="d-sm-flex align-items-center justify-content-between mb-4">
-              <h1 className="h3 mb-0 text-gray-800">Dashboard</h1>
+              <h1 className="h3 mb-0 text-basic font-weight-700">Dashboard</h1>
             </div>
 
             {/*  <!-- Content Row --> */}
@@ -125,7 +125,7 @@ function Vicoview() {
                                   <div className=" my-lefttextxs text-xs font-weight-bold text-danger text-uppercase mb-1">
                                     Vehicles errors
                                   </div>
-                                  <div className="my-lefttextval h5 mb-0 font-weight-bold text-gray-800">
+                                  <div className="my-lefttextval h5 mb-0 font-weight-bold text-basic">
                                     2
                                   </div>
                                 </div>
@@ -148,7 +148,7 @@ function Vicoview() {
                                   </div>
                                   <div className="row align-items-center">
                                     <div className="col-auto">
-                                      <div className="my-lefttextval h5 mb-0 mr-3 font-weight-bold text-gray-800">
+                                      <div className="my-lefttextval h5 mb-0 mr-3 font-weight-bold text-basic">
                                         20
                                       </div>
                                     </div>
@@ -173,7 +173,7 @@ function Vicoview() {
                                   </div>
                                   <div className="row align-items-center">
                                     <div className="col-auto">
-                                      <div className="my-lefttextval h5 mb-0 mr-3 font-weight-bold text-gray-800">
+                                      <div className="my-lefttextval h5 mb-0 mr-3 font-weight-bold text-basic">
                                         20
                                       </div>
                                     </div>
@@ -196,7 +196,7 @@ function Vicoview() {
                                   <div className="my-lefttextxs text-xs font-weight-bold text-warning text-uppercase mb-1">
                                     Being late
                                   </div>
-                                  <div className="my-lefttextval h5 mb-0 font-weight-bold text-gray-800">
+                                  <div className="my-lefttextval h5 mb-0 font-weight-bold text-basic">
                                     18
                                   </div>
                                 </div>

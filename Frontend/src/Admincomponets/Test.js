@@ -43,7 +43,7 @@ function TestUi() {
 
                             {/*  <!-- Page Heading --> */}
                             <div className="d-sm-flex align-items-center justify-content-between mb-4">
-                                <h1 className="h3 mb-0 text-gray-800">Test UI</h1>
+                                <h1 className="h3 mb-0 text-basic">Test UI</h1>
                                 <a href="#" className="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
                                     className="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
                             </div>
@@ -59,7 +59,7 @@ function TestUi() {
                                                 <div className="col mr-2">
                                                     <div className="text-xs font-weight-bold text-primary text-uppercase mb-1">
                                                         Earnings (Monthly)</div>
-                                                    <div className="h5 mb-0 font-weight-bold text-gray-800">$40,000</div>
+                                                    <div className="h5 mb-0 font-weight-bold text-basic">$40,000</div>
                                                 </div>
                                                 <div className="col-auto">
                                                     <i className="fas fa-calendar fa-2x text-gray-300"></i>
@@ -77,7 +77,7 @@ function TestUi() {
                                                 <div className="col mr-2">
                                                     <div className="text-xs font-weight-bold text-success text-uppercase mb-1">
                                                         Earnings (Annual)</div>
-                                                    <div className="h5 mb-0 font-weight-bold text-gray-800">$215,000</div>
+                                                    <div className="h5 mb-0 font-weight-bold text-basic">$215,000</div>
                                                 </div>
                                                 <div className="col-auto">
                                                     <i className="fas fa-dollar-sign fa-2x text-gray-300"></i>
@@ -97,7 +97,7 @@ function TestUi() {
                                                     </div>
                                                     <div className="row no-gutters align-items-center">
                                                         <div className="col-auto">
-                                                            <div className="h5 mb-0 mr-3 font-weight-bold text-gray-800">50%</div>
+                                                            <div className="h5 mb-0 mr-3 font-weight-bold text-basic">50%</div>
                                                         </div>
                                                         <div className="col">
                                                             <div className="progress progress-sm mr-2">
@@ -123,7 +123,7 @@ function TestUi() {
                                                 <div className="col mr-2">
                                                     <div className="text-xs font-weight-bold text-warning text-uppercase mb-1">
                                                         Pending Requests</div>
-                                                    <div className="h5 mb-0 font-weight-bold text-gray-800">18</div>
+                                                    <div className="h5 mb-0 font-weight-bold text-basic">18</div>
                                                 </div>
                                                 <div className="col-auto">
                                                     <i className="fas fa-comments fa-2x text-gray-300"></i>

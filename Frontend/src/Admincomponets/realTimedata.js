@@ -58,7 +58,7 @@ function TestUi() {
 
                         {/*  <!-- Page Heading --> */}
                         <div className="d-sm-flex align-items-center justify-content-between mb-4">
-                            <h1 className="h3 mb-0 text-gray-800">Real Time Data</h1>
+                            <h1 className="h3 mb-0 text-basic">Real Time Data</h1>
                             <a href="#" className="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
                                 className="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
                         </div>
@@ -74,7 +74,7 @@ function TestUi() {
                                         <div className=" my-lefttextxs text-xs font-weight-bold text-danger text-uppercase mb-1">
                                             Vehicles errors
                                         </div>
-                                        <div className="my-lefttextval h5 mb-0 font-weight-bold text-gray-800">
+                                        <div className="my-lefttextval h5 mb-0 font-weight-bold text-basic">
                                             2
                                         </div>
                                         </div>
@@ -95,7 +95,7 @@ function TestUi() {
                                     <div className="my-lefttextxs text-xs font-weight-bold text-warning text-uppercase mb-1">
                                         Vehicles warnings
                                     </div>
-                                    <div className="my-lefttextval h5 mb-0 font-weight-bold text-gray-800">
+                                    <div className="my-lefttextval h5 mb-0 font-weight-bold text-basic">
                                         10
                                     </div>
                                     </div>
@@ -118,7 +118,7 @@ function TestUi() {
                                     </div>
                                     <div className="row align-items-center">
                                         <div className="col-auto">
-                                        <div className="my-lefttextval h5 mb-0 mr-3 font-weight-bold text-gray-800">
+                                        <div className="my-lefttextval h5 mb-0 mr-3 font-weight-bold text-basic">
                                             20
                                         </div>
                                         </div>
@@ -141,7 +141,7 @@ function TestUi() {
                                     <div className="my-lefttextxs text-xs font-weight-bold text-warning text-uppercase mb-1">
                                         Being late
                                     </div>
-                                    <div className="my-lefttextval h5 mb-0 font-weight-bold text-gray-800">
+                                    <div className="my-lefttextval h5 mb-0 font-weight-bold text-basic">
                                         18
                                     </div>
                                     </div>
@@ -325,7 +325,7 @@ function TestUi() {
                                         <div className="card-body">
                                             <div className="chart-area">
                                                <div className="tripContainer">
-                                                    <h6 className="tripsTil">24 hours Trips Data</h6>
+                                                    <h6 className="tripsTil text-basic">24 hours Trips Data</h6>
                                                     <div className="tripListcontqin">
                                                         <div className="trip_contain">
                                                             <div className="trip_work d-flex justify-content-sm-between align-items-md-center">
@@ -454,13 +454,13 @@ function TestUi() {
                                         {/*  <!-- Card Header - Dropdown --> */}
                                         <div
                                             className="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                                            <h6 className="m-0 font-weight-bold text-primary">Out Of Service</h6>
+                                            <h6 className="m-0 font-weight-bold text-primary ">Out Of Service</h6>
                                         </div>
                                         {/*  <!-- Card Body --> */}
                                         <div className="card-body">
                                             <div className="chart-area">
                                             <div className="tripContainer">
-                                                    <h5 className="tripsTil">Out of order vehicles</h5>
+                                                    <h5 className="tripsTil text-basic">Out of order vehicles</h5>
                                                     <div className="vicleTil">
                                                         <div className="vicleTotal">
                                                           <h6>Total Vehicles : <span>36</span></h6>
