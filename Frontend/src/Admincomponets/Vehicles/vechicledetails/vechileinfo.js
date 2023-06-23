@@ -5,6 +5,7 @@ import "react-circular-progressbar/dist/styles.css";
 import GeStartEndomap from "./maps/startEndmap";
 
 
+
 const VechileInfo = () => {
   //   const percentage = 30;
   const [percentage, setPercentage] = useState(0);

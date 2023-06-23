@@ -98,9 +98,9 @@ function Sidebar() {
                                     <div id="collapseUtilities" className="collapse" aria-labelledby="headingUtilities"
                                         data-parent="#accordionSidebar">
                                         <div className="bg-white py-2 collapse-inner rounded">
-                                            <NavLink className="collapse-item" to="utilities-color.html">Overview</NavLink>
-                                            <NavLink className="collapse-item" to="utilits-border.html">Upcoming Trip</NavLink>
-                                            <NavLink className="collapse-item" to="utis-animation.html">Schednave Trip</NavLink>
+                                            <NavLink className="collapse-item" to="/Tripoverview">Overview</NavLink>
+                                            <NavLink className="collapse-item" to="/Tripupcoming">Upcoming Trip</NavLink>
+                                            <NavLink className="collapse-item" to="/Tripsschedule">Schednave Trip</NavLink>
                                         </div>
                                     </div>
                                 </li>
@@ -118,7 +118,7 @@ function Sidebar() {
                                     <div id="collapseMainten" className="collapse" aria-labelledby="headingMainten"
                                         data-parent="#accordionSidebar">
                                         <div className="bg-white py-2 collapse-inner rounded">
-                                            <NavLink className="collapse-item" to="utilities-color.html">Maintenance Planner</NavLink>
+                                            <NavLink className="collapse-item" to="/maintainplan">Maintenance Planner</NavLink>
                                         </div>
                                     </div>
                                 </li>
@@ -126,7 +126,7 @@ function Sidebar() {
 
                                 {/* <!-- Nav Item - history --> */}
                                 <li className="nav-item">
-                                    <NavLink className="nav-link" to="charts.html">
+                                    <NavLink className="nav-link" to="/vechicleHistory">
                                         <i className="fas fa-history"></i>
                                         <span>Hisory</span></NavLink>
                                 </li>

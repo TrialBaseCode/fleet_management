@@ -28,6 +28,21 @@ import VechileList from './Admincomponets/Vehicles/vechicledetails/vechilelist';
 
 //--end vichcles details
 
+//--start Trips details
+import TripsOverview from './Admincomponets/Trips/Overview';
+import TripsUpcoming from './Admincomponets/Trips/UpcomingTrip';
+import TripsSchedule from './Admincomponets/Trips/ScheduleTrip';
+
+//--end Trips details
+
+// --start maintance
+import MaintenancePlanner from './Admincomponets/maintance/maintainceplanner';
+//  --end maintance
+
+// --start History
+import HistoryOfVehicle from './Admincomponets/History/History';
+//  --end History
+
 // Test case Start 
 import TestUi from './Admincomponets/Test';
 import ApiTest from './Admincomponets/axiosTest';
@@ -41,11 +56,6 @@ import { BrowserRouter , Route , Routes} from 'react-router-dom';
 
 // Not found
 import NotFound from './Admincomponets/NotFound';
-
-
-
-
-
 
 
 
@@ -99,8 +109,22 @@ function Dashboard() {
                                <Route path='/Vehiclesdetails/VechileList' element={< VechileList/>} />
                                <Route path='/Vehiclesdetails/VechileInfo' element={< VechileInfo />} />
                             </Route>
-                            
                             {/* --end of fleet vehicles details-- */}
+
+                            {/* --Start of fleet trips-- */}
+                            <Route path='/Tripoverview' element={<TripsOverview />}  />
+                            <Route path='/Tripupcoming' element={<TripsUpcoming/>}  />
+                            <Route path='/Tripsschedule' element={<TripsSchedule />}  />
+                            {/* --end of fleet  trips-- */}
+                            
+                             {/* --Start of fleet mantance-- */}
+                             <Route path='/maintainplan' element={<MaintenancePlanner />}  />
+                             {/* --End of fleet mantance-- */}
+
+                             {/* --Start of fleet History-- */}
+                             <Route path='/vechicleHistory' element={<HistoryOfVehicle />}  />
+                             {/* --End of fleet History-- */}
+
                             <Route path='/apitest' element={ <ApiTest />}/>
                             <Route path='/test' element={ <TestUi />}/>
                             <Route path='*' element={ <NotFound />}/>
