@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
+import GeStartEndomap from "./maps/startEndmap";
+
 
 const VechileInfo = () => {
   //   const percentage = 30;
@@ -496,7 +498,7 @@ const VechileInfo = () => {
                            </div>
                        </div>
                        <div className="card-trip-map-show-of trip">
-                         
+                           <GeStartEndomap />
                        </div>
                      </div>
                   </div>
