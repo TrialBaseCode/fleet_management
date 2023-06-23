@@ -300,3 +300,7 @@ justify-content: center;
 color: #fff;
 border-radius: 50%;
 }
+
+.card-trip-map-show-of .leaflet-container {
+    height: 35vh;
+}
