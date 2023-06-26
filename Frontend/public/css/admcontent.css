@@ -304,3 +304,33 @@ border-radius: 50%;
 .card-trip-map-show-of .leaflet-container {
     height: 35vh;
 }
+
+/* --------------Trips-------------------- */
+.cardTripContain .tr-icons{
+    width: 35px;
+    height: 35px;
+    border: 2px solid #858796;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.mybodytripsscrollbarcontian .chart-pie {
+    height: calc(44rem - 62px) !important;
+}
+.chart-work-trips-do::-webkit-scrollbar-thumb {
+    background: #077e42;
+}
+.listoftripsContainer .active i {
+    color:#37bc7f;
+}
+.listoftripsContainer .active h4{
+    color:#036c3c;
+}
+.listoftripsContainer .active {
+    background-color:#37bc7f38 ;
+}
+.listoftripsContainer .active .trips_live_txt small{
+    color:#37bc7f;
+    font-weight: 700;
+} 
