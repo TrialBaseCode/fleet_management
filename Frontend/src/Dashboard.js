@@ -43,6 +43,8 @@ import MaintenancePlanner from './Admincomponets/maintance/maintainceplanner';
 
 // --start History
 import HistoryOfVehicle from './Admincomponets/History/History';
+import AllHistoryList from './Admincomponets/History/AllHistory';
+import Planned from './Admincomponets/History/planned';
 //  --end History
 
 // Test case Start 
@@ -58,6 +60,7 @@ import { BrowserRouter , Route , Routes} from 'react-router-dom';
 
 // Not found
 import NotFound from './Admincomponets/NotFound';
+
 
 
 
@@ -129,7 +132,11 @@ function Dashboard() {
                              {/* --End of fleet mantance-- */}
 
                              {/* --Start of fleet History-- */}
-                             <Route path='/vechicleHistory' element={<HistoryOfVehicle />}  />
+                             <Route path='/vechicleHistory' element={<HistoryOfVehicle />} >
+                               <Route index   element={< AllHistoryList/>}  />
+                               <Route path='/vechicleHistory/History' element={< AllHistoryList/>} />
+                               <Route path='/vechicleHistory/Planned' element={< Planned />} />
+                             </Route>
                              {/* --End of fleet History-- */}
 
                             <Route path='/apitest' element={ <ApiTest />}/>
