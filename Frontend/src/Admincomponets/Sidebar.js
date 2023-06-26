@@ -100,7 +100,7 @@ function Sidebar() {
                                         <div className="bg-white py-2 collapse-inner rounded">
                                             <NavLink className="collapse-item" to="/Tripoverview">Overview</NavLink>
                                             <NavLink className="collapse-item" to="/Tripupcoming">Upcoming Trip</NavLink>
-                                            <NavLink className="collapse-item" to="/Tripsschedule">Schednave Trip</NavLink>
+                                            <NavLink className="collapse-item" to="/Tripsschedule">Schedule Trip</NavLink>
                                         </div>
                                     </div>
                                 </li>

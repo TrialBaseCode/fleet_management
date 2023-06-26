@@ -1,7 +1,6 @@
 import { useState } from "react";
 import Navbar from "../navbar";
 import Footer from "../footer";
-import Geomap from "../map";
 import { Link, Outlet } from "react-router-dom";
 
 
@@ -371,15 +370,31 @@ const TripsOverview = () => {
               <div className="col-xl-8 col-lg-6">
                 <div className="card shadow mb-4">
                   <div className="card">
-                     <div className="card-header py-3 d-flex flex-row align-items-center">
-                        <a href="#">MAPS</a>
-                        <a href="#">DETAILS</a>
+                     <div className="card-header pb-3 px-0 pt-0">
+                      <div className="events_nav_list">
+                          <nav className="list-group list-group-horizontal mytabtlist mt-0">
+                            <Link
+                              className="list-group-item active text-decoration-none"
+                              data-toggle="list"
+                              to="/Tripoverview/Tripsmapoverview"
+                            >
+                              <span>MAPS</span>
+                            </Link>
+                            <Link
+                              className="list-group-item text-decoration-none"
+                              data-toggle="list"
+                              to="/Tripoverview/Tripsdetailsoverview"
+                            >
+                              <span>DETAILS</span>
+                            </Link>
+                          </nav>
+                      </div>
                      </div>
                   </div>
                   {/*  <!-- Card Body --> */}
                   <div className="card-body myhiddenmapbody">
                     <div className="chart-area">
-                        <Geomap />
+                       <Outlet />
                     </div>
                   </div>
                 </div>

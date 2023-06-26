@@ -32,6 +32,8 @@ import VechileList from './Admincomponets/Vehicles/vechicledetails/vechilelist';
 import TripsOverview from './Admincomponets/Trips/Overview';
 import TripsUpcoming from './Admincomponets/Trips/UpcomingTrip';
 import TripsSchedule from './Admincomponets/Trips/ScheduleTrip';
+import TripsOverviewMap from './Admincomponets/Trips/Tripsoviewmap';
+import TripsOverviewDetails from './Admincomponets/Trips/Tripsoviewdetails';
 
 //--end Trips details
 
@@ -56,6 +58,7 @@ import { BrowserRouter , Route , Routes} from 'react-router-dom';
 
 // Not found
 import NotFound from './Admincomponets/NotFound';
+
 
 
 
@@ -112,7 +115,11 @@ function Dashboard() {
                             {/* --end of fleet vehicles details-- */}
 
                             {/* --Start of fleet trips-- */}
-                            <Route path='/Tripoverview' element={<TripsOverview />}  />
+                            <Route path='/Tripoverview' element={<TripsOverview />} >
+                               <Route index   element={< TripsOverviewMap/>}  />
+                               <Route path='/Tripoverview/Tripsmapoverview' element={< TripsOverviewMap/>} />
+                               <Route path='/Tripoverview/Tripsdetailsoverview' element={< TripsOverviewDetails />} />
+                            </Route>
                             <Route path='/Tripupcoming' element={<TripsUpcoming/>}  />
                             <Route path='/Tripsschedule' element={<TripsSchedule />}  />
                             {/* --end of fleet  trips-- */}
