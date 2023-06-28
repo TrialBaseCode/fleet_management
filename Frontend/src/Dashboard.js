@@ -68,6 +68,8 @@ import NotFound from './Admincomponets/NotFound';
 
 function Dashboard() {
 
+       
+
     return (
         <div>
            
@@ -84,7 +86,7 @@ function Dashboard() {
                         {/*  <!-- End of Sidebar --> */}
                         <Routes>
                             {/* --start of vehicles Dashboard-- */}
-                            <Route path='/' element={ <Vicoview />}>
+                            <Route exact path='/' element={ <Vicoview />}>
                                <Route index   element={<AllVehicle />}  />
                                <Route path='/vicoverview/AllVehicle' element={<AllVehicle />} />
                                <Route path='/vicoverview/Driving' element={<Driving />} /> 
@@ -92,7 +94,7 @@ function Dashboard() {
                             </Route>
                             <Route path='/realTimeData' element={ <RealTimedata />}/>
                             <Route path='/events' element={ <Events />}>
-                               <Route index   element={<Allevents />}  />
+                               <Route index exact  element={<Allevents />}  />
                                <Route path='/events/allevents' element={<Allevents />} />
                                <Route path='/events/feaevents' element={<Feaevents />} /> 
                             </Route>
@@ -132,10 +134,10 @@ function Dashboard() {
                              {/* --End of fleet mantance-- */}
 
                              {/* --Start of fleet History-- */}
-                             <Route path='/vechicleHistory' element={<HistoryOfVehicle />} >
-                               <Route index   element={< AllHistoryList/>}  />
-                               <Route path='/vechicleHistory/History' element={< AllHistoryList/>} />
-                               <Route path='/vechicleHistory/Planned' element={< Planned />} />
+                             <Route exact path='/vechicleHistory' element={<HistoryOfVehicle />} >
+                               <Route exact path='/vechicleHistory' index  element={<AllHistoryList/>}  />
+                               <Route exact path='/vechicleHistory/History' element={< AllHistoryList/>} />
+                               <Route exact path='/vechicleHistory/Planned' element={< Planned />} />
                              </Route>
                              {/* --End of fleet History-- */}
 

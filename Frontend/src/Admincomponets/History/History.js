@@ -2,13 +2,21 @@
 import Navbar from "../navbar";
 import Footer from "../footer";
 import { useState } from "react";
-import { Link , Outlet} from "react-router-dom";
+import { NavLink, Outlet, useLocation} from "react-router-dom";
 
 
 
 
 
 const HistoryOfVehicle = () => {
+    
+    const location = useLocation();
+     
+     // Define a helper function to check if the given path is active
+    const isPathActive = (path) => {
+      const currentPath = location.pathname;
+      return currentPath === path;
+    };
 
     const [style, setStyle] = useState(
         "navbar-nav bg-gradient-primary sidebar sidebar-dark accordion"
@@ -40,6 +48,7 @@ const HistoryOfVehicle = () => {
 
 
     return (  
+
         <>
            {/*  <!-- Content Wrapper --> */}
                 <div
@@ -56,7 +65,7 @@ const HistoryOfVehicle = () => {
                     <div className="container-fluid">
                         {/*  <!-- Page Heading --> */}
                         <div className="d-sm-flex align-items-center justify-content-between ">
-                        <h1 className="h3 mb-0 text-basic">Vehicles Assignment</h1>
+                        <h1 className="h3 mb-0 text-basic">History</h1>
                         <a
                             href="#"
                             className="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"
@@ -69,20 +78,23 @@ const HistoryOfVehicle = () => {
                         {/* <!------Content work---------->*/}
                         <div className="events_nav_list">
                         <nav className="list-group list-group-horizontal mytabtlist">
-                            <Link
-                            className="list-group-item active text-decoration-none"
+                            <NavLink 
+                            className= {` list-group-item text-decoration-none ${isPathActive('/vechicleHistory') ? ' active' : ''}` }
+                        
                             data-toggle="list"
-                            to="/vechicleHistory/History"
+                            to="/vechicleHistory/History"  
                             >
                             <span>HISTORY</span>
-                            </Link>
-                            <Link
-                            className="list-group-item text-decoration-none"
+                            </NavLink >
+                            <NavLink  
+                            className={` list-group-item text-decoration-none ${isPathActive('/vechicleHistory/Planned') ? ' active' : ''}`  }
+                      
                             data-toggle="list"
-                            to="/vechicleHistory/Planned"
+                            to="/vechicleHistory/Planned" 
                             >
                             <span>PLANNED</span>
-                            </Link>
+                            </NavLink >
+                          
                         </nav>
                         </div>
                         <div className="alleventcontainer pl-3 pr-3">

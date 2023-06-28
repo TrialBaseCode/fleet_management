@@ -334,3 +334,19 @@ border-radius: 50%;
     color:#37bc7f;
     font-weight: 700;
 } 
+
+/* --History chanel- */
+
+.drop-history-container {
+    width: 100% !important;
+    min-height: 0;
+}
+
+.drop-history-container  .nav-item .nav-link[data-toggle=collapse]::after{
+    float:none;
+  }
+.drop-history-container  .nav-item .nav-link{
+    width: fit-content;
+    margin-top: 12px;
+}
+  

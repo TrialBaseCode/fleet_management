@@ -1,7 +1,7 @@
 const Assign = () => {
     return ( 
         <>
-        <div className="AllEventsContainer">
+            <div className="AllEventsContainer">
                 <div className="container p-0">
                        {/*  <!-- Content table Row --> */}
 
