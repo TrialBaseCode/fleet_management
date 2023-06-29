@@ -2,10 +2,19 @@ import { useState } from "react";
 import Navbar from "./navbar";
 import Footer from "./footer";
 import Geomap from "./map";
-import { Link, Outlet } from "react-router-dom";
+import { Link, NavLink, Outlet, useLocation } from "react-router-dom";
 
 
 function Vicoview() {
+  
+  const location = useLocation();
+     
+  // Define a helper function to check if the given path is active
+   const isPathActive = (path) => {
+   const currentPath = location.pathname;
+   return currentPath === path;
+ };
+
   const [style, setStyle] = useState(
     "navbar-nav bg-gradient-primary sidebar sidebar-dark accordion"
   );
@@ -96,9 +105,9 @@ function Vicoview() {
                   <div className="card-body mybodyscrollbarcontian ">
                     <div className="filter mb-2">
                       <nav className="list-group list-group-horizontal-md justify-content-center">
-                        <Link className="list-group-item text-decoration-none active"  to='/vicoverview/AllVehicle'  data-toggle="list" ><span>ALL</span></Link>
-                        <Link className="list-group-item text-decoration-none" to='/vicoverview/Driving' data-toggle="list"><span>DRIVING</span></Link>
-                        <Link className="list-group-item text-decoration-none"  to='/vicoverview/Parked' data-toggle="list"><span>PARKED</span></Link>
+                        <NavLink className={` list-group-item text-decoration-none ${isPathActive('/AllVehicle') ? ' active' : ''}` }  to='/AllVehicle'  data-toggle="list" ><span>ALL</span></NavLink>
+                        <NavLink className={` list-group-item text-decoration-none ${isPathActive('/Driving') ? ' active' : ''}` } to='/Driving' data-toggle="list"><span>DRIVING</span></NavLink>
+                        <NavLink className={` list-group-item text-decoration-none ${isPathActive('/Parked') ? ' active' : ''}` }  to='/Parked' data-toggle="list"><span>PARKED</span></NavLink>
                       </nav>
                     </div>
                     <div className="chart-pie chart-work-do pt-1 pb-2 overflow-auto ">
