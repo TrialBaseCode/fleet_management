@@ -1,11 +1,20 @@
 import { useState } from "react";
 import Navbar from "../navbar";
 import Footer from '../footer';
-import { Link , Outlet} from "react-router-dom";
+import { NavLink , Outlet, useLocation} from "react-router-dom";
 
 
 
 const FleetDel = () => {
+
+  const location = useLocation();
+     
+  // Define a helper function to check if the given path is active
+   const isPathActive = (path) => {
+   const currentPath = location.pathname;
+   return currentPath === path;
+   };
+
     const [style, setStyle] = useState("navbar-nav bg-gradient-primary sidebar sidebar-dark accordion");
     
     const changeStyle = () => {
@@ -58,34 +67,34 @@ const FleetDel = () => {
             {/* <!------Content work---------->*/}
             <div className="events_nav_list">
               <nav className="list-group list-group-horizontal mytabtlist">
-                <Link
-                  className="list-group-item active text-decoration-none"
+                <NavLink
+                  className={` list-group-item text-decoration-none ${isPathActive('/vifleet') ? ' active' : ''}` } 
                   data-toggle="list"
                   to="/vifleet/allstut"
                 >
                   <span>ALL STATUS</span>
-                </Link>
-                <Link
-                  className="list-group-item text-decoration-none"
+                </NavLink>
+                <NavLink
+                  className={` list-group-item text-decoration-none ${isPathActive('/vifleet/enrout') ? ' active' : ''}` } 
                   data-toggle="list"
                   to="/vifleet/enrout"
                 >
                   <span>EN ROUTE</span>
-                </Link>
-                <Link
-                  className="list-group-item text-decoration-none"
+                </NavLink>
+                <NavLink
+                  className={` list-group-item text-decoration-none ${isPathActive('/vifleet/aval') ? ' active' : ''}` } 
                   data-toggle="list"
                   to="/vifleet/aval"
                 >
                   <span>AVAILABLE</span>
-                </Link>
-                <Link
-                  className="list-group-item text-decoration-none"
+                </NavLink>
+                <NavLink
+                   className={` list-group-item text-decoration-none ${isPathActive('/vifleet/outservice') ? ' active' : ''}` } 
                   data-toggle="list"
                   to="/vifleet/outservice"
                 >
                   <span>OUT OF SERVICE</span>
-                </Link>
+                </NavLink>
               </nav>
             </div>
             <div className="alleventcontainer pl-3 pr-3">

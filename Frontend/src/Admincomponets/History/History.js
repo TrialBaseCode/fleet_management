@@ -13,7 +13,7 @@ const HistoryOfVehicle = () => {
     const location = useLocation();
      
      // Define a helper function to check if the given path is active
-    const isPathActive = (path) => {
+      const isPathActive = (path) => {
       const currentPath = location.pathname;
       return currentPath === path;
     };

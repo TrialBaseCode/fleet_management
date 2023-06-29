@@ -93,24 +93,24 @@ function Dashboard() {
                                <Route path='/vicoverview/Parked' element={<Parked />} /> 
                             </Route>
                             <Route path='/realTimeData' element={ <RealTimedata />}/>
-                            <Route path='/events' element={ <Events />}>
-                               <Route index exact  element={<Allevents />}  />
-                               <Route path='/events/allevents' element={<Allevents />} />
-                               <Route path='/events/feaevents' element={<Feaevents />} /> 
+                            <Route  exact path='/events' element={ <Events />}>
+                               <Route index exact  path='/events'  element={<Allevents />}  />
+                               <Route  exact path='/events/allevents' element={<Allevents />} />
+                               <Route  exact path='/events/feaevents' element={<Feaevents />} /> 
                             </Route>
                             {/* --ent of vehicles Dashboard-- */}
                             {/* --start of fleet vehicles details-- */}
-                            <Route path='/vifleet' element={ <FleetDel />}>
-                               <Route index   element={<ALlStatus />}  />
-                               <Route path='/vifleet/allstut' element={<ALlStatus />} />
+                            <Route exact path='/vifleet' element={ <FleetDel />}>
+                               <Route exact index path='/vifleet'  element={<ALlStatus />}  />
+                               <Route exact path='/vifleet/allstut' element={<ALlStatus />} />
                                <Route path='/vifleet/enrout' element={<Enroute />} />
-                               <Route path='/vifleet/aval' element={<VicAvaliable />} /> 
-                               <Route path='/vifleet/outservice' element={<OutofService />} />
+                               <Route exact path='/vifleet/aval' element={<VicAvaliable />} /> 
+                               <Route exact path='/vifleet/outservice' element={<OutofService />} />
                             </Route>
-                            <Route path='/vehiclesassign' element={<Vehiclesassign />} >
-                               <Route index   element={<Assign />}  />
-                               <Route path='/vehiclesassign/assign' element={<Assign />} />
-                               <Route path='/vehiclesassign/noassign' element={<Noassign />} />
+                            <Route  exact path='/vehiclesassign' element={<Vehiclesassign />} >
+                               <Route  exact index path='/vehiclesassign'  element={<Assign />}  />
+                               <Route  exact path='/vehiclesassign/assign' element={<Assign />} />
+                               <Route  exact path='/vehiclesassign/noassign' element={<Noassign />} />
                             </Route>
                             <Route path='/Vehiclesdetails' element={<Vehiclesdetails />}  >
                                <Route index   element={< VechileList/>}  />
