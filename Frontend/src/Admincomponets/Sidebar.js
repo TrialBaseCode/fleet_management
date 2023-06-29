@@ -1,10 +1,17 @@
 import { useState } from 'react';
 import '../Dashboard.css';
-import { Link, NavLink} from 'react-router-dom';
+import { Link, NavLink, useLocation} from 'react-router-dom';
 
 
 function Sidebar() {
-
+     
+    const location = useLocation();
+     
+    // Define a helper function to check if the given path is active
+     const isPathActive = (path) => {
+     const currentPath = location.pathname;
+     return currentPath === path;
+   };
 
     const [style, setStyle] = useState("navbar-nav bg-gradient-primary sidebar sidebar-dark accordion");
 
@@ -48,54 +55,54 @@ function Sidebar() {
                 
                         {/*   <!-- Divider --> */}
                         <hr className="sidebar-divider my-0" />
-                        <ul className='fleetAdminDetail p-0' id='fleetAdminal'>
+                        <ul className='fleetAdminDetail p-0 navbar-nav' id='fleetAdminal'>
                         
                                 {/*  <!-- Nav Item - Dashboard --> */}
-                                <li className="nav-item active" >
-                                    <a className="nav-link"  data-toggle="collapse" data-target="#collapsedash"
+                                <Link  className={` nav-item  ${isPathActive('/') || isPathActive('/realTimeData') || isPathActive('/events') ? 'active' : ''}` }  >
+                                    <a className="nav-link "  data-toggle="collapse" data-target="#collapsedash"
                                         aria-expanded="true" aria-controls="collapsedash">
                                         <i className="fas fa-fw fa-tachometer-alt"></i>
                                         <span>Dashboard</span>
                                     </a>
-                                    <div id="collapsedash" className="collapse show" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                                    <div id="collapsedash" className={` collapse ${isPathActive('/') || isPathActive('/realTimeData') || isPathActive('/events')  ? 'show' : 'collapse'}` }   aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                                         <div className="bg-white py-2 collapse-inner rounded">
-                                            <NavLink className="collapse-item"  to="/">Vehicles Overview</NavLink>
-                                            <NavLink className="collapse-item" to="/realTimeData">Real Time Data</NavLink>
-                                            <NavLink className="collapse-item" to="/events">Events</NavLink>
+                                            <NavLink className=" collapse-item "   to="/">Vehicles Overview</NavLink>
+                                            <NavLink className=" collapse-item "  to="/realTimeData">Real Time Data</NavLink>
+                                            <NavLink className=" collapse-item "  to="/events">Events</NavLink>
                                         </div>
                                     </div>
-                                </li>
+                                </Link>
 
                                 {/*  <!-- Divider --> */}
                                 <hr className="sidebar-divider" />
 
 
                                 {/*  <!-- Nav Item - Pages Collapse Menu --> */}
-                                <li className="nav-item">
+                                <Link className={` nav-item  ${isPathActive('/vifleet') || isPathActive('/vehiclesassign') || isPathActive('/Vehiclesdetails') ? 'active' : ''}` }>
                                     <a className="nav-link collapsed "  data-toggle="collapse" data-target="#collapseTwo"
                                         aria-expanded="true" aria-controls="collapseTwo">
                                         <i className="fas fa-car"></i>
                                         <span>Vehicles</span>
                                     </a>
-                                    <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                                    <div id="collapseTwo" className={` collapse ${isPathActive('/vifleet') || isPathActive('/vehiclesassign') || isPathActive('/Vehiclesdetails')  ? 'show' : 'collapse'}` } aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                                         <div className="bg-white py-2 collapse-inner rounded">
                                             <NavLink className="collapse-item" to="/vifleet">Fleet</NavLink>
                                             <NavLink className="collapse-item" to="/vehiclesassign">Vehicles Assignment</NavLink>
                                             <NavLink className="collapse-item" to="/Vehiclesdetails">Vehicle Details</NavLink>
                                         </div>
                                     </div>
-                                </li>
+                                </Link>
 
 
 
                                 {/* <!-- Nav Item - Utilities Collapse Menu --> */}
-                                <li className="nav-item" >
+                                <Link className={` nav-item  ${isPathActive('/Tripoverview') || isPathActive('/Tripupcoming') || isPathActive('/Tripsschedule') ? 'active' : ''}`} >
                                     <div className="nav-link collapsed"  data-toggle="collapse" data-target="#collapseUtilities"
                                         aria-expanded="true" aria-controls="collapseUtilities">
                                     <i className="fas fa-suitcase-rolling"></i>
                                         <span>Trips</span>
                                     </div>
-                                    <div id="collapseUtilities" className="collapse" aria-labelledby="headingUtilities"
+                                    <div id="collapseUtilities"  className={` collapse ${isPathActive('/Tripoverview') || isPathActive('/Tripupcoming') || isPathActive('/Tripsschedule')  ? 'show' : 'collapse'}` } aria-labelledby="headingUtilities"
                                         data-parent="#accordionSidebar">
                                         <div className="bg-white py-2 collapse-inner rounded">
                                             <NavLink className="collapse-item" to="/Tripoverview">Overview</NavLink>
@@ -103,42 +110,42 @@ function Sidebar() {
                                             <NavLink className="collapse-item" to="/Tripsschedule">Schedule Trip</NavLink>
                                         </div>
                                     </div>
-                                </li>
+                                </Link>
 
                                 {/*  <!-- Divider --> */}
                                 <hr className="sidebar-divider" />
 
                                 {/* <!-- Nav Item - Utilities Collapse Menu --> */}
-                                <li className="nav-item">
+                                <Link  className={` nav-item  ${isPathActive('/maintainplan')  ? 'active' : ''}`}>
                                     <div className="nav-link collapsed"  data-toggle="collapse" data-target="#collapseMainten"
                                         aria-expanded="true" aria-controls="collapseMainten">
                                     <i className="fas fa-tools"></i>
                                         <span>Maintenance</span>
                                     </div>
-                                    <div id="collapseMainten" className="collapse" aria-labelledby="headingMainten"
+                                    <div id="collapseMainten"  className={` collapse ${isPathActive('/maintainplan') ? 'show' : 'collapse'}` } aria-labelledby="headingMainten"
                                         data-parent="#accordionSidebar">
                                         <div className="bg-white py-2 collapse-inner rounded">
                                             <NavLink className="collapse-item" to="/maintainplan">Maintenance Planner</NavLink>
                                         </div>
                                     </div>
-                                </li>
+                                </Link>
 
 
                                 {/* <!-- Nav Item - history --> */}
-                                <li className="nav-item">
+                                <Link  className={` nav-item  ${isPathActive('/vechicleHistory')  ? 'active' : ''}`}>
                                     <NavLink className="nav-link" to="/vechicleHistory">
                                         <i className="fas fa-history"></i>
                                         <span>Hisory</span></NavLink>
-                                </li>
+                                </Link>
                                 {/*  <!-- Divider --> */}
                                 <hr className="sidebar-divider" />
 
                                 {/* <!-- Nav Item - history --> */}
-                                <li className="nav-item">
+                                <Link className="nav-item">
                                     <a className="nav-link" href="charts.html">
                                         <i className="fas fa-fw fa-chart-area"></i>
                                         <span>Analytics</span></a>
-                                </li>
+                                </Link>
 
                                             
                                 {/*  <!-- Divider --> */}
@@ -146,7 +153,7 @@ function Sidebar() {
 
 
                                 {/*  <!-- Nav Item - Pages Collapse Menu --> */}
-                                <li className="nav-item">
+                                <Link className="nav-item">
                                     <a className="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
                                         aria-expanded="true" aria-controls="collapsePages">
                                         <i className="fas fa-fw fa-folder"></i>
@@ -164,21 +171,21 @@ function Sidebar() {
                                             <a className="collapse-item" href="blank.html">Blank Page</a>
                                         </div>
                                     </div>
-                                </li>
+                                </Link>
 
                                 {/* <!-- Nav Item - Charts --> */}
-                                <li className="nav-item">
+                                <Link className="nav-item">
                                     <a className="nav-link" href="charts.html">
                                         <i className="fas fa-fw fa-chart-area"></i>
                                         <span>Charts</span></a>
-                                </li>
+                                </Link>
 
                                 {/*  <!-- Nav Item - Tables --> */}
-                                <li className="nav-item">
+                                <Link className="nav-item">
                                     <a className="nav-link" href="tables.html">
                                         <i className="fas fa-fw fa-table"></i>
                                         <span>Tables</span></a>
-                                </li>
+                                </Link>
 
                                 {/* <!-- Divider --> */}
                                 <hr className="sidebar-divider d-none d-md-block" />

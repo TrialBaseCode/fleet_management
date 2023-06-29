@@ -87,12 +87,12 @@ function Dashboard() {
                         <Routes>
                             {/* --start of vehicles Dashboard-- */}
                             <Route exact path='/' element={ <Vicoview />}>
-                               <Route index   element={<AllVehicle />}  />
-                               <Route path='/vicoverview/AllVehicle' element={<AllVehicle />} />
-                               <Route path='/vicoverview/Driving' element={<Driving />} /> 
-                               <Route path='/vicoverview/Parked' element={<Parked />} /> 
+                               <Route exact index path='/'  element={<AllVehicle />}  />
+                               <Route exact path='/vicoverview/AllVehicle' element={<AllVehicle />} />
+                               <Route exact path='/vicoverview/Driving' element={<Driving />} /> 
+                               <Route exact path='/vicoverview/Parked' element={<Parked />} /> 
                             </Route>
-                            <Route path='/realTimeData' element={ <RealTimedata />}/>
+                            <Route exact path='/realTimeData' element={ <RealTimedata />}/>
                             <Route  exact path='/events' element={ <Events />}>
                                <Route index exact  path='/events'  element={<Allevents />}  />
                                <Route  exact path='/events/allevents' element={<Allevents />} />
