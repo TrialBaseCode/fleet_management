@@ -1,14 +1,14 @@
 import { useState } from "react";
 import Navbar from "./navbar";
 import Footer from './footer';
-import { NavLink, Outlet, useLocation} from "react-router-dom";
+import { Link, NavLink, Outlet, useLocation} from "react-router-dom";
 
 
 const Events = () => {
 
     const location = useLocation();
      
-    // Define a helper function to check if the given path is active
+    // Define Link helper function to check if the given path is active
      const isPathActive = (path) => {
      const currentPath = location.pathname;
      return currentPath === path;
@@ -55,8 +55,8 @@ const Events = () => {
                         {/*  <!-- Page Heading --> */}
                         <div className="d-sm-flex align-items-center justify-content-between ">
                             <h1 className="h3 mb-0 text-basic">Events</h1>
-                            <a href="#" className="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
-                                className="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
+                            <Link to="#" className="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
+                                className="fas fa-download fa-sm text-white-50"></i> Generate Report</Link>
                         </div>
                       
                         {/* <!------Content work---------->*/}
@@ -75,9 +75,9 @@ const Events = () => {
                                             <span className="pr-5">All Events</span>   
                                         </button>
                                         <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                            <a className="dropdown-item" href="#">Action</a>
-                                            <a className="dropdown-item" href="#">Another action</a>
-                                            <a className="dropdown-item" href="#">Something else here</a>
+                                            <Link className="dropdown-item" to="#">Action</Link>
+                                            <Link className="dropdown-item" to="#">Another action</Link>
+                                            <Link className="dropdown-item" to="#">Something else here</Link>
                                         </div>
                                         </div>
                                         <div className="dropdown">
@@ -85,9 +85,9 @@ const Events = () => {
                                             <span className="pr-5">All Vehicles</span>   
                                         </button>
                                         <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                            <a className="dropdown-item" href="#">Action</a>
-                                            <a className="dropdown-item" href="#">Another action</a>
-                                            <a className="dropdown-item" href="#">Something else here</a>
+                                            <Link className="dropdown-item" to="#">Action</Link>
+                                            <Link className="dropdown-item" to="#">Another action</Link>
+                                            <Link className="dropdown-item" to="#">Something else here</Link>
                                         </div>
                                         </div>
                                     </div>

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 const AllHistoryList = () => {
@@ -36,11 +37,11 @@ const AllHistoryList = () => {
                     <h6 className="m-0   font-weight-bold text-white  listEventType">
                       COST
                     </h6>
-                    <h6 className="m-0   font-weight-bold text-white  listEventType"></h6>
+                    <div className="m-0   font-weight-bold text-white  listEventType"></div>
                     <div className=" dropdown no-arrow">
-                      <a
+                      <Link
                         className="dropdown-toggle"
-                        href="#"
+                        to="#"
                         role="button"
                         id="dropdownMenuLink"
                         data-toggle="dropdown"
@@ -48,22 +49,22 @@ const AllHistoryList = () => {
                         aria-expanded="false"
                       >
                         <i className="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
-                      </a>
+                      </Link>
                       <div
                         className="dropdown-menu dropdown-menu-right shadow animated--fade-in"
                         aria-labelledby="dropdownMenuLink"
                       >
                         <div className="dropdown-header">Dropdown Header:</div>
-                        <a className="dropdown-item" href="#">
+                        <Link className="dropdown-item" to="#">
                           Action
-                        </a>
-                        <a className="dropdown-item" href="#">
+                        </Link>
+                        <Link className="dropdown-item" to="#">
                           Another action
-                        </a>
+                        </Link>
                         <div className="dropdown-divider"></div>
-                        <a className="dropdown-item" href="#">
+                        <Link className="dropdown-item" to="#">
                           Something else here
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -95,11 +96,11 @@ const AllHistoryList = () => {
                       <h6 className="  m-0 font-weight-bold text-white  listEventType">
                         COST
                       </h6>
-                      <h6 className="  m-0 font-weight-bold text-white  listEventType"></h6>
+                      <div className="  m-0 font-weight-bold text-white  listEventType"></div>
                       <div className="  dropdown no-arrow">
-                        <a
+                        <Link
                           className="dropdown-toggle"
-                          href="#"
+                          to="#"
                           role="button"
                           id="dropdownMenuLink"
                           data-toggle="dropdown"
@@ -107,7 +108,7 @@ const AllHistoryList = () => {
                           aria-expanded="false"
                         >
                           <i className="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
-                        </a>
+                        </Link>
                         <div
                           className="dropdown-menu dropdown-menu-right shadow animated--fade-in"
                           aria-labelledby="dropdownMenuLink"
@@ -115,16 +116,16 @@ const AllHistoryList = () => {
                           <div className="dropdown-header">
                             Dropdown Header:
                           </div>
-                          <a className="dropdown-item" href="#">
+                          <Link className="dropdown-item" to="#">
                             Action
-                          </a>
-                          <a className="dropdown-item" href="#">
+                          </Link>
+                          <Link className="dropdown-item" to="#">
                             Another action
-                          </a>
+                          </Link>
                           <div className="dropdown-divider"></div>
-                          <a className="dropdown-item" href="#">
+                          <Link className="dropdown-item" to="#">
                             Something else here
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -177,7 +178,7 @@ const AllHistoryList = () => {
 
                             <div className="drop-history-container sidebar">
                               <div className="nav-item">
-                                <a
+                                <Link
                                   className="nav-link p-0"
                                   data-toggle="collapse"
                                   data-target="#collapseOne"
@@ -185,13 +186,13 @@ const AllHistoryList = () => {
                                   aria-controls="collapseOne"
                                 >
                                   Details
-                                </a>
+                                </Link>
                               </div>
                             </div>
                             <div className=" dropdown no-arrow">
-                              <a
+                              <Link
                                 className="dropdown-toggle"
-                                href="#"
+                                to="#"
                                 role="button"
                                 id="dropdownMenuLink"
                                 data-toggle="dropdown"
@@ -199,7 +200,7 @@ const AllHistoryList = () => {
                                 aria-expanded="false"
                               >
                                 <i className="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
-                              </a>
+                              </Link>
                               <div
                                 className="dropdown-menu dropdown-menu-right shadow animated--fade-in"
                                 aria-labelledby="dropdownMenuLink"
@@ -207,16 +208,16 @@ const AllHistoryList = () => {
                                 <div className="dropdown-header">
                                   Dropdown Header:
                                 </div>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" to="#">
                                   Action
-                                </a>
-                                <a className="dropdown-item" href="#">
+                                </Link>
+                                <Link className="dropdown-item" to="#">
                                   Another action
-                                </a>
+                                </Link>
                                 <div className="dropdown-divider"></div>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" to="#">
                                   Something else here
-                                </a>
+                                </Link>
                               </div>
                             </div>
                           </div>
@@ -333,11 +334,11 @@ const AllHistoryList = () => {
                       <h6 className="  m-0 font-weight-bold text-white  listEventType">
                         COST
                       </h6>
-                      <h6 className="  m-0 font-weight-bold text-white  listEventType"></h6>
+                      <div className="  m-0 font-weight-bold text-white  listEventType"></div>
                       <div className="  dropdown no-arrow">
-                        <a
+                        <Link
                           className="dropdown-toggle"
-                          href="#"
+                          to="#"
                           role="button"
                           id="dropdownMenuLink"
                           data-toggle="dropdown"
@@ -345,7 +346,7 @@ const AllHistoryList = () => {
                           aria-expanded="false"
                         >
                           <i className="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
-                        </a>
+                        </Link>
                         <div
                           className="dropdown-menu dropdown-menu-right shadow animated--fade-in"
                           aria-labelledby="dropdownMenuLink"
@@ -353,16 +354,16 @@ const AllHistoryList = () => {
                           <div className="dropdown-header">
                             Dropdown Header:
                           </div>
-                          <a className="dropdown-item" href="#">
+                          <Link className="dropdown-item" to="#">
                             Action
-                          </a>
-                          <a className="dropdown-item" href="#">
+                          </Link>
+                          <Link className="dropdown-item" to="#">
                             Another action
-                          </a>
+                          </Link>
                           <div className="dropdown-divider"></div>
-                          <a className="dropdown-item" href="#">
+                          <Link className="dropdown-item" to="#">
                             Something else here
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -415,7 +416,7 @@ const AllHistoryList = () => {
 
                             <div className="drop-history-container sidebar">
                               <div className="nav-item">
-                                <a
+                                <Link
                                   className="nav-link p-0"
                                   data-toggle="collapse"
                                   data-target="#collapseOne"
@@ -423,13 +424,13 @@ const AllHistoryList = () => {
                                   aria-controls="collapseOne"
                                 >
                                   Details
-                                </a>
+                                </Link>
                               </div>
                             </div>
                             <div className=" dropdown no-arrow">
-                              <a
+                              <Link
                                 className="dropdown-toggle"
-                                href="#"
+                                to="#"
                                 role="button"
                                 id="dropdownMenuLink"
                                 data-toggle="dropdown"
@@ -437,7 +438,7 @@ const AllHistoryList = () => {
                                 aria-expanded="false"
                               >
                                 <i className="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
-                              </a>
+                              </Link>
                               <div
                                 className="dropdown-menu dropdown-menu-right shadow animated--fade-in"
                                 aria-labelledby="dropdownMenuLink"
@@ -445,16 +446,16 @@ const AllHistoryList = () => {
                                 <div className="dropdown-header">
                                   Dropdown Header:
                                 </div>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" to="#">
                                   Action
-                                </a>
-                                <a className="dropdown-item" href="#">
+                                </Link>
+                                <Link className="dropdown-item" to="#">
                                   Another action
-                                </a>
+                                </Link>
                                 <div className="dropdown-divider"></div>
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" to="#">
                                   Something else here
-                                </a>
+                                </Link>
                               </div>
                             </div>
                           </div>

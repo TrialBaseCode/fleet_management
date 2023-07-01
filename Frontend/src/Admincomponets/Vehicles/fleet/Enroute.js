@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Enroute = () => {
     return ( <>
             <div className="AllEventsContainer">
@@ -23,7 +25,7 @@ const Enroute = () => {
                                             <h6 className="m-0 font-weight-bold text-white  listEventType">STATUS</h6>
                                             <h6 className="m-0 font-weight-bold text-white  listEventType">VEHICLE CONDITION</h6>
                                             <h6 className="m-0 font-weight-bold text-white  listEventType">DATE&TIME</h6>
-                                            <div className="dropdown no-arrow"><a className="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i className="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i></a><div className="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink"><div className="dropdown-header">Dropdown Header:</div><a className="dropdown-item" href="#">Action</a><a className="dropdown-item" href="#">Another action</a><div className="dropdown-divider"></div><a className="dropdown-item" href="#">Something else here</a></div></div>
+                                            <div className="dropdown no-arrow"><Link className="dropdown-toggle" to="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i className="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i></Link><div className="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink"><div className="dropdown-header">Dropdown Header:</div><Link className="dropdown-item" to="#">Action</Link><Link className="dropdown-item" to="#">Another action</Link><div className="dropdown-divider"></div><Link className="dropdown-item" to="#">Something else here</Link></div></div>
                                         </div>
 
                                     </div>
@@ -43,7 +45,7 @@ const Enroute = () => {
                                                 <h6 className="m-0 font-weight-bold text-white  listEventType">STATUS</h6>
                                                 <h6 className="m-0 font-weight-bold text-white  listEventType">VEHICLE CONDITION</h6>
                                                 <h6 className="m-0 font-weight-bold text-white  listEventType">DATE&TIME</h6>
-                                                <div className="dropdown no-arrow"><a className="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i className="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i></a><div className="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink"><div className="dropdown-header">Dropdown Header:</div><a className="dropdown-item" href="#">Action</a><a className="dropdown-item" href="#">Another action</a><div className="dropdown-divider"></div><a className="dropdown-item" href="#">Something else here</a></div></div>
+                                                <div className="dropdown no-arrow"><Link className="dropdown-toggle" to="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i className="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i></Link><div className="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink"><div className="dropdown-header">Dropdown Header:</div><Link className="dropdown-item" to="#">Action</Link><Link className="dropdown-item" to="#">Another action</Link><div className="dropdown-divider"></div><Link className="dropdown-item" to="#">Something else here</Link></div></div>
                                             </div>
                                             {/*  <!-- Card Body --> */}
                                             <div className="card-body ">
@@ -58,7 +60,7 @@ const Enroute = () => {
                                                     <h6 className="m-0  text-primary listbdy">En Route</h6>
                                                     <h6 className="m-0  text-primary listbdy">Alert</h6>
                                                     <h6 className="m-0  text-primary listbdy">5/13/2023 2:54PM</h6>
-                                                    <div className="dropdown no-arrow"><a className="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i className="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i></a><div className="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink"><div className="dropdown-header">Dropdown Header:</div><a className="dropdown-item" href="#">Action</a><a className="dropdown-item" href="#">Another action</a><div className="dropdown-divider"></div><a className="dropdown-item" href="#">Something else here</a></div></div>
+                                                    <div className="dropdown no-arrow"><Link className="dropdown-toggle" to="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i className="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i></Link><div className="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink"><div className="dropdown-header">Dropdown Header:</div><Link className="dropdown-item" to="#">Action</Link><Link className="dropdown-item" to="#">Another action</Link><div className="dropdown-divider"></div><Link className="dropdown-item" to="#">Something else here</Link></div></div>
                                                 </div>
                                             </div>
 

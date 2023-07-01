@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Assign = () => {
     return ( 
         <>
@@ -24,7 +26,7 @@ const Assign = () => {
                                                 <h6 className="m-0 pl-2  font-weight-bold text-white  listEventType">DRIVER</h6>
                                                 <h6 className="m-0 pl-2  font-weight-bold text-white  listEventType">DATE&TIME</h6>
                                                 <h6 className="m-0 pl-2  font-weight-bold text-white  listEventType"></h6>
-                                                <div className="pl-2  dropdown no-arrow"><a className="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i className="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i></a><div className="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink"><div className="dropdown-header">Dropdown Header:</div><a className="dropdown-item" href="#">Action</a><a className="dropdown-item" href="#">Another action</a><div className="dropdown-divider"></div><a className="dropdown-item" href="#">Something else here</a></div></div>
+                                                <div className="pl-2  dropdown no-arrow"><Link className="dropdown-toggle" to="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i className="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i></Link><div className="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink"><div className="dropdown-header">Dropdown Header:</div><Link className="dropdown-item" to="#">Action</Link><Link className="dropdown-item" to="#">Another action</Link><div className="dropdown-divider"></div><Link className="dropdown-item" to="#">Something else here</Link></div></div>
                                         </div>
 
                                     </div>
@@ -44,7 +46,7 @@ const Assign = () => {
                                                 <h6 className="pl-2  m-0 font-weight-bold text-white  listEventType">DRIVER</h6>
                                                 <h6 className="pl-2  m-0 font-weight-bold text-white  listEventType">DATE&TIME</h6>
                                                 <h6 className="pl-2  m-0 font-weight-bold text-white  listEventType"></h6>
-                                                <div className="pl-2  dropdown no-arrow"><a className="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i className="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i></a><div className="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink"><div className="dropdown-header">Dropdown Header:</div><a className="dropdown-item" href="#">Action</a><a className="dropdown-item" href="#">Another action</a><div className="dropdown-divider"></div><a className="dropdown-item" href="#">Something else here</a></div></div>
+                                                <div className="pl-2  dropdown no-arrow"><Link className="dropdown-toggle" to="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i className="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i></Link><div className="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink"><div className="dropdown-header">Dropdown Header:</div><Link className="dropdown-item" to="#">Action</Link><Link className="dropdown-item" to="#">Another action</Link><div className="dropdown-divider"></div><Link className="dropdown-item" to="#">Something else here</Link></div></div>
                                             </div>
                                             {/*  <!-- Card Body --> */}
                                             <div className="card-body p-0 border-0">
@@ -65,7 +67,7 @@ const Assign = () => {
                                                       </div>
                                                        <div className="drop-container sidebar"> 
                                                          <div className="nav-item">
-                                                             <a className="nav-link p-0" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"></a>
+                                                             <Link className="nav-link p-0" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"></Link>
                                                          </div>
                                                        </div>
                                                     </div>
@@ -142,7 +144,7 @@ const Assign = () => {
                                                 <h6 className="pl-2  m-0 font-weight-bold text-white  listEventType">DRIVER</h6>
                                                 <h6 className="pl-2  m-0 font-weight-bold text-white  listEventType">DATE&TIME</h6>
                                                 <h6 className="pl-2  m-0 font-weight-bold text-white  listEventType"></h6>
-                                                <div className="pl-2  dropdown no-arrow"><a className="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i className="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i></a><div className="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink"><div className="dropdown-header">Dropdown Header:</div><a className="dropdown-item" href="#">Action</a><a className="dropdown-item" href="#">Another action</a><div className="dropdown-divider"></div><a className="dropdown-item" href="#">Something else here</a></div></div>
+                                                <div className="pl-2  dropdown no-arrow"><Link className="dropdown-toggle" to="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i className="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i></Link><div className="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink"><div className="dropdown-header">Dropdown Header:</div><Link className="dropdown-item" to="#">Action</Link><Link className="dropdown-item" to="#">Another action</Link><div className="dropdown-divider"></div><Link className="dropdown-item" to="#">Something else here</Link></div></div>
                                             </div>
                                             {/*  <!-- Card Body --> */}
                                             <div className="card-body p-0 border-0">
@@ -163,7 +165,7 @@ const Assign = () => {
                                                       </div>
                                                        <div className="drop-container sidebar"> 
                                                          <div className="nav-item">
-                                                             <a className="nav-link p-0 collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"></a>
+                                                             <Link className="nav-link p-0 collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"></Link>
                                                          </div>
                                                        </div>
                                                     </div>

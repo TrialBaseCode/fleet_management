@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Navbar from "../navbar";
 import Footer from '../footer';
+import { Link } from "react-router-dom";
 
 
 
@@ -47,13 +48,13 @@ const TripsUpcoming = () => {
             {/*  <!-- Page Heading --> */}
             <div className="d-sm-flex align-items-center justify-content-between ">
               <h1 className="h3 mb-0 text-basic">Upcoming Trip</h1>
-              <a
-                href="#"
+              <Link
+                to="#"
                 className="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"
               >
                 <i className="fas fa-download fa-sm text-white-50"></i> Generate
                 Report
-              </a>
+              </Link>
             </div>
 
             {/* <!------Content work---------->*/}
@@ -77,15 +78,15 @@ const TripsUpcoming = () => {
                         className="dropdown-menu"
                         aria-labelledby="dropdownMenuButton"
                       >
-                        <a className="dropdown-item" href="#">
+                        <Link className="dropdown-item" to="#">
                           Action
-                        </a>
-                        <a className="dropdown-item" href="#">
+                        </Link>
+                        <Link className="dropdown-item" to="#">
                           Another action
-                        </a>
-                        <a className="dropdown-item" href="#">
+                        </Link>
+                        <Link className="dropdown-item" to="#">
                           Something else here
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="dropdown">
@@ -103,15 +104,15 @@ const TripsUpcoming = () => {
                         className="dropdown-menu"
                         aria-labelledby="dropdownMenuButton"
                       >
-                        <a className="dropdown-item" href="#">
+                        <Link className="dropdown-item" to="#">
                           Action
-                        </a>
-                        <a className="dropdown-item" href="#">
+                        </Link>
+                        <Link className="dropdown-item" to="#">
                           Another action
-                        </a>
-                        <a className="dropdown-item" href="#">
+                        </Link>
+                        <Link className="dropdown-item" to="#">
                           Something else here
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -144,7 +145,7 @@ const TripsUpcoming = () => {
                                             <h6 className="m-0 font-weight-bold text-white  listEventType">START DATE</h6>
                                             <h6 className="m-0 font-weight-bold text-white  listEventType">END DATE</h6>
                                             <h6 className="m-0 font-weight-bold text-white  listEventType">DURATION</h6>
-                                            <div className="dropdown no-arrow"><a className="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i className="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i></a><div className="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink"><div className="dropdown-header">Dropdown Header:</div><a className="dropdown-item" href="#">Action</a><a className="dropdown-item" href="#">Another action</a><div className="dropdown-divider"></div><a className="dropdown-item" href="#">Something else here</a></div></div>
+                                            <div className="dropdown no-arrow"><Link className="dropdown-toggle" to="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i className="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i></Link><div className="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink"><div className="dropdown-header">Dropdown Header:</div><Link className="dropdown-item" to="#">Action</Link><Link className="dropdown-item" to="#">Another action</Link><div className="dropdown-divider"></div><Link className="dropdown-item" to="#">Something else here</Link></div></div>
                                         </div>
 
                                     </div>
@@ -165,7 +166,7 @@ const TripsUpcoming = () => {
                                                 <h6 className="m-0 font-weight-bold text-white  listEventType">START DATE</h6>
                                                 <h6 className="m-0 font-weight-bold text-white  listEventType">END DATE</h6>
                                                 <h6 className="m-0 font-weight-bold text-white  listEventType">DURATION</h6>
-                                                <div className="dropdown no-arrow"><a className="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i className="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i></a><div className="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink"><div className="dropdown-header">Dropdown Header:</div><a className="dropdown-item" href="#">Action</a><a className="dropdown-item" href="#">Another action</a><div className="dropdown-divider"></div><a className="dropdown-item" href="#">Something else here</a></div></div>
+                                                <div className="dropdown no-arrow"><Link className="dropdown-toggle" to="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i className="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i></Link><div className="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink"><div className="dropdown-header">Dropdown Header:</div><Link className="dropdown-item" to="#">Action</Link><Link className="dropdown-item" to="#">Another action</Link><div className="dropdown-divider"></div><Link className="dropdown-item" to="#">Something else here</Link></div></div>
                                             </div>
                                             {/*  <!-- Card Body --> */}
                                             <div className="card-body ">
@@ -181,7 +182,7 @@ const TripsUpcoming = () => {
                                                     <h6 className="m-0  text-primary listbdy"><p className="mb-0">1/1/20</p><p className="mb-0">5:00PM</p></h6>
                                                     <h6 className="m-0  text-primary listbdy"><p className="mb-0">1/1/20</p><p className="mb-0">5:00PM</p></h6>
                                                     <h6 className="m-0  text-primary listbdy">1d 1h 30 min</h6>
-                                                    <div className="dropdown no-arrow"><a className="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i className="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i></a><div className="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink"><div className="dropdown-header">Dropdown Header:</div><a className="dropdown-item" href="#">Action</a><a className="dropdown-item" href="#">Another action</a><div className="dropdown-divider"></div><a className="dropdown-item" href="#">Something else here</a></div></div>
+                                                    <div className="dropdown no-arrow"><Link className="dropdown-toggle" to="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i className="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i></Link><div className="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink"><div className="dropdown-header">Dropdown Header:</div><Link className="dropdown-item" to="#">Action</Link><Link className="dropdown-item" to="#">Another action</Link><div className="dropdown-divider"></div><Link className="dropdown-item" to="#">Something else here</Link></div></div>
                                                 </div>
                                             </div>
 
@@ -200,7 +201,7 @@ const TripsUpcoming = () => {
                                                 <h6 className="m-0 font-weight-bold text-white  listEventType">START DATE</h6>
                                                 <h6 className="m-0 font-weight-bold text-white  listEventType">END DATE</h6>
                                                 <h6 className="m-0 font-weight-bold text-white  listEventType">DURATION</h6>
-                                                <div className="dropdown no-arrow"><a className="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i className="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i></a><div className="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink"><div className="dropdown-header">Dropdown Header:</div><a className="dropdown-item" href="#">Action</a><a className="dropdown-item" href="#">Another action</a><div className="dropdown-divider"></div><a className="dropdown-item" href="#">Something else here</a></div></div>
+                                                <div className="dropdown no-arrow"><Link className="dropdown-toggle" to="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i className="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i></Link><div className="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink"><div className="dropdown-header">Dropdown Header:</div><Link className="dropdown-item" to="#">Action</Link><Link className="dropdown-item" to="#">Another action</Link><div className="dropdown-divider"></div><Link className="dropdown-item" to="#">Something else here</Link></div></div>
                                             </div>
                                             {/*  <!-- Card Body --> */}
                                             <div className="card-body ">
@@ -216,7 +217,7 @@ const TripsUpcoming = () => {
                                                     <h6 className="m-0  text-primary listbdy"><p className="mb-0">1/1/20</p><p className="mb-0">5:00PM</p></h6>
                                                     <h6 className="m-0  text-primary listbdy"><p className="mb-0">1/1/20</p><p className="mb-0">5:00PM</p></h6>
                                                     <h6 className="m-0  text-primary listbdy">1d 1h 30 min</h6>
-                                                    <div className="dropdown no-arrow"><a className="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i className="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i></a><div className="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink"><div className="dropdown-header">Dropdown Header:</div><a className="dropdown-item" href="#">Action</a><a className="dropdown-item" href="#">Another action</a><div className="dropdown-divider"></div><a className="dropdown-item" href="#">Something else here</a></div></div>
+                                                    <div className="dropdown no-arrow"><Link className="dropdown-toggle" to="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i className="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i></Link><div className="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink"><div className="dropdown-header">Dropdown Header:</div><Link className="dropdown-item" to="#">Action</Link><Link className="dropdown-item" to="#">Another action</Link><div className="dropdown-divider"></div><Link className="dropdown-item" to="#">Something else here</Link></div></div>
                                                 </div>
                                             </div>
 
@@ -235,7 +236,7 @@ const TripsUpcoming = () => {
                                                 <h6 className="m-0 font-weight-bold text-white  listEventType">START DATE</h6>
                                                 <h6 className="m-0 font-weight-bold text-white  listEventType">END DATE</h6>
                                                 <h6 className="m-0 font-weight-bold text-white  listEventType">DURATION</h6>
-                                                <div className="dropdown no-arrow"><a className="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i className="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i></a><div className="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink"><div className="dropdown-header">Dropdown Header:</div><a className="dropdown-item" href="#">Action</a><a className="dropdown-item" href="#">Another action</a><div className="dropdown-divider"></div><a className="dropdown-item" href="#">Something else here</a></div></div>
+                                                <div className="dropdown no-arrow"><Link className="dropdown-toggle" to="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i className="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i></Link><div className="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink"><div className="dropdown-header">Dropdown Header:</div><Link className="dropdown-item" to="#">Action</Link><Link className="dropdown-item" to="#">Another action</Link><div className="dropdown-divider"></div><Link className="dropdown-item" to="#">Something else here</Link></div></div>
                                             </div>
                                             {/*  <!-- Card Body --> */}
                                             <div className="card-body ">
@@ -251,7 +252,7 @@ const TripsUpcoming = () => {
                                                     <h6 className="m-0  text-primary listbdy"><p className="mb-0">1/1/20</p><p className="mb-0">5:00PM</p></h6>
                                                     <h6 className="m-0  text-primary listbdy"><p className="mb-0">1/1/20</p><p className="mb-0">5:00PM</p></h6>
                                                     <h6 className="m-0  text-primary listbdy">1d 1h 30 min</h6>
-                                                    <div className="dropdown no-arrow"><a className="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i className="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i></a><div className="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink"><div className="dropdown-header">Dropdown Header:</div><a className="dropdown-item" href="#">Action</a><a className="dropdown-item" href="#">Another action</a><div className="dropdown-divider"></div><a className="dropdown-item" href="#">Something else here</a></div></div>
+                                                    <div className="dropdown no-arrow"><Link className="dropdown-toggle" to="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i className="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i></Link><div className="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink"><div className="dropdown-header">Dropdown Header:</div><Link className="dropdown-item" to="#">Action</Link><Link className="dropdown-item" to="#">Another action</Link><div className="dropdown-divider"></div><Link className="dropdown-item" to="#">Something else here</Link></div></div>
                                                 </div>
                                             </div>
 
@@ -270,7 +271,7 @@ const TripsUpcoming = () => {
                                                 <h6 className="m-0 font-weight-bold text-white  listEventType">START DATE</h6>
                                                 <h6 className="m-0 font-weight-bold text-white  listEventType">END DATE</h6>
                                                 <h6 className="m-0 font-weight-bold text-white  listEventType">DURATION</h6>
-                                                <div className="dropdown no-arrow"><a className="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i className="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i></a><div className="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink"><div className="dropdown-header">Dropdown Header:</div><a className="dropdown-item" href="#">Action</a><a className="dropdown-item" href="#">Another action</a><div className="dropdown-divider"></div><a className="dropdown-item" href="#">Something else here</a></div></div>
+                                                <div className="dropdown no-arrow"><Link className="dropdown-toggle" to="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i className="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i></Link><div className="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink"><div className="dropdown-header">Dropdown Header:</div><Link className="dropdown-item" to="#">Action</Link><Link className="dropdown-item" to="#">Another action</Link><div className="dropdown-divider"></div><Link className="dropdown-item" to="#">Something else here</Link></div></div>
                                             </div>
                                             {/*  <!-- Card Body --> */}
                                             <div className="card-body ">
@@ -286,7 +287,7 @@ const TripsUpcoming = () => {
                                                     <h6 className="m-0  text-primary listbdy"><p className="mb-0">1/1/20</p><p className="mb-0">5:00PM</p></h6>
                                                     <h6 className="m-0  text-primary listbdy"><p className="mb-0">1/1/20</p><p className="mb-0">5:00PM</p></h6>
                                                     <h6 className="m-0  text-primary listbdy">1d 1h 30 min</h6>
-                                                    <div className="dropdown no-arrow"><a className="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i className="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i></a><div className="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink"><div className="dropdown-header">Dropdown Header:</div><a className="dropdown-item" href="#">Action</a><a className="dropdown-item" href="#">Another action</a><div className="dropdown-divider"></div><a className="dropdown-item" href="#">Something else here</a></div></div>
+                                                    <div className="dropdown no-arrow"><Link className="dropdown-toggle" to="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i className="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i></Link><div className="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink"><div className="dropdown-header">Dropdown Header:</div><Link className="dropdown-item" to="#">Action</Link><Link className="dropdown-item" to="#">Another action</Link><div className="dropdown-divider"></div><Link className="dropdown-item" to="#">Something else here</Link></div></div>
                                                 </div>
                                             </div>
 
@@ -305,7 +306,7 @@ const TripsUpcoming = () => {
                                                 <h6 className="m-0 font-weight-bold text-white  listEventType">START DATE</h6>
                                                 <h6 className="m-0 font-weight-bold text-white  listEventType">END DATE</h6>
                                                 <h6 className="m-0 font-weight-bold text-white  listEventType">DURATION</h6>
-                                                <div className="dropdown no-arrow"><a className="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i className="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i></a><div className="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink"><div className="dropdown-header">Dropdown Header:</div><a className="dropdown-item" href="#">Action</a><a className="dropdown-item" href="#">Another action</a><div className="dropdown-divider"></div><a className="dropdown-item" href="#">Something else here</a></div></div>
+                                                <div className="dropdown no-arrow"><Link className="dropdown-toggle" to="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i className="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i></Link><div className="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink"><div className="dropdown-header">Dropdown Header:</div><Link className="dropdown-item" to="#">Action</Link><Link className="dropdown-item" to="#">Another action</Link><div className="dropdown-divider"></div><Link className="dropdown-item" to="#">Something else here</Link></div></div>
                                             </div>
                                             {/*  <!-- Card Body --> */}
                                             <div className="card-body ">
@@ -321,7 +322,7 @@ const TripsUpcoming = () => {
                                                     <h6 className="m-0  text-primary listbdy"><p className="mb-0">1/1/20</p><p className="mb-0">5:00PM</p></h6>
                                                     <h6 className="m-0  text-primary listbdy"><p className="mb-0">1/1/20</p><p className="mb-0">5:00PM</p></h6>
                                                     <h6 className="m-0  text-primary listbdy">1d 1h 30 min</h6>
-                                                    <div className="dropdown no-arrow"><a className="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i className="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i></a><div className="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink"><div className="dropdown-header">Dropdown Header:</div><a className="dropdown-item" href="#">Action</a><a className="dropdown-item" href="#">Another action</a><div className="dropdown-divider"></div><a className="dropdown-item" href="#">Something else here</a></div></div>
+                                                    <div className="dropdown no-arrow"><Link className="dropdown-toggle" to="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i className="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i></Link><div className="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink"><div className="dropdown-header">Dropdown Header:</div><Link className="dropdown-item" to="#">Action</Link><Link className="dropdown-item" to="#">Another action</Link><div className="dropdown-divider"></div><Link className="dropdown-item" to="#">Something else here</Link></div></div>
                                                 </div>
                                             </div>
 

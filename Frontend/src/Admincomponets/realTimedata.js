@@ -10,6 +10,7 @@ Cell,
 
 // data get 
 import data from "../DataCollection/realPie";
+import { Link } from "react-router-dom";
 
 
 
@@ -59,8 +60,8 @@ function TestUi() {
                         {/*  <!-- Page Heading --> */}
                         <div className="d-sm-flex align-items-center justify-content-between mb-4">
                             <h1 className="h3 mb-0 text-basic">Real Time Data</h1>
-                            <a href="#" className="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
-                                className="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
+                            <Link to="#" className="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
+                                className="fas fa-download fa-sm text-white-50"></i> Generate Report</Link>
                         </div>
 
                         {/*  <!-- Content Row --> */}
@@ -166,17 +167,17 @@ function TestUi() {
                                         className="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                                         <h6 className="m-0 font-weight-bold text-primary">Total Vehicles</h6>
                                         <div className="dropdown no-arrow">
-                                            <a className="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                            <Link className="dropdown-toggle" to="#" role="button" id="dropdownMenuLink"
                                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                 <i className="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
-                                            </a>
+                                            </Link>
                                             <div className="dropdown-menu dropdown-menu-right shadow animated--fade-in"
                                                 aria-labelledby="dropdownMenuLink">
                                                 <div className="dropdown-header">Dropdown Header:</div>
-                                                <a className="dropdown-item" href="#">Action</a>
-                                                <a className="dropdown-item" href="#">Another action</a>
+                                                <Link className="dropdown-item" to="#">Action</Link>
+                                                <Link className="dropdown-item" to="#">Another action</Link>
                                                 <div className="dropdown-divider"></div>
-                                                <a className="dropdown-item" href="#">Something else here</a>
+                                                <Link className="dropdown-item" to="#">Something else here</Link>
                                             </div>
                                         </div>
                                     </div>
@@ -333,17 +334,17 @@ function TestUi() {
                                                             <div className="d-flex align-items-md-center">
                                                                 <span className="pr-1 livetipnum">156</span>
                                                                 <div className="dropdown no-arrow">
-                                                                    <a className="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                                                    <Link className="dropdown-toggle" to="#" role="button" id="dropdownMenuLink"
                                                                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                                         <i className="fas fa-chevron-right fa-sm fa-fw text-gray-400"></i>
-                                                                    </a>
+                                                                    </Link>
                                                                     <div className="dropdown-menu dropdown-menu-right shadow animated--fade-in"
                                                                         aria-labelledby="dropdownMenuLink">
                                                                         <div className="dropdown-header">Dropdown Header:</div>
-                                                                        <a className="dropdown-item" href="#">Action</a>
-                                                                        <a className="dropdown-item" href="#">Another action</a>
+                                                                        <Link className="dropdown-item" to="#">Action</Link>
+                                                                        <Link className="dropdown-item" to="#">Another action</Link>
                                                                         <div className="dropdown-divider"></div>
-                                                                        <a className="dropdown-item" href="#">Something else here</a>
+                                                                        <Link className="dropdown-item" to="#">Something else here</Link>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -356,17 +357,17 @@ function TestUi() {
                                                             <div className="d-flex align-items-md-center">
                                                                 <span className="pr-1 livetipnum">16</span>
                                                                 <div className="dropdown no-arrow">
-                                                                    <a className="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                                                    <Link className="dropdown-toggle" to="#" role="button" id="dropdownMenuLink"
                                                                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                                         <i className="fas fa-chevron-right fa-sm fa-fw text-gray-400"></i>
-                                                                    </a>
+                                                                    </Link>
                                                                     <div className="dropdown-menu dropdown-menu-right shadow animated--fade-in"
                                                                         aria-labelledby="dropdownMenuLink">
                                                                         <div className="dropdown-header">Dropdown Header:</div>
-                                                                        <a className="dropdown-item" href="#">Action</a>
-                                                                        <a className="dropdown-item" href="#">Another action</a>
+                                                                        <Link className="dropdown-item" to="#">Action</Link>
+                                                                        <Link className="dropdown-item" to="#">Another action</Link>
                                                                         <div className="dropdown-divider"></div>
-                                                                        <a className="dropdown-item" href="#">Something else here</a>
+                                                                        <Link className="dropdown-item" to="#">Something else here</Link>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -379,17 +380,17 @@ function TestUi() {
                                                             <div className="d-flex align-items-md-center">
                                                                 <span className="pr-1 livetipnum">36</span>
                                                                 <div className="dropdown no-arrow">
-                                                                    <a className="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                                                    <Link className="dropdown-toggle" to="#" role="button" id="dropdownMenuLink"
                                                                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                                         <i className="fas fa-chevron-right fa-sm fa-fw text-gray-400"></i>
-                                                                    </a>
+                                                                    </Link>
                                                                     <div className="dropdown-menu dropdown-menu-right shadow animated--fade-in"
                                                                         aria-labelledby="dropdownMenuLink">
                                                                         <div className="dropdown-header">Dropdown Header:</div>
-                                                                        <a className="dropdown-item" href="#">Action</a>
-                                                                        <a className="dropdown-item" href="#">Another action</a>
+                                                                        <Link className="dropdown-item" to="#">Action</Link>
+                                                                        <Link className="dropdown-item" to="#">Another action</Link>
                                                                         <div className="dropdown-divider"></div>
-                                                                        <a className="dropdown-item" href="#">Something else here</a>
+                                                                        <Link className="dropdown-item" to="#">Something else here</Link>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -402,17 +403,17 @@ function TestUi() {
                                                             <div className="d-flex align-items-md-center">
                                                                 <span className="pr-1 livetipnum">89</span>
                                                                 <div className="dropdown no-arrow">
-                                                                    <a className="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                                                    <Link className="dropdown-toggle" to="#" role="button" id="dropdownMenuLink"
                                                                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                                         <i className="fas fa-chevron-right fa-sm fa-fw text-gray-400"></i>
-                                                                    </a>
+                                                                    </Link>
                                                                     <div className="dropdown-menu dropdown-menu-right shadow animated--fade-in"
                                                                         aria-labelledby="dropdownMenuLink">
                                                                         <div className="dropdown-header">Dropdown Header:</div>
-                                                                        <a className="dropdown-item" href="#">Action</a>
-                                                                        <a className="dropdown-item" href="#">Another action</a>
+                                                                        <Link className="dropdown-item" to="#">Action</Link>
+                                                                        <Link className="dropdown-item" to="#">Another action</Link>
                                                                         <div className="dropdown-divider"></div>
-                                                                        <a className="dropdown-item" href="#">Something else here</a>
+                                                                        <Link className="dropdown-item" to="#">Something else here</Link>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -425,17 +426,17 @@ function TestUi() {
                                                             <div className="d-flex align-items-md-center">
                                                                 <span className="pr-1 livetipnum">20</span>
                                                                 <div className="dropdown no-arrow">
-                                                                    <a className="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                                                    <Link className="dropdown-toggle" to="#" role="button" id="dropdownMenuLink"
                                                                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                                         <i className="fas fa-chevron-right fa-sm fa-fw text-gray-400"></i>
-                                                                    </a>
+                                                                    </Link>
                                                                     <div className="dropdown-menu dropdown-menu-right shadow animated--fade-in"
                                                                         aria-labelledby="dropdownMenuLink">
                                                                         <div className="dropdown-header">Dropdown Header:</div>
-                                                                        <a className="dropdown-item" href="#">Action</a>
-                                                                        <a className="dropdown-item" href="#">Another action</a>
+                                                                        <Link className="dropdown-item" to="#">Action</Link>
+                                                                        <Link className="dropdown-item" to="#">Another action</Link>
                                                                         <div className="dropdown-divider"></div>
-                                                                        <a className="dropdown-item" href="#">Something else here</a>
+                                                                        <Link className="dropdown-item" to="#">Something else here</Link>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -472,17 +473,17 @@ function TestUi() {
                                                                 <div className="d-flex align-items-md-center">
                                                                     <span className="pr-1 livetipnum">16</span>
                                                                     <div className="dropdown no-arrow">
-                                                                        <a className="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                                                        <Link className="dropdown-toggle" to="#" role="button" id="dropdownMenuLink"
                                                                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                                             <i className="fas fa-chevron-right fa-sm fa-fw text-gray-400"></i>
-                                                                        </a>
+                                                                        </Link>
                                                                         <div className="dropdown-menu dropdown-menu-right shadow animated--fade-in"
                                                                             aria-labelledby="dropdownMenuLink">
                                                                             <div className="dropdown-header">Dropdown Header:</div>
-                                                                            <a className="dropdown-item" href="#">Action</a>
-                                                                            <a className="dropdown-item" href="#">Another action</a>
+                                                                            <Link className="dropdown-item" to="#">Action</Link>
+                                                                            <Link className="dropdown-item" to="#">Another action</Link>
                                                                             <div className="dropdown-divider"></div>
-                                                                            <a className="dropdown-item" href="#">Something else here</a>
+                                                                            <Link className="dropdown-item" to="#">Something else here</Link>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -495,17 +496,17 @@ function TestUi() {
                                                                 <div className="d-flex align-items-md-center">
                                                                     <span className="pr-1 livetipnum">46</span>
                                                                     <div className="dropdown no-arrow">
-                                                                        <a className="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                                                        <Link className="dropdown-toggle" to="#" role="button" id="dropdownMenuLink"
                                                                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                                             <i className="fas fa-chevron-right fa-sm fa-fw text-gray-400"></i>
-                                                                        </a>
+                                                                        </Link>
                                                                         <div className="dropdown-menu dropdown-menu-right shadow animated--fade-in"
                                                                             aria-labelledby="dropdownMenuLink">
                                                                             <div className="dropdown-header">Dropdown Header:</div>
-                                                                            <a className="dropdown-item" href="#">Action</a>
-                                                                            <a className="dropdown-item" href="#">Another action</a>
+                                                                            <Link className="dropdown-item" to="#">Action</Link>
+                                                                            <Link className="dropdown-item" to="#">Another action</Link>
                                                                             <div className="dropdown-divider"></div>
-                                                                            <a className="dropdown-item" href="#">Something else here</a>
+                                                                            <Link className="dropdown-item" to="#">Something else here</Link>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -518,17 +519,17 @@ function TestUi() {
                                                                 <div className="d-flex align-items-md-center">
                                                                     <span className="pr-1 livetipnum">46</span>
                                                                     <div className="dropdown no-arrow">
-                                                                        <a className="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                                                        <Link className="dropdown-toggle" to="#" role="button" id="dropdownMenuLink"
                                                                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                                             <i className="fas fa-chevron-right fa-sm fa-fw text-gray-400"></i>
-                                                                        </a>
+                                                                        </Link>
                                                                         <div className="dropdown-menu dropdown-menu-right shadow animated--fade-in"
                                                                             aria-labelledby="dropdownMenuLink">
                                                                             <div className="dropdown-header">Dropdown Header:</div>
-                                                                            <a className="dropdown-item" href="#">Action</a>
-                                                                            <a className="dropdown-item" href="#">Another action</a>
+                                                                            <Link className="dropdown-item" to="#">Action</Link>
+                                                                            <Link className="dropdown-item" to="#">Another action</Link>
                                                                             <div className="dropdown-divider"></div>
-                                                                            <a className="dropdown-item" href="#">Something else here</a>
+                                                                            <Link className="dropdown-item" to="#">Something else here</Link>
                                                                         </div>
                                                                     </div>
                                                                 </div>

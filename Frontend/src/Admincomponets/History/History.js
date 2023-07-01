@@ -2,7 +2,7 @@
 import Navbar from "../navbar";
 import Footer from "../footer";
 import { useState } from "react";
-import { NavLink, Outlet, useLocation} from "react-router-dom";
+import { Link, NavLink, Outlet, useLocation} from "react-router-dom";
 
 
 
@@ -66,13 +66,13 @@ const HistoryOfVehicle = () => {
                         {/*  <!-- Page Heading --> */}
                         <div className="d-sm-flex align-items-center justify-content-between ">
                         <h1 className="mb-0 text-basic">History</h1>
-                        <a
-                            href="#"
+                        <Link
+                            to="/"
                             className="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"
                         >
                             <i className="fas fa-download fa-sm text-white-50"></i> Generate
                             Report
-                        </a>
+                        </Link>
                         </div>
 
                         {/* <!------Content work---------->*/}
@@ -116,15 +116,15 @@ const HistoryOfVehicle = () => {
                                     className="dropdown-menu"
                                     aria-labelledby="dropdownMenuButton"
                                 >
-                                    <a className="dropdown-item" href="#">
+                                    <Link className="dropdown-item" to="#">
                                     Action
-                                    </a>
-                                    <a className="dropdown-item" href="#">
+                                    </Link>
+                                    <Link className="dropdown-item" to="#">
                                     Another action
-                                    </a>
-                                    <a className="dropdown-item" href="#">
+                                    </Link>
+                                    <Link className="dropdown-item" to="#">
                                     Something else here
-                                    </a>
+                                    </Link>
                                 </div>
                                 </div>
                                 <div className="dropdown">
@@ -142,15 +142,15 @@ const HistoryOfVehicle = () => {
                                     className="dropdown-menu"
                                     aria-labelledby="dropdownMenuButton"
                                 >
-                                    <a className="dropdown-item" href="#">
+                                    <Link className="dropdown-item" to="#">
                                     Action
-                                    </a>
-                                    <a className="dropdown-item" href="#">
+                                    </Link>
+                                    <Link className="dropdown-item" to="#">
                                     Another action
-                                    </a>
-                                    <a className="dropdown-item" href="#">
+                                    </Link>
+                                    <Link className="dropdown-item" to="#">
                                     Something else here
-                                    </a>
+                                    </Link>
                                 </div>
                                 </div>
                             </div>

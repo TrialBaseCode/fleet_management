@@ -294,10 +294,10 @@ function Sidebar() {
 
             {/* <!-- Nav Item - history --> */}
             <li className="nav-item">
-              <div className="nav-link" href="charts.html">
+              <Link className="nav-link" to="charts.html">
                 <i className="fas fa-fw fa-chart-area"></i>
                 <span>Analytics</span>
-              </div>
+              </Link >
             </li>
 
             {/*  <!-- Divider --> */}
@@ -305,9 +305,9 @@ function Sidebar() {
 
             {/*  <!-- Nav Item - Pages Collapse Menu --> */}
             <li className="nav-item">
-              <div
+              <Link 
                 className="nav-link collapsed"
-                href="#"
+                to="#"
                 data-toggle="collapse"
                 data-target="#collapsePages"
                 aria-expanded="true"
@@ -315,7 +315,7 @@ function Sidebar() {
               >
                 <i className="fas fa-fw fa-folder"></i>
                 <span>Pages</span>
-              </div>
+              </Link >
               {/* <div
                 id="collapsePages"
                 className="collapse"
@@ -347,18 +347,18 @@ function Sidebar() {
 
             {/* <!-- Nav Item - Charts --> */}
             <li className="nav-item">
-              <a className="nav-link" href="charts.html">
+              <Link  className="nav-link" to="charts.html">
                 <i className="fas fa-fw fa-chart-area"></i>
                 <span>Charts</span>
-              </a>
+              </Link >
             </li>
 
             {/*  <!-- Nav Item - Tables --> */}
             <li className="nav-item">
-              <a className="nav-link" href="tables.html">
+              <Link  className="nav-link" to="tables.html">
                 <i className="fas fa-fw fa-table"></i>
                 <span>Tables</span>
-              </a>
+              </Link >
             </li>
 
             {/* <!-- Divider --> */}

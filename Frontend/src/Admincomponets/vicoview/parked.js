@@ -1,9 +1,11 @@
+import { Link } from "react-router-dom";
+
 const Parked = () => {
     return (
     <>
         <div className="list-group mylist-container">
-                          <a
-                            href="#"
+                          <Link
+                            to="#"
                             className="list-group-item list-group-item-action list-group-item-light"
                           >
                             <div className="d-flex ">
@@ -33,9 +35,9 @@ const Parked = () => {
                                 </div>
                               </div>
                             </div>
-                          </a>
-                          <a
-                            href="#"
+                          </Link>
+                          <Link
+                            to="#"
                             className="list-group-item list-group-item-action list-group-item-light"
                           >
                             <div className="d-flex ">
@@ -65,7 +67,7 @@ const Parked = () => {
                                 </div>
                               </div>
                             </div>
-                          </a>
+                          </Link>
                         </div>
     </>  
     );

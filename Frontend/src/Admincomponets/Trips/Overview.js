@@ -61,9 +61,9 @@ const TripsOverview = () => {
                       Trips
                     </h6>
                     <div className="dropdown no-arrow">
-                      <a
+                      <Link
                         className="dropdown-toggle"
-                        href="#"
+                        to="#"
                         role="button"
                         id="dropdownMenuLink"
                         data-toggle="dropdown"
@@ -71,21 +71,21 @@ const TripsOverview = () => {
                         aria-expanded="false"
                       >
                         <i className="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
-                      </a>
+                      </Link>
                       <div
                         className="dropdown-menu dropdown-menu-right shadow animated--fade-in"
                         aria-labelledby="dropdownMenuLink"
                       >
-                        <a className="dropdown-item" href="#">
+                        <Link className="dropdown-item" to="#">
                           Action
-                        </a>
-                        <a className="dropdown-item" href="#">
+                        </Link>
+                        <Link className="dropdown-item" to="#">
                           Another action
-                        </a>
+                        </Link>
                         <div className="dropdown-divider"></div>
-                        <a className="dropdown-item" href="#">
+                        <Link className="dropdown-item" to="#">
                           Something else here
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -146,7 +146,7 @@ const TripsOverview = () => {
                                            </div>
                                      </div>
                                  </div>
-                                  <a href="#" className="card-link float-right font-weight-bold">See more</a>
+                                  <Link to="#" className="card-link float-right font-weight-bold">See more</Link>
                               </div>
                          </div>
                          <div className="card cardTripContain mb-3">
@@ -199,7 +199,7 @@ const TripsOverview = () => {
                                            </div>
                                      </div>
                                  </div>
-                                  <a href="#" className="card-link float-right font-weight-bold">See more</a>
+                                  <Link to="#" className="card-link float-right font-weight-bold">See more</Link>
                               </div>
                          </div>
                          <div className="card cardTripContain mb-3">
@@ -252,7 +252,7 @@ const TripsOverview = () => {
                                            </div>
                                      </div>
                                  </div>
-                                  <a href="#" className="card-link float-right font-weight-bold">See more</a>
+                                  <Link to="#" className="card-link float-right font-weight-bold">See more</Link>
                               </div>
                          </div>
                          <div className="card cardTripContain mb-3">
@@ -305,7 +305,7 @@ const TripsOverview = () => {
                                            </div>
                                      </div>
                                  </div>
-                                  <a href="#" className="card-link float-right font-weight-bold">See more</a>
+                                  <Link to="#" className="card-link float-right font-weight-bold">See more</Link>
                               </div>
                          </div>
                          <div className="card cardTripContain mb-3">
@@ -358,7 +358,7 @@ const TripsOverview = () => {
                                            </div>
                                      </div>
                                  </div>
-                                  <a href="#" className="card-link float-right font-weight-bold">See more</a>
+                                  <Link to="#" className="card-link float-right font-weight-bold">See more</Link>
                               </div>
                          </div>
                       </div>

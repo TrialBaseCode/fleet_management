@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Navbar from "../navbar";
 import Footer from '../footer';
-import { NavLink , Outlet, useLocation} from "react-router-dom";
+import { Link, NavLink , Outlet, useLocation} from "react-router-dom";
 
 
 
@@ -9,7 +9,7 @@ const FleetDel = () => {
 
   const location = useLocation();
      
-  // Define a helper function to check if the given path is active
+  // Define Link helper function to check if the given path is active
    const isPathActive = (path) => {
    const currentPath = location.pathname;
    return currentPath === path;
@@ -55,13 +55,13 @@ const FleetDel = () => {
             {/*  <!-- Page Heading --> */}
             <div className="d-sm-flex align-items-center justify-content-between ">
               <h1 className="h3 mb-0 text-basic">Vehicles Details</h1>
-              <a
-                href="#"
+              <Link
+                to="#"
                 className="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"
               >
                 <i className="fas fa-download fa-sm text-white-50"></i> Generate
                 Report
-              </a>
+              </Link>
             </div>
 
             {/* <!------Content work---------->*/}
@@ -116,15 +116,15 @@ const FleetDel = () => {
                         className="dropdown-menu"
                         aria-labelledby="dropdownMenuButton"
                       >
-                        <a className="dropdown-item" href="#">
+                        <Link className="dropdown-item" to="#">
                           Action
-                        </a>
-                        <a className="dropdown-item" href="#">
+                        </Link>
+                        <Link className="dropdown-item" to="#">
                           Another action
-                        </a>
-                        <a className="dropdown-item" href="#">
+                        </Link>
+                        <Link className="dropdown-item" to="#">
                           Something else here
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="dropdown">
@@ -142,15 +142,15 @@ const FleetDel = () => {
                         className="dropdown-menu"
                         aria-labelledby="dropdownMenuButton"
                       >
-                        <a className="dropdown-item" href="#">
+                        <Link className="dropdown-item" to="#">
                           Action
-                        </a>
-                        <a className="dropdown-item" href="#">
+                        </Link>
+                        <Link className="dropdown-item" to="#">
                           Another action
-                        </a>
-                        <a className="dropdown-item" href="#">
+                        </Link>
+                        <Link className="dropdown-item" to="#">
                           Something else here
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>

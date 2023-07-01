@@ -26,13 +26,13 @@ const VechileInfo = () => {
           >
             <u>Back to all Vehicles</u>
           </Link>
-          <a
-            href="#"
+          <Link
+            to="#"
             className="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"
           >
             <i className="fas fa-download fa-sm text-white-50"></i> Generate
             Report
-          </a>
+          </Link>
         </div>
         <div className="info-vechicle-container my-4">
           <div className="info-vechicle-container mb-4">
@@ -299,9 +299,9 @@ const VechileInfo = () => {
                             Maintenance
                       </h6>
                      <div className="dropdown no-arrow">
-                        <a
+                        <Link
                            className="dropdown-toggle"
-                           href="#"
+                           to="#"
                            role="button"
                            id="dropdownMenuLink"
                            data-toggle="dropdown"
@@ -309,22 +309,22 @@ const VechileInfo = () => {
                            aria-expanded="false"
                         >
                            <i className="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
-                        </a>
+                        </Link>
                         <div
                            className="dropdown-menu dropdown-menu-right shadow animated--fade-in"
                            aria-labelledby="dropdownMenuLink"
                         >
                            <div className="dropdown-header">Dropdown Header:</div>
-                           <a className="dropdown-item" href="#">
+                           <Link className="dropdown-item" to="#">
                            Action
-                           </a>
-                           <a className="dropdown-item" href="#">
+                           </Link>
+                           <Link className="dropdown-item" to="#">
                            Another action
-                           </a>
+                           </Link>
                            <div className="dropdown-divider"></div>
-                           <a className="dropdown-item" href="#">
+                           <Link className="dropdown-item" to="#">
                            Something else here
-                           </a>
+                           </Link>
                         </div>
                      </div>
                      </div>
@@ -429,9 +429,9 @@ const VechileInfo = () => {
                         TRIP  <small class="text-success mb-3">LIVE</small>
                      </h6>
                      <div className="dropdown no-arrow">
-                        <a
+                        <Link
                            className="dropdown-toggle"
-                           href="#"
+                           to="#"
                            role="button"
                            id="dropdownMenuLink"
                            data-toggle="dropdown"
@@ -439,22 +439,22 @@ const VechileInfo = () => {
                            aria-expanded="false"
                         >
                            <i className="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
-                        </a>
+                        </Link>
                         <div
                            className="dropdown-menu dropdown-menu-right shadow animated--fade-in"
                            aria-labelledby="dropdownMenuLink"
                         >
                            <div className="dropdown-header">Dropdown Header:</div>
-                           <a className="dropdown-item" href="#">
+                           <Link className="dropdown-item" to="#">
                            Action
-                           </a>
-                           <a className="dropdown-item" href="#">
+                           </Link>
+                           <Link className="dropdown-item" to="#">
                            Another action
-                           </a>
+                           </Link>
                            <div className="dropdown-divider"></div>
-                           <a className="dropdown-item" href="#">
+                           <Link className="dropdown-item" to="#">
                            Something else here
-                           </a>
+                           </Link>
                         </div>
                      </div>
                      </div>
