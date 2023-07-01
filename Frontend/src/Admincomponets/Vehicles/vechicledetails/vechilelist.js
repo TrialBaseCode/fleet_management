@@ -26,7 +26,7 @@ const vechileList = () => {
                                             <h6 className="m-0 font-weight-bold text-white listEventType">TYPE</h6>
                                             <h6 className="m-0 font-weight-bold text-white  listEventType">MESSAGE</h6>
                                             <h6 className="m-0 font-weight-bold text-white  listEventType">DATE&TIME</h6>
-                                            <h6 className="m-0 font-weight-bold text-white  listEventType"></h6>
+                                            <div className="m-0 font-weight-bold text-white  listEventType"></div>
                                         </div>
 
                                     </div>
@@ -46,7 +46,7 @@ const vechileList = () => {
                                                 <h6 className="m-0 font-weight-bold text-white listEventType">TYPE</h6>
                                                 <h6 className="m-0 font-weight-bold text-white  listEventType">MESSAGE</h6>
                                                 <h6 className="m-0 font-weight-bold text-white  listEventType">DATE&TIME</h6>
-                                                <h6 className="m-0 font-weight-bold text-white  listEventType"></h6>
+                                                <div className="m-0 font-weight-bold text-white  listEventType"></div>
                                             </div>
                                             {/*  <!-- Card Body --> */}
                                             <div className="card-body ">

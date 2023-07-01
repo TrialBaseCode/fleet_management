@@ -36,7 +36,7 @@ const Planned = () => {
                     <h6 className="m-0   font-weight-bold text-white  listEventType">
                      COST PLANNED
                     </h6>
-                    <h6 className="m-0   font-weight-bold text-white  listEventType"></h6>
+                    <div className="m-0   font-weight-bold text-white  listEventType"></div>
                     <div className=" dropdown no-arrow">
                       <Link
                         className="dropdown-toggle"
@@ -95,7 +95,7 @@ const Planned = () => {
                       <h6 className="  m-0 font-weight-bold text-white  listEventType">
                         COST PLANNED
                       </h6>
-                      <h6 className="  m-0 font-weight-bold text-white  listEventType"></h6>
+                      <div className="  m-0 font-weight-bold text-white  listEventType"></div>
                       <div className="  dropdown no-arrow">
                         <Link
                           className="dropdown-toggle"
@@ -333,7 +333,7 @@ const Planned = () => {
                       <h6 className="  m-0 font-weight-bold text-white  listEventType">
                         COST PLANNED
                       </h6>
-                      <h6 className="  m-0 font-weight-bold text-white  listEventType"></h6>
+                      <div className="  m-0 font-weight-bold text-white  listEventType"></div>
                       <div className="  dropdown no-arrow">
                         <Link
                           className="dropdown-toggle"

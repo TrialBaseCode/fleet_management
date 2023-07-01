@@ -20,7 +20,7 @@ const OutofService = () => {
                                                     <input className="form-check-input" type="checkbox" value=""/>
                                                 </div>
                                             </div>
-                                            <h6 className="m-0 font-weight-bold text-white  listEventType">VEHICLE</h6>
+                                            <h6 className="m-0 font-weight-bold text-white  listEventType">git push -u origin fleetEHICLE</h6>
                                             <h6 className="m-0 font-weight-bold text-white listEventType">TYPE</h6>
                                             <h6 className="m-0 font-weight-bold text-white  listEventType">STATUS</h6>
                                             <h6 className="m-0 font-weight-bold text-white  listEventType">VEHICLE CONDITION</h6>

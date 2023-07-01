@@ -335,7 +335,7 @@ function TestUi() {
                                                 <img className="img-fluid px-3 px-sm-4 mt-3 mb-4 a6"
                                                     src="img/undraw_posting_photo.svg" alt="..." />
                                             </div>
-                                            <p>Add some quality, svg illustrations to your project courtesy of 
+                                            <p>Add some quality, svg illustrations to your project courtesy of
                                                 <Link
                                                 target="_blank" rel="nofollow" to="#">unDraw</Link >, a
                                                 constantly updated collection of beautiful svg images that you can use

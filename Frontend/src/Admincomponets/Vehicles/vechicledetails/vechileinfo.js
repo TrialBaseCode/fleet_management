@@ -350,7 +350,7 @@ const VechileInfo = () => {
                                <div className="maint-container d-flex align-items-center">
                                    <div className="main-icon-contian pr-2">
                                       <div className="main-icon">
-                                         <img src="../img/breaks.png" width={40} height={40}></img>
+                                         <img src="../img/breaks.png" alt="" width={40} height={40}></img>
                                       </div>
                                    </div>
                                    <div className="maint-til-container">
@@ -367,7 +367,7 @@ const VechileInfo = () => {
                                <div className="maint-container d-flex align-items-center">
                                    <div className="main-icon-contian pr-2">
                                       <div className="main-icon">
-                                         <img src="../img/filter.png" width={40} height={40}></img>
+                                         <img src="../img/filter.png" alt="" width={40} height={40}></img>
                                       </div>
                                    </div>
                                    <div className="maint-til-container">
@@ -384,7 +384,7 @@ const VechileInfo = () => {
                                <div className="maint-container d-flex align-items-center">
                                    <div className="main-icon-contian pr-2">
                                       <div className="main-icon">
-                                         <img src="../img/plan.png" width={40} height={40}></img>
+                                         <img src="../img/plan.png" alt="" width={40} height={40}></img>
                                       </div>
                                    </div>
                                    <div className="maint-til-container">
@@ -401,7 +401,7 @@ const VechileInfo = () => {
                                <div className="maint-container d-flex align-items-center">
                                    <div className="main-icon-contian pr-2">
                                       <div className="main-icon">
-                                         <img src="../img/rotate_tiers.png" width={40} height={40}></img>
+                                         <img src="../img/rotate_tiers.png" alt="" width={40} height={40}></img>
                                       </div>
                                    </div>
                                    <div className="maint-til-container">
