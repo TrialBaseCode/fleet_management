@@ -4,7 +4,7 @@
 # To install Backend
  - composer instal
  - create .env in ( Backend Folder )
-## then run some command
+#### then run some command
  - php artisan key:generate
  - php artisan cache:clear
  - php artisan config:clear
