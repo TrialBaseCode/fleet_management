@@ -65,7 +65,7 @@ const HistoryOfVehicle = () => {
                     <div className="container-fluid">
                         {/*  <!-- Page Heading --> */}
                         <div className="d-sm-flex align-items-center justify-content-between ">
-                        <h1 className="h3 mb-0 text-basic">History</h1>
+                        <h1 className="mb-0 text-basic">History</h1>
                         <a
                             href="#"
                             className="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"

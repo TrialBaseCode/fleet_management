@@ -78,10 +78,10 @@ const Assign = () => {
                                                          </div>
                                                          <div className="drive-info">
                                                               <div className="multidriver-container">
-                                                                  <ul class="list-group list-group-flush">
-                                                                    <li class="list-group-item p-0 ">
-                                                                        <div class="card">
-                                                                          <div class="card-header  bg-dark text-white">
+                                                                  <ul className="list-group list-group-flush">
+                                                                    <li className="list-group-item p-0 ">
+                                                                        <div className="card">
+                                                                          <div className="card-header  bg-dark text-white">
                                                                              <div className="list-container d-flex align-items-center">
                                                                                   <div className="driver-name w-100">
                                                                                     <h6 className="mb-0 font-weight-bold">Driver</h6>
@@ -91,9 +91,9 @@ const Assign = () => {
                                                                                   </div>
                                                                               </div>
                                                                           </div>
-                                                                          <div class="card-body">
-                                                                              <ul class="list-group list-group-flush">
-                                                                                   <li class="list-group-item pl-0 br-0 pb-2 pt-2">
+                                                                          <div className="card-body">
+                                                                              <ul className="list-group list-group-flush">
+                                                                                   <li className="list-group-item pl-0 br-0 pb-2 pt-2">
                                                                                      <div className="list-container d-flex align-items-center">
                                                                                     <div className="driver-name w-100">
                                                                                       <h6 className="mb-0">John Doe</h6>
@@ -103,7 +103,7 @@ const Assign = () => {
                                                                                     </div>
                                                                                      </div>
                                                                                    </li>
-                                                                                   <li class="list-group-item pl-0 br-0 pb-2 pt-2">
+                                                                                   <li className="list-group-item pl-0 br-0 pb-2 pt-2">
                                                                                      <div className="list-container d-flex align-items-center">
                                                                                     <div className="driver-name w-100">
                                                                                       <h6 className="mb-0">George Williams</h6>
@@ -176,10 +176,10 @@ const Assign = () => {
                                                          </div>
                                                          <div className="drive-info">
                                                               <div className="multidriver-container">
-                                                                  <ul class="list-group list-group-flush">
-                                                                    <li class="list-group-item p-0 ">
-                                                                        <div class="card">
-                                                                          <div class="card-header  bg-dark text-white">
+                                                                  <ul className="list-group list-group-flush">
+                                                                    <li className="list-group-item p-0 ">
+                                                                        <div className="card">
+                                                                          <div className="card-header  bg-dark text-white">
                                                                              <div className="list-container d-flex align-items-center">
                                                                                   <div className="driver-name w-100">
                                                                                     <h6 className="mb-0 font-weight-bold">Driver</h6>
@@ -189,9 +189,9 @@ const Assign = () => {
                                                                                   </div>
                                                                               </div>
                                                                           </div>
-                                                                          <div class="card-body">
-                                                                              <ul class="list-group list-group-flush">
-                                                                                   <li class="list-group-item pl-0 br-0 pb-2 pt-2">
+                                                                          <div className="card-body">
+                                                                              <ul className="list-group list-group-flush">
+                                                                                   <li className="list-group-item pl-0 br-0 pb-2 pt-2">
                                                                                      <div className="list-container d-flex align-items-center">
                                                                                     <div className="driver-name w-100">
                                                                                       <h6 className="mb-0">John Doe</h6>
@@ -201,7 +201,7 @@ const Assign = () => {
                                                                                     </div>
                                                                                      </div>
                                                                                    </li>
-                                                                                   <li class="list-group-item pl-0 br-0 pb-2 pt-2">
+                                                                                   <li className="list-group-item pl-0 br-0 pb-2 pt-2">
                                                                                      <div className="list-container d-flex align-items-center">
                                                                                     <div className="driver-name w-100">
                                                                                       <h6 className="mb-0">George Williams</h6>

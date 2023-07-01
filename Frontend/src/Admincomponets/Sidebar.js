@@ -72,7 +72,7 @@ function Sidebar() {
           <hr className="sidebar-divider my-0" />
           <ul className="fleetAdminDetail p-0 navbar-nav" id="fleetAdminal">
             {/*  <!-- Nav Item - Dashboard --> */}
-            <Link
+            <li
               className={` nav-item  ${
                 isPathActive("/") ||
                 isPathActive("/AllVehicle") ||
@@ -86,7 +86,7 @@ function Sidebar() {
                   : ""
               }`}
             >
-              <a
+              <div
                 className="nav-link "
                 data-toggle="collapse"
                 data-target="#collapsedash"
@@ -95,7 +95,7 @@ function Sidebar() {
               >
                 <i className="fas fa-fw fa-tachometer-alt"></i>
                 <span>Dashboard</span>
-              </a>
+              </div>
               <div
                 id="collapsedash"
                 className={` collapse ${
@@ -129,13 +129,15 @@ function Sidebar() {
                   </NavLink>
                 </div>
               </div>
-            </Link>
+            </li>
+
+
 
             {/*  <!-- Divider --> */}
             <hr className="sidebar-divider" />
 
             {/*  <!-- Nav Item - Pages Collapse Menu --> */}
-            <Link
+            <li
               className={` nav-item  ${
                 isPathActive("/vifleet") ||
                 isPathActive("/vehiclesassign") ||
@@ -150,7 +152,7 @@ function Sidebar() {
                   : ""
               }`}
             >
-              <a
+              <div
                 className="nav-link collapsed "
                 data-toggle="collapse"
                 data-target="#collapseTwo"
@@ -159,7 +161,7 @@ function Sidebar() {
               >
                 <i className="fas fa-car"></i>
                 <span>Vehicles</span>
-              </a>
+              </div>
               <div
                 id="collapseTwo"
                 className={` collapse ${
@@ -190,10 +192,10 @@ function Sidebar() {
                   </NavLink>
                 </div>
               </div>
-            </Link>
+            </li>
 
             {/* <!-- Nav Item - Utilities Collapse Menu --> */}
-            <Link
+            <li
               className={` nav-item  ${
                 isPathActive("/Tripoverview") ||
                 isPathActive("/Tripupcoming") ||
@@ -236,13 +238,13 @@ function Sidebar() {
                   </NavLink>
                 </div>
               </div>
-            </Link>
+            </li>
 
             {/*  <!-- Divider --> */}
             <hr className="sidebar-divider" />
 
             {/* <!-- Nav Item - Utilities Collapse Menu --> */}
-            <Link
+            <li
               className={` nav-item  ${
                 isPathActive("/maintainplan") ? "active" : ""
               }`}
@@ -271,10 +273,10 @@ function Sidebar() {
                   </NavLink>
                 </div>
               </div>
-            </Link>
+            </li>
 
             {/* <!-- Nav Item - history --> */}
-            <Link
+            <li
               className={` nav-item  ${
                 isPathActive("/vechicleHistory") ||
                 isPathActive("/vechicleHistory/History") ||
@@ -286,24 +288,24 @@ function Sidebar() {
                 <i className="fas fa-history"></i>
                 <span>Hisory</span>
               </NavLink>
-            </Link>
+            </li>
             {/*  <!-- Divider --> */}
             <hr className="sidebar-divider" />
 
             {/* <!-- Nav Item - history --> */}
-            <Link className="nav-item">
-              <a className="nav-link" href="charts.html">
+            <li className="nav-item">
+              <div className="nav-link" href="charts.html">
                 <i className="fas fa-fw fa-chart-area"></i>
                 <span>Analytics</span>
-              </a>
-            </Link>
+              </div>
+            </li>
 
             {/*  <!-- Divider --> */}
             <hr className="sidebar-divider" />
 
             {/*  <!-- Nav Item - Pages Collapse Menu --> */}
-            <Link className="nav-item">
-              <a
+            <li className="nav-item">
+              <div
                 className="nav-link collapsed"
                 href="#"
                 data-toggle="collapse"
@@ -313,8 +315,8 @@ function Sidebar() {
               >
                 <i className="fas fa-fw fa-folder"></i>
                 <span>Pages</span>
-              </a>
-              <div
+              </div>
+              {/* <div
                 id="collapsePages"
                 className="collapse"
                 aria-labelledby="headingPages"
@@ -340,24 +342,24 @@ function Sidebar() {
                     Blank Page
                   </a>
                 </div>
-              </div>
-            </Link>
+              </div> */}
+            </li>
 
             {/* <!-- Nav Item - Charts --> */}
-            <Link className="nav-item">
+            <li className="nav-item">
               <a className="nav-link" href="charts.html">
                 <i className="fas fa-fw fa-chart-area"></i>
                 <span>Charts</span>
               </a>
-            </Link>
+            </li>
 
             {/*  <!-- Nav Item - Tables --> */}
-            <Link className="nav-item">
+            <li className="nav-item">
               <a className="nav-link" href="tables.html">
                 <i className="fas fa-fw fa-table"></i>
                 <span>Tables</span>
               </a>
-            </Link>
+            </li>
 
             {/* <!-- Divider --> */}
             <hr className="sidebar-divider d-none d-md-block" />

@@ -96,13 +96,13 @@ const TripsOverview = () => {
                     </div>
                     <div className="chart-pie chart-work-do chart-work-trips-do pt-1 pb-2 overflow-auto ">
                       <div className="listoftripsContainer">
-                         <div class="card cardTripContain mb-3 active">
-                              <div class="card-body">
-                                 <div class="card-title d-flex justify-content-between">
+                         <div className="card cardTripContain mb-3 active">
+                              <div className="card-body">
+                                 <div className="card-title d-flex justify-content-between">
                                      <div className="card-title-head d-flex">
                                        <div className="trps_icons pr-2">
                                           <div className="tr-icons">
-                                             <i class="fas fa-truck "></i>
+                                             <i className="fas fa-truck "></i>
                                           </div>
                                        </div>
                                        <h4 className="font-weight-bold mb-0 mt-1 text-basic">AT 5863</h4>
@@ -116,7 +116,7 @@ const TripsOverview = () => {
                                      <div className="card-Address-start-contain d-flex">
                                            <div className="card-Address-map-icon">
                                                 <div className="card-Address-icon">
-                                                    <i class="fas fa-map-marker-alt"></i>
+                                                    <i className="fas fa-map-marker-alt"></i>
                                                 </div>
                                            </div>
                                            <div className="card-address-cover pl-2">
@@ -129,11 +129,11 @@ const TripsOverview = () => {
                                            </div>
                                      </div>
                                  </div>
-                                 <div class="card-text card-text-end">
+                                 <div className="card-text card-text-end">
                                     <div className="card-Address-end-contain d-flex">
                                            <div className="card-Address-map-icon ">
                                                 <div className="card-Address-icon">
-                                                    <i class="fas fa-map-marker-alt"></i>
+                                                    <i className="fas fa-map-marker-alt"></i>
                                                 </div>
                                            </div>
                                            <div className="card-address-cover pl-2">
@@ -146,16 +146,16 @@ const TripsOverview = () => {
                                            </div>
                                      </div>
                                  </div>
-                                  <a href="#" class="card-link float-right font-weight-bold">See more</a>
+                                  <a href="#" className="card-link float-right font-weight-bold">See more</a>
                               </div>
                          </div>
-                         <div class="card cardTripContain mb-3">
-                              <div class="card-body">
-                                 <div class="card-title d-flex justify-content-between">
+                         <div className="card cardTripContain mb-3">
+                              <div className="card-body">
+                                 <div className="card-title d-flex justify-content-between">
                                      <div className="card-title-head d-flex">
                                        <div className="trps_icons pr-2">
                                           <div className="tr-icons">
-                                             <i class="fas fa-truck "></i>
+                                             <i className="fas fa-truck "></i>
                                           </div>
                                        </div>
                                        <h4 className="font-weight-bold mb-0 mt-1 text-basic">AT 5863</h4>
@@ -169,7 +169,7 @@ const TripsOverview = () => {
                                      <div className="card-Address-start-contain d-flex">
                                            <div className="card-Address-map-icon">
                                                 <div className="card-Address-icon">
-                                                    <i class="fas fa-map-marker-alt"></i>
+                                                    <i className="fas fa-map-marker-alt"></i>
                                                 </div>
                                            </div>
                                            <div className="card-address-cover pl-2">
@@ -182,11 +182,11 @@ const TripsOverview = () => {
                                            </div>
                                      </div>
                                  </div>
-                                 <div class="card-text card-text-end">
+                                 <div className="card-text card-text-end">
                                     <div className="card-Address-end-contain d-flex">
                                            <div className="card-Address-map-icon ">
                                                 <div className="card-Address-icon">
-                                                    <i class="fas fa-map-marker-alt"></i>
+                                                    <i className="fas fa-map-marker-alt"></i>
                                                 </div>
                                            </div>
                                            <div className="card-address-cover pl-2">
@@ -199,16 +199,16 @@ const TripsOverview = () => {
                                            </div>
                                      </div>
                                  </div>
-                                  <a href="#" class="card-link float-right font-weight-bold">See more</a>
+                                  <a href="#" className="card-link float-right font-weight-bold">See more</a>
                               </div>
                          </div>
-                         <div class="card cardTripContain mb-3">
-                              <div class="card-body">
-                                 <div class="card-title d-flex justify-content-between">
+                         <div className="card cardTripContain mb-3">
+                              <div className="card-body">
+                                 <div className="card-title d-flex justify-content-between">
                                      <div className="card-title-head d-flex">
                                        <div className="trps_icons pr-2">
                                           <div className="tr-icons">
-                                             <i class="fas fa-truck "></i>
+                                             <i className="fas fa-truck "></i>
                                           </div>
                                        </div>
                                        <h4 className="font-weight-bold mb-0 mt-1 text-basic">AT 5863</h4>
@@ -222,7 +222,7 @@ const TripsOverview = () => {
                                      <div className="card-Address-start-contain d-flex">
                                            <div className="card-Address-map-icon">
                                                 <div className="card-Address-icon">
-                                                    <i class="fas fa-map-marker-alt"></i>
+                                                    <i className="fas fa-map-marker-alt"></i>
                                                 </div>
                                            </div>
                                            <div className="card-address-cover pl-2">
@@ -235,11 +235,11 @@ const TripsOverview = () => {
                                            </div>
                                      </div>
                                  </div>
-                                 <div class="card-text card-text-end">
+                                 <div className="card-text card-text-end">
                                     <div className="card-Address-end-contain d-flex">
                                            <div className="card-Address-map-icon ">
                                                 <div className="card-Address-icon">
-                                                    <i class="fas fa-map-marker-alt"></i>
+                                                    <i className="fas fa-map-marker-alt"></i>
                                                 </div>
                                            </div>
                                            <div className="card-address-cover pl-2">
@@ -252,16 +252,16 @@ const TripsOverview = () => {
                                            </div>
                                      </div>
                                  </div>
-                                  <a href="#" class="card-link float-right font-weight-bold">See more</a>
+                                  <a href="#" className="card-link float-right font-weight-bold">See more</a>
                               </div>
                          </div>
-                         <div class="card cardTripContain mb-3">
-                              <div class="card-body">
-                                 <div class="card-title d-flex justify-content-between">
+                         <div className="card cardTripContain mb-3">
+                              <div className="card-body">
+                                 <div className="card-title d-flex justify-content-between">
                                      <div className="card-title-head d-flex">
                                        <div className="trps_icons pr-2">
                                           <div className="tr-icons">
-                                             <i class="fas fa-truck "></i>
+                                             <i className="fas fa-truck "></i>
                                           </div>
                                        </div>
                                        <h4 className="font-weight-bold mb-0 mt-1 text-basic">AT 5863</h4>
@@ -275,7 +275,7 @@ const TripsOverview = () => {
                                      <div className="card-Address-start-contain d-flex">
                                            <div className="card-Address-map-icon">
                                                 <div className="card-Address-icon">
-                                                    <i class="fas fa-map-marker-alt"></i>
+                                                    <i className="fas fa-map-marker-alt"></i>
                                                 </div>
                                            </div>
                                            <div className="card-address-cover pl-2">
@@ -288,11 +288,11 @@ const TripsOverview = () => {
                                            </div>
                                      </div>
                                  </div>
-                                 <div class="card-text card-text-end">
+                                 <div className="card-text card-text-end">
                                     <div className="card-Address-end-contain d-flex">
                                            <div className="card-Address-map-icon ">
                                                 <div className="card-Address-icon">
-                                                    <i class="fas fa-map-marker-alt"></i>
+                                                    <i className="fas fa-map-marker-alt"></i>
                                                 </div>
                                            </div>
                                            <div className="card-address-cover pl-2">
@@ -305,16 +305,16 @@ const TripsOverview = () => {
                                            </div>
                                      </div>
                                  </div>
-                                  <a href="#" class="card-link float-right font-weight-bold">See more</a>
+                                  <a href="#" className="card-link float-right font-weight-bold">See more</a>
                               </div>
                          </div>
-                         <div class="card cardTripContain mb-3">
-                              <div class="card-body">
-                                 <div class="card-title d-flex justify-content-between">
+                         <div className="card cardTripContain mb-3">
+                              <div className="card-body">
+                                 <div className="card-title d-flex justify-content-between">
                                      <div className="card-title-head d-flex">
                                        <div className="trps_icons pr-2">
                                           <div className="tr-icons">
-                                             <i class="fas fa-truck "></i>
+                                             <i className="fas fa-truck "></i>
                                           </div>
                                        </div>
                                        <h4 className="font-weight-bold mb-0 mt-1 text-basic">AT 5863</h4>
@@ -328,7 +328,7 @@ const TripsOverview = () => {
                                      <div className="card-Address-start-contain d-flex">
                                            <div className="card-Address-map-icon">
                                                 <div className="card-Address-icon">
-                                                    <i class="fas fa-map-marker-alt"></i>
+                                                    <i className="fas fa-map-marker-alt"></i>
                                                 </div>
                                            </div>
                                            <div className="card-address-cover pl-2">
@@ -341,11 +341,11 @@ const TripsOverview = () => {
                                            </div>
                                      </div>
                                  </div>
-                                 <div class="card-text card-text-end">
+                                 <div className="card-text card-text-end">
                                     <div className="card-Address-end-contain d-flex">
                                            <div className="card-Address-map-icon ">
                                                 <div className="card-Address-icon">
-                                                    <i class="fas fa-map-marker-alt"></i>
+                                                    <i className="fas fa-map-marker-alt"></i>
                                                 </div>
                                            </div>
                                            <div className="card-address-cover pl-2">
@@ -358,7 +358,7 @@ const TripsOverview = () => {
                                            </div>
                                      </div>
                                  </div>
-                                  <a href="#" class="card-link float-right font-weight-bold">See more</a>
+                                  <a href="#" className="card-link float-right font-weight-bold">See more</a>
                               </div>
                          </div>
                       </div>

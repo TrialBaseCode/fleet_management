@@ -232,10 +232,10 @@ const Planned = () => {
                                 </div>
                                 <div className="drive-info">
                                   <div className="multidriver-container">
-                                    <ul class="list-group list-group-flush">
-                                      <li class="list-group-item p-0 ">
-                                        <div class="card">
-                                          <div class="card-header  bg-dark text-white">
+                                    <ul className="list-group list-group-flush">
+                                      <li className="list-group-item p-0 ">
+                                        <div className="card">
+                                          <div className="card-header  bg-dark text-white">
                                             <div className="list-container d-flex align-items-center justify-content-between">
                                               <div className="driver-name ">
                                                 <h6 className="mb-0 font-weight-bold">
@@ -249,9 +249,9 @@ const Planned = () => {
                                               </div>
                                             </div>
                                           </div>
-                                          <div class="card-body">
-                                            <ul class="list-group list-group-flush">
-                                              <li class="list-group-item pl-0 br-0 pb-2 pt-2">
+                                          <div className="card-body">
+                                            <ul className="list-group list-group-flush">
+                                              <li className="list-group-item pl-0 br-0 pb-2 pt-2">
                                                 <div className="list-container d-flex align-items-center justify-content-between">
                                                   <div className="repair-name ">
                                                     <h6 className="mb-0">
@@ -265,7 +265,7 @@ const Planned = () => {
                                                   </div>
                                                 </div>
                                               </li>
-                                              <li class="list-group-item pl-0 br-0 pb-2 pt-2">
+                                              <li className="list-group-item pl-0 br-0 pb-2 pt-2">
                                                 <div className="list-container d-flex align-items-center justify-content-between">
                                                   <div className="repair-name ">
                                                     <h6 className="mb-0">
@@ -281,15 +281,15 @@ const Planned = () => {
                                               </li>
                                             </ul>
                                           </div>
-                                          <div class="card-footer  bg-dark text-white">
-                                            <div class="list-container d-flex align-items-center justify-content-between">
-                                              <div class="driver-name ">
-                                                <h6 class="mb-0 font-weight-bold">
+                                          <div className="card-footer  bg-dark text-white">
+                                            <div className="list-container d-flex align-items-center justify-content-between">
+                                              <div className="driver-name ">
+                                                <h6 className="mb-0 font-weight-bold">
                                                   Total
                                                 </h6>
                                               </div>
-                                              <div class="driver-date pr-3 ">
-                                                <h6 class="mb-0 font-weight-bold">
+                                              <div className="driver-date pr-3 ">
+                                                <h6 className="mb-0 font-weight-bold">
                                                   $<span>600</span>
                                                 </h6>
                                               </div>
@@ -470,10 +470,10 @@ const Planned = () => {
                                 </div>
                                 <div className="drive-info">
                                   <div className="multidriver-container">
-                                    <ul class="list-group list-group-flush">
-                                      <li class="list-group-item p-0 ">
-                                        <div class="card">
-                                          <div class="card-header  bg-dark text-white">
+                                    <ul className="list-group list-group-flush">
+                                      <li className="list-group-item p-0 ">
+                                        <div className="card">
+                                          <div className="card-header  bg-dark text-white">
                                             <div className="list-container d-flex align-items-center justify-content-between">
                                               <div className="driver-name ">
                                                 <h6 className="mb-0 font-weight-bold">
@@ -487,9 +487,9 @@ const Planned = () => {
                                               </div>
                                             </div>
                                           </div>
-                                          <div class="card-body">
-                                            <ul class="list-group list-group-flush">
-                                              <li class="list-group-item pl-0 br-0 pb-2 pt-2">
+                                          <div className="card-body">
+                                            <ul className="list-group list-group-flush">
+                                              <li className="list-group-item pl-0 br-0 pb-2 pt-2">
                                                 <div className="list-container d-flex align-items-center justify-content-between">
                                                   <div className="repair-name ">
                                                     <h6 className="mb-0">
@@ -503,7 +503,7 @@ const Planned = () => {
                                                   </div>
                                                 </div>
                                               </li>
-                                              <li class="list-group-item pl-0 br-0 pb-2 pt-2">
+                                              <li className="list-group-item pl-0 br-0 pb-2 pt-2">
                                                 <div className="list-container d-flex align-items-center justify-content-between">
                                                   <div className="repair-name ">
                                                     <h6 className="mb-0">
@@ -519,15 +519,15 @@ const Planned = () => {
                                               </li>
                                             </ul>
                                           </div>
-                                          <div class="card-footer  bg-dark text-white">
-                                            <div class="list-container d-flex align-items-center justify-content-between">
-                                              <div class="driver-name ">
-                                                <h6 class="mb-0 font-weight-bold">
+                                          <div className="card-footer  bg-dark text-white">
+                                            <div className="list-container d-flex align-items-center justify-content-between">
+                                              <div className="driver-name ">
+                                                <h6 className="mb-0 font-weight-bold">
                                                   Total
                                                 </h6>
                                               </div>
-                                              <div class="driver-date pr-3 ">
-                                                <h6 class="mb-0 font-weight-bold">
+                                              <div className="driver-date pr-3 ">
+                                                <h6 className="mb-0 font-weight-bold">
                                                   $<span>600</span>
                                                 </h6>
                                               </div>
