@@ -1,6 +1,10 @@
 - See sample video
 # https://youtu.be/KPvELtGxKfQ
 
+# To install Backend
+  - composer install
+  - php artisan serve
+
 # To install Frontend
 - npm install
 - npm start
