@@ -2,8 +2,12 @@
 # https://youtu.be/KPvELtGxKfQ
 
 # To install Backend
-  - composer install
-  - php artisan serve
+ - composer instal
+ - create .env in ( Backend Folder )
+## then run some command
+ - php artisan key:generate
+ - php artisan cache:clear
+ - php artisan config:clear
 
 # To install Frontend
 - npm install
