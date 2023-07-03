@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import Osm from './osm_provide';
 import  {MapContainer, TileLayer , Marker , Popup} from 'react-leaflet';
 import markerLogo from 'leaflet';
@@ -22,6 +22,11 @@ const [center , setCenter] = useState({lat: 20.2930412, lng: 85.8178939});
 const position = [20.2930412 ,  85.8178939];
 const ZOOM_LEVEL = 15;
 const mapRef = useRef();
+
+useEffect(() => {
+    setCenter();
+},[center]);
+
 
     return ( 
          <>

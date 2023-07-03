@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import Osm from './osm_point';
 import  {MapContainer, TileLayer , Marker , Popup} from 'react-leaflet';
 import markerLogo from 'leaflet';
@@ -21,6 +21,11 @@ const  GeStartEndomap = () => {
 const [center , setCenter] = useState({lat: 20.2930412, lng: 85.8178939});
 const position = [20.2930412 ,  85.8178939];
 const ZOOM_LEVEL = 15;
+
+useEffect(() => {
+    setCenter();
+},[center]);
+
 const mapRef = useRef();
 
     return ( 

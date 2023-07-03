@@ -25,7 +25,7 @@ const Assign = () => {
                                                 <h6 className="m-0 pl-2 font-weight-bold text-white listEventType">TYPE</h6>
                                                 <h6 className="m-0 pl-2  font-weight-bold text-white  listEventType">DRIVER</h6>
                                                 <h6 className="m-0 pl-2  font-weight-bold text-white  listEventType">DATE&TIME</h6>
-                                                <h6 className="m-0 pl-2  font-weight-bold text-white  listEventType"></h6>
+                                                <div className="m-0 pl-2  font-weight-bold text-white  listEventType"></div>
                                                 <div className="pl-2  dropdown no-arrow"><Link className="dropdown-toggle" to="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i className="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i></Link><div className="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink"><div className="dropdown-header">Dropdown Header:</div><Link className="dropdown-item" to="#">Action</Link><Link className="dropdown-item" to="#">Another action</Link><div className="dropdown-divider"></div><Link className="dropdown-item" to="#">Something else here</Link></div></div>
                                         </div>
 
@@ -45,7 +45,7 @@ const Assign = () => {
                                                 <h6 className="pl-2  m-0 font-weight-bold text-white listEventType">TYPE</h6>
                                                 <h6 className="pl-2  m-0 font-weight-bold text-white  listEventType">DRIVER</h6>
                                                 <h6 className="pl-2  m-0 font-weight-bold text-white  listEventType">DATE&TIME</h6>
-                                                <h6 className="pl-2  m-0 font-weight-bold text-white  listEventType"></h6>
+                                                <div className="pl-2  m-0 font-weight-bold text-white  listEventType"></div>
                                                 <div className="pl-2  dropdown no-arrow"><Link className="dropdown-toggle" to="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i className="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i></Link><div className="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink"><div className="dropdown-header">Dropdown Header:</div><Link className="dropdown-item" to="#">Action</Link><Link className="dropdown-item" to="#">Another action</Link><div className="dropdown-divider"></div><Link className="dropdown-item" to="#">Something else here</Link></div></div>
                                             </div>
                                             {/*  <!-- Card Body --> */}
@@ -143,7 +143,7 @@ const Assign = () => {
                                                 <h6 className="pl-2  m-0 font-weight-bold text-white listEventType">TYPE</h6>
                                                 <h6 className="pl-2  m-0 font-weight-bold text-white  listEventType">DRIVER</h6>
                                                 <h6 className="pl-2  m-0 font-weight-bold text-white  listEventType">DATE&TIME</h6>
-                                                <h6 className="pl-2  m-0 font-weight-bold text-white  listEventType"></h6>
+                                                <div className="pl-2  m-0 font-weight-bold text-white  listEventType"></div>
                                                 <div className="pl-2  dropdown no-arrow"><Link className="dropdown-toggle" to="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i className="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i></Link><div className="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink"><div className="dropdown-header">Dropdown Header:</div><Link className="dropdown-item" to="#">Action</Link><Link className="dropdown-item" to="#">Another action</Link><div className="dropdown-divider"></div><Link className="dropdown-item" to="#">Something else here</Link></div></div>
                                             </div>
                                             {/*  <!-- Card Body --> */}
