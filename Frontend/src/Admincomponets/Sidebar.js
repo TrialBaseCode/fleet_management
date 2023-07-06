@@ -72,19 +72,20 @@ function Sidebar() {
           <hr className="sidebar-divider my-0" />
           <ul className="fleetAdminDetail p-0 navbar-nav" id="fleetAdminal">
             {/*  <!-- Nav Item - Dashboard --> */}
+
             <li
-              className={` nav-item  ${
-                isPathActive("/") ||
-                isPathActive("/AllVehicle") ||
-                isPathActive("/Driving") ||
-                isPathActive("/Parked") ||
-                isPathActive("/realTimeData") ||
-                isPathActive("/events") ||
-                isPathActive("/events/allevents") || 
-                isPathActive("/events/feaevents")
+                className={` nav-item  ${
+                isPathActive("/admin") ||
+                isPathActive("/admin/AllVehicle") ||
+                isPathActive("/admin/Driving") ||
+                isPathActive("/admin/Parked") ||
+                isPathActive("/admin/realTimeData") ||
+                isPathActive("/admin/events") ||
+                isPathActive("/admin/events/allevents") || 
+                isPathActive("/admin/events/feaevents")
                   ? "active"
                   : ""
-              }`}
+              } `}
             >
               <div
                 className="nav-link "
@@ -99,14 +100,14 @@ function Sidebar() {
               <div
                 id="collapsedash"
                 className={` collapse ${
-                  isPathActive("/") ||
-                  isPathActive("/AllVehicle") ||
-                  isPathActive("/Driving") ||
-                  isPathActive("/Parked") ||
-                  isPathActive("/realTimeData") ||
-                  isPathActive("/events") ||
-                  isPathActive("/events/allevents") || 
-                  isPathActive("/events/feaevents")
+                  isPathActive("/admin") ||
+                  isPathActive("/admin/AllVehicle") ||
+                  isPathActive("/admin/Driving") ||
+                  isPathActive("/admin/Parked") ||
+                  isPathActive("/admin/realTimeData") ||
+                  isPathActive("/admin/events") ||
+                  isPathActive("/admin/events/allevents") || 
+                  isPathActive("/admin/events/feaevents")
                     ? "show"
                     : "collapse"
                 }`}
@@ -114,17 +115,23 @@ function Sidebar() {
                 data-parent="#accordionSidebar"
               >
                 <div className="bg-white py-2 collapse-inner rounded">
-                  <NavLink className={` collapse-item
-                   ${isPathActive("/AllVehicle") ||
-                   isPathActive("/Driving") ||
-                   isPathActive("/Parked") 
-                  ? "active": ""}`} to="/">
+                  <NavLink className={`collapse-item 
+                   ${
+                    isPathActive("/admin") ||
+       
+                    isPathActive("/admin/AllVehicle") ||
+                    isPathActive("/admin/Driving") ||
+                    isPathActive("/admin/Parked") 
+                      ? "active"
+                      : ""
+                  } 
+                  `} to="/admin">
                     Vehicles Overview
                   </NavLink>
-                  <NavLink className=" collapse-item " to="/realTimeData">
+                  <NavLink className=" collapse-item " to="/admin/realTimeData">
                     Real Time Data
                   </NavLink>
-                  <NavLink className=" collapse-item " to="/events">
+                  <NavLink className=" collapse-item " to="/admin/events">
                     Events
                   </NavLink>
                 </div>
@@ -139,15 +146,15 @@ function Sidebar() {
             {/*  <!-- Nav Item - Pages Collapse Menu --> */}
             <li
               className={` nav-item  ${
-                isPathActive("/vifleet") ||
-                isPathActive("/vehiclesassign") ||
-                isPathActive("/Vehiclesdetails") ||
-                isPathActive("/vifleet/allstut") ||
-                isPathActive("/vifleet/enrout") ||
-                isPathActive("/vifleet/aval") ||
-                isPathActive("/vifleet/outservice") ||
-                isPathActive("/vehiclesassign/assign") ||
-                isPathActive("/vehiclesassign/noassign") 
+                isPathActive("/admin/vifleet") ||
+                isPathActive("/admin/vehiclesassign") ||
+                isPathActive("/admin/Vehiclesdetails") ||
+                isPathActive("/admin/vifleet/allstut") ||
+                isPathActive("/admin/vifleet/enrout") ||
+                isPathActive("/admin/vifleet/aval") ||
+                isPathActive("/admin/vifleet/outservice") ||
+                isPathActive("/admin/vehiclesassign/assign") ||
+                isPathActive("/admin/vehiclesassign/noassign") 
                   ? "active"
                   : ""
               }`}
@@ -165,15 +172,15 @@ function Sidebar() {
               <div
                 id="collapseTwo"
                 className={` collapse ${
-                  isPathActive("/vifleet") ||
-                  isPathActive("/vehiclesassign") ||
-                  isPathActive("/Vehiclesdetails") ||
-                  isPathActive("/vifleet/allstut") ||
-                  isPathActive("/vifleet/enrout") ||
-                  isPathActive("/vifleet/aval") ||
-                  isPathActive("/vifleet/outservice") ||
-                  isPathActive("/vehiclesassign/assign") ||
-                  isPathActive("/vehiclesassign/noassign") 
+                  isPathActive("/admin/vifleet") ||
+                  isPathActive("/admin/vehiclesassign") ||
+                  isPathActive("/admin/Vehiclesdetails") ||
+                  isPathActive("/admin/vifleet/allstut") ||
+                  isPathActive("/admin/vifleet/enrout") ||
+                  isPathActive("/admin/vifleet/aval") ||
+                  isPathActive("/admin/vifleet/outservice") ||
+                  isPathActive("/admin/vehiclesassign/assign") ||
+                  isPathActive("/admin/vehiclesassign/noassign") 
                     ? "show"
                     : "collapse"
                 }`}
@@ -181,13 +188,13 @@ function Sidebar() {
                 data-parent="#accordionSidebar"
               >
                 <div className="bg-white py-2 collapse-inner rounded">
-                  <NavLink className="collapse-item" to="/vifleet">
+                  <NavLink className="collapse-item" to="/admin/vifleet">
                     Fleet
                   </NavLink>
-                  <NavLink className="collapse-item" to="/vehiclesassign">
+                  <NavLink className="collapse-item" to="/admin/vehiclesassign">
                     Vehicles Assignment
                   </NavLink>
-                  <NavLink className="collapse-item" to="/Vehiclesdetails">
+                  <NavLink className="collapse-item" to="/admin/Vehiclesdetails">
                     Vehicle Details
                   </NavLink>
                 </div>
@@ -197,9 +204,9 @@ function Sidebar() {
             {/* <!-- Nav Item - Utilities Collapse Menu --> */}
             <li
               className={` nav-item  ${
-                isPathActive("/Tripoverview") ||
-                isPathActive("/Tripupcoming") ||
-                isPathActive("/Tripsschedule")
+                isPathActive("/admin/Tripoverview") ||
+                isPathActive("/admin/Tripupcoming") ||
+                isPathActive("/admin/Tripsschedule")
                   ? "active"
                   : ""
               }`}
@@ -217,9 +224,9 @@ function Sidebar() {
               <div
                 id="collapseUtilities"
                 className={` collapse ${
-                  isPathActive("/Tripoverview") ||
-                  isPathActive("/Tripupcoming") ||
-                  isPathActive("/Tripsschedule")
+                  isPathActive("/admin/Tripoverview") ||
+                  isPathActive("/admin/Tripupcoming") ||
+                  isPathActive("/admin/Tripsschedule")
                     ? "show"
                     : "collapse"
                 }`}
@@ -227,13 +234,13 @@ function Sidebar() {
                 data-parent="#accordionSidebar"
               >
                 <div className="bg-white py-2 collapse-inner rounded">
-                  <NavLink className="collapse-item" to="/Tripoverview">
+                  <NavLink className="collapse-item" to="/admin/Tripoverview">
                     Overview
                   </NavLink>
-                  <NavLink className="collapse-item" to="/Tripupcoming">
+                  <NavLink className="collapse-item" to="/admin/Tripupcoming">
                     Upcoming Trip
                   </NavLink>
-                  <NavLink className="collapse-item" to="/Tripsschedule">
+                  <NavLink className="collapse-item" to="/admin/Tripsschedule">
                     Schedule Trip
                   </NavLink>
                 </div>
@@ -246,7 +253,7 @@ function Sidebar() {
             {/* <!-- Nav Item - Utilities Collapse Menu --> */}
             <li
               className={` nav-item  ${
-                isPathActive("/maintainplan") ? "active" : ""
+                isPathActive("/admin/maintainplan") ? "active" : ""
               }`}
             >
               <div
@@ -262,13 +269,13 @@ function Sidebar() {
               <div
                 id="collapseMainten"
                 className={` collapse ${
-                  isPathActive("/maintainplan") ? "show" : "collapse"
+                  isPathActive("/admin/maintainplan") ? "show" : "collapse"
                 }`}
                 aria-labelledby="headingMainten"
                 data-parent="#accordionSidebar"
               >
                 <div className="bg-white py-2 collapse-inner rounded">
-                  <NavLink className="collapse-item" to="/maintainplan">
+                  <NavLink className="collapse-item" to="/admin/maintainplan">
                     Maintenance Planner
                   </NavLink>
                 </div>
@@ -278,13 +285,13 @@ function Sidebar() {
             {/* <!-- Nav Item - history --> */}
             <li
               className={` nav-item  ${
-                isPathActive("/vechicleHistory") ||
-                isPathActive("/vechicleHistory/History") ||
-                isPathActive("/vechicleHistory/Planned")
+                isPathActive("/admin/vechicleHistory") ||
+                isPathActive("/admin/vechicleHistory/History") ||
+                isPathActive("/admin/vechicleHistory/Planned")
                  ? "active" : ""
               }`}
             >
-              <NavLink className="nav-link" to="/vechicleHistory">
+              <NavLink className="nav-link" to="/admin/vechicleHistory">
                 <i className="fas fa-history"></i>
                 <span>Hisory</span>
               </NavLink>

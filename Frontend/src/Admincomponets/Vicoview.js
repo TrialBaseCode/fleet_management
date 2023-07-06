@@ -105,9 +105,9 @@ function Vicoview() {
                   <div className="card-body mybodyscrollbarcontian ">
                     <div className="filter mb-2">
                       <nav className="list-group list-group-horizontal-md justify-content-center">
-                        <NavLink className={` list-group-item text-decoration-none ${isPathActive('/AllVehicle') ? ' active' : ''}` }  to='/AllVehicle'  data-toggle="list" ><span>ALL</span></NavLink>
-                        <NavLink className={` list-group-item text-decoration-none ${isPathActive('/Driving') ? ' active' : ''}` } to='/Driving' data-toggle="list"><span>DRIVING</span></NavLink>
-                        <NavLink className={` list-group-item text-decoration-none ${isPathActive('/Parked') ? ' active' : ''}` }  to='/Parked' data-toggle="list"><span>PARKED</span></NavLink>
+                        <NavLink className={` list-group-item text-decoration-none ${isPathActive('/admin') ? ' active' : ''}` }  to='/admin/AllVehicle'  data-toggle="list" ><span>ALL</span></NavLink>
+                        <NavLink className={` list-group-item text-decoration-none ${isPathActive('/admin/Driving') ? ' active' : ''}` } to='/admin/Driving' data-toggle="list"><span>DRIVING</span></NavLink>
+                        <NavLink className={` list-group-item text-decoration-none ${isPathActive('/admin/Parked') ? ' active' : ''}` }  to='/admin/Parked' data-toggle="list"><span>PARKED</span></NavLink>
                       </nav>
                     </div>
                     <div className="chart-pie chart-work-do pt-1 pb-2 overflow-auto ">

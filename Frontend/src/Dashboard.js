@@ -56,7 +56,8 @@ import AdminSideBar from './Admincomponets/Sidebar';
 import LogoutModal from './Admincomponets/LogoutModal';
 import { BrowserRouter , Route , Routes} from 'react-router-dom';
 
-
+// web pages
+import FrontPage from './webpages/Frontpage';
 
 // Not found
 import NotFound from './Admincomponets/NotFound';
@@ -64,6 +65,86 @@ import NotFound from './Admincomponets/NotFound';
 
 
 
+const WebWork = () => {
+   return(
+     <>
+         <Routes>
+            <Route exact path='/' element={<FrontPage />} />  
+            <Route path='*' element={ <NotFound />}/>
+         </Routes>
+     </>
+   )
+}
+
+const AdminWork = () => {
+   return(
+     <>
+       {/*  <!-- Sidebar --> */}
+            <AdminSideBar />
+            {/*  <!-- End of Sidebar --> */}
+            <Routes>
+                {/* --start of vehicles Dashboard-- */}
+                 
+                    <Route exact path='/' element={ <Vicoview />}>
+                        <Route exact  index   element={<AllVehicle />}  />
+                        <Route exact path='/AllVehicle' element={<AllVehicle />} />
+                        <Route exact path='/Driving' element={<Driving />} /> 
+                        <Route exact path='/Parked' element={<Parked />} /> 
+                    </Route>
+                    <Route exact path='/realTimeData' element={ <RealTimedata />}/>
+                    <Route  exact path='/events' element={ <Events />}>
+                        <Route index exact  path='/events'  element={<Allevents />}  />
+                        <Route  exact path='/events/allevents' element={<Allevents />} />
+                        <Route  exact path='/events/feaevents' element={<Feaevents />} /> 
+                    </Route>
+                    {/* --ent of vehicles Dashboard-- */}
+                    {/* --start of fleet vehicles details-- */}
+                    <Route exact path='/vifleet' element={ <FleetDel />}>
+                        <Route exact index path='/vifleet'  element={<ALlStatus />}  />
+                        <Route exact path='/vifleet/allstut' element={<ALlStatus />} />
+                        <Route path='/vifleet/enrout' element={<Enroute />} />
+                        <Route exact path='/vifleet/aval' element={<VicAvaliable />} /> 
+                        <Route exact path='/vifleet/outservice' element={<OutofService />} />
+                    </Route>
+                    <Route  exact path='/vehiclesassign' element={<Vehiclesassign />} >
+                        <Route  exact index path='/vehiclesassign'  element={<Assign />}  />
+                        <Route  exact path='/vehiclesassign/assign' element={<Assign />} />
+                        <Route  exact path='/vehiclesassign/noassign' element={<Noassign />} />
+                    </Route>
+                    <Route path='/Vehiclesdetails' element={<Vehiclesdetails />}  >
+                        <Route index   element={< VechileList/>}  />
+                        <Route path='/Vehiclesdetails/VechileList' element={< VechileList/>} />
+                        <Route path='/Vehiclesdetails/VechileInfo' element={< VechileInfo />} />
+                    </Route>
+                    {/* --end of fleet vehicles details-- */}
+
+                    {/* --Start of fleet trips-- */}
+                    <Route path='/Tripoverview' element={<TripsOverview />} >
+                        <Route index   element={< TripsOverviewMap/>}  />
+                        <Route path='/Tripoverview/Tripsmapoverview' element={< TripsOverviewMap/>} />
+                        <Route path='/Tripoverview/Tripsdetailsoverview' element={< TripsOverviewDetails />} />
+                    </Route>
+                    <Route path='/Tripupcoming' element={<TripsUpcoming/>}  />
+                    <Route path='/Tripsschedule' element={<TripsSchedule />}  />
+                    {/* --end of fleet  trips-- */}
+                        
+                    {/* --Start of fleet mantance-- */}
+                    <Route path='/maintainplan' element={<MaintenancePlanner />}  />
+                    {/* --End of fleet mantance-- */}
+
+                    {/* --Start of fleet History-- */}
+                    <Route exact path='/vechicleHistory' element={<HistoryOfVehicle />} >
+                        <Route exact path='/vechicleHistory' index  element={<AllHistoryList/>}  />
+                        <Route exact path='/vechicleHistory/History' element={< AllHistoryList/>} />
+                        <Route exact path='/vechicleHistory/Planned' element={< Planned />} />
+                    </Route>
+                    <Route path='*' element={ <NotFound />}/>
+                 {/* --End of fleet History-- */}
+               
+            </Routes>
+      </>
+   )
+}
 
 
 function Dashboard() {
@@ -81,70 +162,13 @@ function Dashboard() {
                     {/*  <!--Content wapper Component --> */}
                      {/* Router route the page */}
                     <BrowserRouter  basename="/">
-                        {/*  <!-- Sidebar --> */}
-                        <AdminSideBar />
-                        {/*  <!-- End of Sidebar --> */}
-                        <Routes>
-                            {/* --start of vehicles Dashboard-- */}
-                            <Route exact path='/' element={ <Vicoview />}>
-                               <Route exact index  path='/'  element={<AllVehicle />}  />
-                               <Route exact path='/AllVehicle' element={<AllVehicle />} />
-                               <Route exact path='/Driving' element={<Driving />} /> 
-                               <Route exact path='/Parked' element={<Parked />} /> 
-                            </Route>
-                            <Route exact path='/realTimeData' element={ <RealTimedata />}/>
-                            <Route  exact path='/events' element={ <Events />}>
-                               <Route index exact  path='/events'  element={<Allevents />}  />
-                               <Route  exact path='/events/allevents' element={<Allevents />} />
-                               <Route  exact path='/events/feaevents' element={<Feaevents />} /> 
-                            </Route>
-                            {/* --ent of vehicles Dashboard-- */}
-                            {/* --start of fleet vehicles details-- */}
-                            <Route exact path='/vifleet' element={ <FleetDel />}>
-                               <Route exact index path='/vifleet'  element={<ALlStatus />}  />
-                               <Route exact path='/vifleet/allstut' element={<ALlStatus />} />
-                               <Route path='/vifleet/enrout' element={<Enroute />} />
-                               <Route exact path='/vifleet/aval' element={<VicAvaliable />} /> 
-                               <Route exact path='/vifleet/outservice' element={<OutofService />} />
-                            </Route>
-                            <Route  exact path='/vehiclesassign' element={<Vehiclesassign />} >
-                               <Route  exact index path='/vehiclesassign'  element={<Assign />}  />
-                               <Route  exact path='/vehiclesassign/assign' element={<Assign />} />
-                               <Route  exact path='/vehiclesassign/noassign' element={<Noassign />} />
-                            </Route>
-                            <Route path='/Vehiclesdetails' element={<Vehiclesdetails />}  >
-                               <Route index   element={< VechileList/>}  />
-                               <Route path='/Vehiclesdetails/VechileList' element={< VechileList/>} />
-                               <Route path='/Vehiclesdetails/VechileInfo' element={< VechileInfo />} />
-                            </Route>
-                            {/* --end of fleet vehicles details-- */}
 
-                            {/* --Start of fleet trips-- */}
-                            <Route path='/Tripoverview' element={<TripsOverview />} >
-                               <Route index   element={< TripsOverviewMap/>}  />
-                               <Route path='/Tripoverview/Tripsmapoverview' element={< TripsOverviewMap/>} />
-                               <Route path='/Tripoverview/Tripsdetailsoverview' element={< TripsOverviewDetails />} />
-                            </Route>
-                            <Route path='/Tripupcoming' element={<TripsUpcoming/>}  />
-                            <Route path='/Tripsschedule' element={<TripsSchedule />}  />
-                            {/* --end of fleet  trips-- */}
-                            
-                             {/* --Start of fleet mantance-- */}
-                             <Route path='/maintainplan' element={<MaintenancePlanner />}  />
-                             {/* --End of fleet mantance-- */}
-
-                             {/* --Start of fleet History-- */}
-                             <Route exact path='/vechicleHistory' element={<HistoryOfVehicle />} >
-                               <Route exact path='/vechicleHistory' index  element={<AllHistoryList/>}  />
-                               <Route exact path='/vechicleHistory/History' element={< AllHistoryList/>} />
-                               <Route exact path='/vechicleHistory/Planned' element={< Planned />} />
-                             </Route>
-                             {/* --End of fleet History-- */}
-
-                            <Route path='/apitest' element={ <ApiTest />}/>
-                            <Route path='/test' element={ <TestUi />}/>
-                            <Route path='*' element={ <NotFound />}/>
-                        </Routes>
+                       <Routes>
+                          <Route path='/*' element={ <WebWork  />}/>
+                          <Route path='/admin/*' element={ <AdminWork />}/>
+                          <Route path='/apitest' element={ <ApiTest />}/>
+                          <Route path='/test' element={ <TestUi />}/>
+                       </Routes>
                     </BrowserRouter>
                       {/* <DashContent /> */}
                     {/*  <!-- End of Content wapper Component --> */}
